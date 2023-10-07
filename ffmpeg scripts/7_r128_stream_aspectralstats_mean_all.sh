@@ -1,6 +1,6 @@
 # finds metadata AND spectral data AND loudness data - outputs in JSON format - JSON is kind of ugly
-output_file="$HOME/Desktop/raw_data.txt"
-output_json="$HOME/Desktop/meta_loud_aspectralstats_mean_json.json"
+output_file="raw_data.txt"
+output_json="meta_loud_aspectralstats_mean_json.json"
 
 for file in *.*; do
     # main command - analysis done here
