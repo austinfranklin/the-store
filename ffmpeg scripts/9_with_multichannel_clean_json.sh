@@ -1,6 +1,6 @@
 # finds metadata AND spectral data AND loudness data - outputs in JSON format - JSON is kind of ugly
 output_file=".ffmpeg_data.txt"
-output_json="meta_loud_aspectralstats_mean_json.json"
+output_json="output_all.json"
 
 for file in *.*; do
     # main command - analysis done here
@@ -141,114 +141,142 @@ for file in *.*; do
     rolloff_7=$(echo "$spectral_stats" | awk -F"=" '/7.rolloff/ {rolloff_7 += $2} END {print rolloff_7/'"$frame_count"'}' "$output_file")
     rolloff_8=$(echo "$spectral_stats" | awk -F"=" '/8.rolloff/ {rolloff_8 += $2} END {print rolloff_8/'"$frame_count"'}' "$output_file")
 
+    filename="$file"
+
     echo '
 {
-    "metadata": '"$meta_stats"',
-    "loudness": {
-    "max_volume": '"$max_volume"',
-    "mean_volume": '"$mean_volume"',
-    "integrated_lufs": '"$integrated"',
-    "threshold": '"$threshold"',
-    "lra": '"$lra"'
-    },
-    "spectral": {
-    "centroid_1": '"$centroid_1"',
-    "centroid_2": '"$centroid_2"',
-    "centroid_3": '"$centroid_3"',
-    "centroid_4": '"$centroid_4"',
-    "centroid_5": '"$centroid_5"',
-    "centroid_6": '"$centroid_6"',
-    "centroid_7": '"$centroid_7"',
-    "centroid_8": '"$centroid_8"',
-    "variance_1": '"$variance_1"',
-    "variance_2": '"$variance_2"',
-    "variance_3": '"$variance_3"',
-    "variance_4": '"$variance_4"',
-    "variance_5": '"$variance_5"',
-    "variance_6": '"$variance_6"',
-    "variance_7": '"$variance_7"',
-    "variance_8": '"$variance_8"',
-    "spread_1": '"$spread_1"',
-    "spread_2": '"$spread_2"',
-    "spread_3": '"$spread_3"',
-    "spread_4": '"$spread_4"',
-    "spread_5": '"$spread_5"',
-    "spread_6": '"$spread_6"',
-    "spread_7": '"$spread_7"',
-    "spread_8": '"$spread_8"',
-    "skewness_1": '"$skewness_1"',
-    "skewness_2": '"$skewness_2"',
-    "skewness_3": '"$skewness_3"',
-    "skewness_4": '"$skewness_4"',
-    "skewness_5": '"$skewness_5"',
-    "skewness_6": '"$skewness_6"',
-    "skewness_7": '"$skewness_7"',
-    "skewness_8": '"$skewness_8"',
-    "kurtosis_1": '"$kurtosis_1"',
-    "kurtosis_2": '"$kurtosis_2"',
-    "kurtosis_3": '"$kurtosis_3"',
-    "kurtosis_4": '"$kurtosis_4"',
-    "kurtosis_5": '"$kurtosis_5"',
-    "kurtosis_6": '"$kurtosis_6"',
-    "kurtosis_7": '"$kurtosis_7"',
-    "kurtosis_8": '"$kurtosis_8"',
-    "entropy_1": '"$entropy_1"',
-    "entropy_2": '"$entropy_2"',
-    "entropy_3": '"$entropy_3"',
-    "entropy_4": '"$entropy_4"',
-    "entropy_5": '"$entropy_5"',
-    "entropy_6": '"$entropy_6"',
-    "entropy_7": '"$entropy_7"',
-    "entropy_8": '"$entropy_8"',
-    "flatness_1": '"$flatness_1"',
-    "flatness_2": '"$flatness_2"',
-    "flatness_3": '"$flatness_3"',
-    "flatness_4": '"$flatness_4"',
-    "flatness_5": '"$flatness_5"',
-    "flatness_6": '"$flatness_6"',
-    "flatness_7": '"$flatness_7"',
-    "flatness_8": '"$flatness_8"',
-    "crest_1": '"$crest_1"',
-    "crest_2": '"$crest_2"',
-    "crest_3": '"$crest_3"',
-    "crest_4": '"$crest_4"',
-    "crest_5": '"$crest_5"',
-    "crest_6": '"$crest_6"',
-    "crest_7": '"$crest_7"',
-    "crest_8": '"$crest_8"',
-    "flux_1": '"$flux_1"',
-    "flux_2": '"$flux_2"',
-    "flux_3": '"$flux_3"',
-    "flux_4": '"$flux_4"',
-    "flux_5": '"$flux_5"',
-    "flux_6": '"$flux_6"',
-    "flux_7": '"$flux_7"',
-    "flux_8": '"$flux_8"',
-    "slope_1": '"$slope_1"',
-    "slope_2": '"$slope_2"',
-    "slope_3": '"$slope_3"',
-    "slope_4": '"$slope_4"',
-    "slope_5": '"$slope_5"',
-    "slope_6": '"$slope_6"',
-    "slope_7": '"$slope_7"',
-    "slope_8": '"$slope_8"',
-    "decrease_1": '"$decrease_1"',
-    "decrease_2": '"$decrease_2"',
-    "decrease_3": '"$decrease_3"',
-    "decrease_4": '"$decrease_4"',
-    "decrease_5": '"$decrease_5"',
-    "decrease_6": '"$decrease_6"',
-    "decrease_7": '"$decrease_7"',
-    "decrease_8": '"$decrease_8"',
-    "rolloff_1": '"$rolloff_1"',
-    "rolloff_2": '"$rolloff_2"',
-    "rolloff_3": '"$rolloff_3"',
-    "rolloff_4": '"$rolloff_4"',
-    "rolloff_5": '"$rolloff_5"',
-    "rolloff_6": '"$rolloff_6"',
-    "rolloff_7": '"$rolloff_7"',
-    "rolloff_8": '"$rolloff_8"',
-    "frame_count": '"$frame_count"'
+    '\"$filename\"': {
+        "metadata": '"$meta_stats"',
+        "loudness": {
+        "max_volume": '"$max_volume"',
+        "mean_volume": '"$mean_volume"',
+        "integrated_lufs": '"$integrated"',
+        "threshold": '"$threshold"',
+        "lra": '"$lra"'
+        },
+        "spectral": {
+            "centroid": {
+                "1": '"$centroid_1"',
+                "2": '"$centroid_2"',
+                "3": '"$centroid_3"',
+                "4": '"$centroid_4"',
+                "5": '"$centroid_5"',
+                "6": '"$centroid_6"',
+                "7": '"$centroid_7"',
+                "8": '"$centroid_8"'
+            },
+            "variance": {
+                "1": '"$variance_1"',
+                "2": '"$variance_2"',
+                "3": '"$variance_3"',
+                "4": '"$variance_4"',
+                "5": '"$variance_5"',
+                "6": '"$variance_6"',
+                "7": '"$variance_7"',
+                "8": '"$variance_8"'
+            },
+            "spread": {
+                "1": '"$spread_1"',
+                "2": '"$spread_2"',
+                "3": '"$spread_3"',
+                "4": '"$spread_4"',
+                "5": '"$spread_5"',
+                "6": '"$spread_6"',
+                "7": '"$spread_7"',
+                "8": '"$spread_8"'
+            },
+            "skewness": {
+                "1": '"$skewness_1"',
+                "2": '"$skewness_2"',
+                "3": '"$skewness_3"',
+                "4": '"$skewness_4"',
+                "5": '"$skewness_5"',
+                "6": '"$skewness_6"',
+                "7": '"$skewness_7"',
+                "8": '"$skewness_8"'
+            },
+            "kurtosis": {
+                "1": '"$kurtosis_1"',
+                "2": '"$kurtosis_2"',
+                "3": '"$kurtosis_3"',
+                "4": '"$kurtosis_4"',
+                "5": '"$kurtosis_5"',
+                "6": '"$kurtosis_6"',
+                "7": '"$kurtosis_7"',
+                "8": '"$kurtosis_8"'
+            },
+            "entropy": {
+                "1": '"$entropy_1"',
+                "2": '"$entropy_2"',
+                "3": '"$entropy_3"',
+                "4": '"$entropy_4"',
+                "5": '"$entropy_5"',
+                "6": '"$entropy_6"',
+                "7": '"$entropy_7"',
+                "8": '"$entropy_8"'
+            },
+            "flatness": {
+                "1": '"$flatness_1"',
+                "2": '"$flatness_2"',
+                "3": '"$flatness_3"',
+                "4": '"$flatness_4"',
+                "5": '"$flatness_5"',
+                "6": '"$flatness_6"',
+                "7": '"$flatness_7"',
+                "8": '"$flatness_8"'
+            },
+            "crest": {
+                "1": '"$crest_1"',
+                "2": '"$crest_2"',
+                "3": '"$crest_3"',
+                "4": '"$crest_4"',
+                "5": '"$crest_5"',
+                "6": '"$crest_6"',
+                "7": '"$crest_7"',
+                "8": '"$crest_8"'
+            },
+            "flux": {
+                "1": '"$flux_1"',
+                "2": '"$flux_2"',
+                "3": '"$flux_3"',
+                "4": '"$flux_4"',
+                "5": '"$flux_5"',
+                "6": '"$flux_6"',
+                "7": '"$flux_7"',
+                "8": '"$flux_8"'
+            },
+            "slope": {
+                "1": '"$slope_1"',
+                "2": '"$slope_2"',
+                "3": '"$slope_3"',
+                "4": '"$slope_4"',
+                "5": '"$slope_5"',
+                "6": '"$slope_6"',
+                "7": '"$slope_7"',
+                "8": '"$slope_8"'
+            },
+            "decrease": {
+                "1": '"$decrease_1"',
+                "2": '"$decrease_2"',
+                "3": '"$decrease_3"',
+                "4": '"$decrease_4"',
+                "5": '"$decrease_5"',
+                "6": '"$decrease_6"',
+                "7": '"$decrease_7"',
+                "8": '"$decrease_8"'
+            },
+            "rolloff": {
+                "1": '"$rolloff_1"',
+                "2": '"$rolloff_2"',
+                "3": '"$rolloff_3"',
+                "4": '"$rolloff_4"',
+                "5": '"$rolloff_5"',
+                "6": '"$rolloff_6"',
+                "7": '"$rolloff_7"',
+                "8": '"$rolloff_8"'
+            },
+        "frame_count": '"$frame_count"'
+        }
     }
 }' >> "$output_json"
 done
