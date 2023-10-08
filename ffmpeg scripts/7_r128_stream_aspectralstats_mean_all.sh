@@ -7,7 +7,7 @@ for file in *.*; do
     meta_stats=$(ffprobe -v quiet -print_format json -show_format -show_streams -hide_banner -i "$file")
     lufs_stats=$(ffmpeg -i "$file" -af ebur128=framelog=verbose -f null - 2>> "$output_file")
     volume_stats=$(ffmpeg -i "$file" -filter:a volumedetect -f null - 2>> "$output_file")
-    spectral_stats=$(ffmpeg -i "$file" -af aspectralstats=measure=all:win_size=65536,ametadata=print:file=- -f null - >> "$output_file")
+    spectral_stats=$(ffmpeg -i "$file" -af aspectralstats=measure=all:win_size=65536,ametadata=print:file=- -f null - > "$output_file")
 
     # parses overall loudness stats
     integrated=$(echo "$lufs_stats" | awk '/I:/ {integrated=$2} END {print integrated}' "$output_file")

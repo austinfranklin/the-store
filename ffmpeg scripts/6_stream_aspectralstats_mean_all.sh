@@ -5,7 +5,7 @@ output_json="$HOME/Desktop/astats_aspectralstats_mean_json.json"
 for file in *.*; do
     # main command - spectral analysis done here
     meta_stats=$(ffprobe -v quiet -print_format json -show_streams -show_format -hide_banner -i "$file")
-    spectral_stats=$(ffmpeg -i "$file" -af aspectralstats=measure=all:win_size=65536,ametadata=print:file=- -f null - >> "$output_file")
+    spectral_stats=$(ffmpeg -i "$file" -af aspectralstats=measure=all:win_size=65536,ametadata=print:file=- -f null - > "$output_file")
 
     # parses frame number from data - needed to adapt to any file length
     frame_count=$(echo "$spectral_stats" | awk '/frame/ {count++} END {print count}' $output_file)
