@@ -11,7 +11,7 @@ Description of files:
 6. Returns all metadata and aspectralstats data and calculates mean for all metrics (outputs in JSON).
 7. Returns all loudness data, metadata, aspectralstats data and calculates mean for all metrics (outputs in JSON).
 8. Returns all loudness data, metadata, aspectralstats data and calculates mean for all metrics up to 8-channels (outputs in JSON).
-9. Returns all data and outputs in clean JSON (like #8 but cleaner).
+9. Returns all data from folder and outputs in clean JSON (like #8 but cleaner).
 
 ## To Run
 Number 9 is the most up-to-date script. The others are shorter scripts I made while I was testing ffmpeg and ffprobe. They do slightly different things, but significantly less. To run, navigate to the directory with audio files (any format should work) using 'cd' and run the script from the terminal. Some of them don't read through an entire folder, so the file name will needed to added manually.
