@@ -10,9 +10,10 @@ Description of files:
 5. Returns all aspectralstats data and calculates mean for all metrics (in JSON).
 6. Returns all metadata and aspectralstats data and calculates mean for all metrics (outputs in JSON).
 7. Returns all loudness data, metadata, aspectralstats data and calculates mean for all metrics (outputs in JSON).
+8. Returns all loudness data, metadata, aspectralstats data and calculates mean for all metrics up to 8-channels (outputs in JSON).
 
 ## To Run
-Number 7 is the most complete, so start there. The others are shorter scripts I made while I was testing ffmpeg and ffprobe. They do slightly different things, but significantly less. To run, navigate to the directory with audio files (any format should work) using 'cd' and run the script from the terminal. Some of them don't read through an entire folder, so the file name will needed to added manually.
+Number 8 is the most complete, so start there. The others are shorter scripts I made while I was testing ffmpeg and ffprobe. They do slightly different things, but significantly less. To run, navigate to the directory with audio files (any format should work) using 'cd' and run the script from the terminal. Some of them don't read through an entire folder, so the file name will needed to added manually.
 
 ## Some notes
 1. The JSON file is kind of clunky. FFprobe can't do analysis on its own and needs to be coupled with FFmpeg in some instances. Because of this, the output for the spectral analysis is formatted as a JSON object after analysis and appended to the JSON object including the metadata formatted by FFprobe. The other, more important reason for why it's formatted like this is because aspectralstats analysis outputs a value for each metric every frame. The script (#7) finds the mean value of each metric using the default FFmpeg output and then formats it as a JSON object after all frames have been output. It seemed easier than to try to format first, then calculate the mean, then reassemble in JSON.
