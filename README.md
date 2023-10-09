@@ -14,9 +14,11 @@ To run, navigate to the directory with audio files (any format should work) usin
 Add audio files to this folder, navigate to this folder in terminal with 'cd' and run '10_for_similarity.sh' script. All files will have a dedicated .json file created. To run the 'similar_auto.sh' script, run that file the same directory specifying the keys you want measured using the -k flag.
 
 For instance:
+
 bash similar_auto.sh -k <key1> <key2> <etc.>
 
 To run the 'similar_man.sh', you need to manually specify the .json files you want to measure. For instance:
+
 bash similar_man.sh <file1.json> <file2.json> <file3.json> -k <key1> <key2> <etc.>
 
 All data is output to terminal.
