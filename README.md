@@ -3,11 +3,23 @@ Information retrieval system for personal information management of audio files
 
 ## Files Inside
 Description of files:
-1-8. Test scripts doing various things. Nothing special.
-9. Returns all data (meta, loudness, and spectral) from folder and outputs in clean JSON format. Will work for all formats (for the most part) and multichannel files up to 8 channels.
+1. Tests - various assortments of tests that do small things.
+2. Multichannel - retireves all data for audio files up to 8 channels
+3. Similarity_measure - finds the absolute value difference between keys in json files
 
-## To Run
-Number 9 is the most up-to-date script. To run, navigate to the directory with audio files (any format should work) using 'cd' and run the script from the terminal. Some of the 1-8 scripts don't read through an entire folder, so the file name will needed to added manually in those cases.
+## To Run General
+To run, navigate to the directory with audio files (any format should work) using 'cd' and run the script from the terminal. Some of test scripts don't read through an entire folder, so the file name will needed to added manually in those cases.
+
+## To Run Similarity_measure
+Add audio files to this folder, navigate to this folder in terminal with 'cd' and run '10_for_similarity.sh' script. All files will have a dedicated .json file created. To run the 'similar_auto.sh' script, run that file the same directory specifying the keys you want measured using the -k flag.
+
+For instance:
+bash similar_auto.sh -k <key1> <key2> <etc.>
+
+To run the 'similar_man.sh', you need to manually specify the .json files you want to measure. For instance:
+bash similar_man.sh <file1.json> <file2.json> <file3.json> -k <key1> <key2> <etc.>
+
+All data is output to terminal.
 
 ## Some notes
 1. FFprobe can't do analysis on its own and needs to be coupled with FFmpeg. Because of this, the output for the spectral analysis is formatted as a JSON object after analysis and appended to the JSON object including the metadata formatted by FFprobe. The other, more important reason for why it's formatted like this is because aspectralstats analysis outputs a value for each key every frame. The script (#9) finds the mean value of each key using the default FFmpeg output and then formats it as a JSON object after all frames have been output. It seemed easier than to try to format first, then calculate the mean, then reassemble in JSON.
