@@ -43,5 +43,5 @@ You need to delete the .json files created for non-audio files otherwise you'll 
 Depending on what our next steps are, I would like to do the following:
 1. Add ignore to file formats that aren't audio files in analysis scripts so the script doesn't throw error or write files unnecessarily
 2. add similar_auto.sh script to analysis script so that this process happens automatically and finds similarity for all metrics
-3. Writes the similarity measures to .txt file so it be can be read more easily... and parsed eventually.
+3. Write the similarity measures to .txt file so it be can be read more easily... and parsed eventually.
 4. Possibly hide .json files during analyis
