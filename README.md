@@ -15,11 +15,11 @@ Add audio files to this folder, navigate to this folder in terminal with 'cd' an
 
 For instance:
 
-bash similar_auto.sh -k <key1> <key2> <etc.>
+bash similar_auto.sh -k *key1 key2 etc.*
 
 To run the 'similar_man.sh', you need to manually specify the .json files you want to measure. For instance:
 
-bash similar_man.sh <file1.json> <file2.json> <file3.json> -k <key1> <key2> <etc.>
+bash similar_man.sh *file1.json file2.json etc.* -k *key1 key2 etc.*
 
 All data is output to terminal.
 
