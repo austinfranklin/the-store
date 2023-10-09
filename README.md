@@ -21,7 +21,7 @@ To run the 'similar_man.sh', you need to manually specify the .json files you wa
 
 bash similar_man.sh *file1.json file2.json etc.* -k *key1* -k *key2* -k *etc.*
 
-All data is output to terminal.
+You need to delete the .json files created for non-audio files otherwise you'll get an error. The intended data will still show in the terminal but will be hard to navigate. I'm still working on this. All data is output to terminal.
 
 ## Some notes
 1. FFprobe can't do analysis on its own and needs to be coupled with FFmpeg. Because of this, the output for the spectral analysis is formatted as a JSON object after analysis and appended to the JSON object including the metadata formatted by FFprobe. The other, more important reason for why it's formatted like this is because aspectralstats analysis outputs a value for each key every frame. The script (#9) finds the mean value of each key using the default FFmpeg output and then formats it as a JSON object after all frames have been output. It seemed easier than to try to format first, then calculate the mean, then reassemble in JSON.
