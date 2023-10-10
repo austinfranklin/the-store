@@ -5,7 +5,7 @@ FFmpeg source code here: https://github.com/FFmpeg/FFmpeg
 
 ## To Run searching_the_store
 1. Run the analysis.sh script inside a folder
-2. Then run the search.sh like:
+2. Then run search.sh like:
 
 bash search.sh *file.wav* *key_name*
 
