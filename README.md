@@ -47,4 +47,4 @@ Depending on what our next steps are, I would like to do the following:
 2. add similar_auto.sh script to analysis script so that this process happens automatically and finds similarity for all metrics
 3. Write the similarity measures to .txt file so it be can be read more easily... and parsed eventually.
 4. Possibly hide .json files during analyis
-5. Start working on the store, both as library based on ffmpeg and its connection to prototypical ui:s
+5. Start coding on the store, both as library based on ffmpeg and its connection to prototypical ui:s
