@@ -3,7 +3,7 @@
 # finds metadata AND spectral data AND loudness data - outputs in JSON format - JSON is kind of ugly
 output_file=".ffmpeg_data.txt"
 
-for file in *.wav; do
+for file in *.*; do
     # main command - analysis done here
     meta_stats=$(ffprobe -v quiet -print_format json -show_format -show_streams -hide_banner -i "$file")
     spectral_stats=$(ffmpeg -i "$file" -af aspectralstats=measure=all:win_size=65536,ametadata=print:file=- -f null - > "$output_file")
@@ -277,12 +277,13 @@ for file in *.wav; do
         },
     "frame_count": '"$frame_count"'
     }
-}' >> ."$filename".json
+}' > ."$filename".json
 done
 
 rm "$output_file"
 
 output_file=".output_data.txt"
+echo " " > "$output_file"
 
 # Check if jq is installed
 if ! [ -x "$(command -v jq)" ]; then
@@ -334,7 +335,7 @@ get_json_value() {
 }
 
 # Get a list of all JSON files in the current directory
-json_files=(*.json)
+json_files=(.*.json)
 
 # Calculate similarity for each pair of files and keys
 for ((i = 0; i < ${#json_files[@]}; i++)); do

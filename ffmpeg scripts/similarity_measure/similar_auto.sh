@@ -55,6 +55,6 @@ for ((i = 0; i < ${#json_files[@]}; i++)); do
       similarity=$(echo "$similarity + $diff_abs" | bc -l)
     done
 
-    echo "$file1 vs $file2: Total Similarity: $similarity"
+    #echo "$file1 vs $file2: Total Similarity: $similarity"
   done
 done
