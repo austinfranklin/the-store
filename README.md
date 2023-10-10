@@ -11,9 +11,12 @@ bash search.sh *file.wav* *key* (if file name has spaces, enclose it like "My Fi
 
 The output in the terminal should look something like this:
 
-*333.29 .CelloA.wav.json vs .CelloG.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3653.83 (File2), 
-366.95 .CelloA.wav.json vs .CelloD.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3620.17 (File2),  
-838.95 .CelloA.wav.json vs .CelloE.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3148.17 (File2), 
+*333.29 .CelloA.wav.json vs .CelloG.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3653.83 (File2),
+
+366.95 .CelloA.wav.json vs .CelloD.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3620.17 (File2),
+
+838.95 .CelloA.wav.json vs .CelloE.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3148.17 (File2),
+
 936.8 .CelloC.wav.json vs .CelloA.wav.json: spectral.centroid.ch1: 3050.32 (File1), 3987.12 (File2),*
 
 The number on the far left is the absolute difference between two files. The following string is the two file names (one of of which you specify as an argument when running the script), and finally, the two individual values for the files 1 and 2 are displayed so you can check the difference on the left yourself. The absolute differences on the left should be sorted from smallest to largest. In the example above, the spectral centroid for CelloG.wav is closer to CelloA.wav than CelloC.wav by about 600Hz!
