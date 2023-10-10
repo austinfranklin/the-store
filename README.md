@@ -7,9 +7,9 @@ FFmpeg source code here: https://github.com/FFmpeg/FFmpeg
 1. Run the analysis.sh script inside a folder
 2. Then run the search.sh like:
 
-bash search.sh *file.wav* *key* (if file name has spaces, enclose it like "My File.wav". You can rerun this script over and over with new keys to see how they rank.
+bash search.sh *<file.wav>* *<key>*
 
-The output in the terminal should look something like this:
+If file name has spaces, enclose it like "My File.wav". You can rerun this script over and over with new keys to see how they rank. The output in the terminal should look something like this:
 
 333.29 .CelloA.wav.json vs .CelloG.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3653.83 (File2),  
 366.95 .CelloA.wav.json vs .CelloD.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3620.17 (File2),  
