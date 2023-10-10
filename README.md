@@ -18,7 +18,7 @@ If file name has spaces, enclose it like "My File.wav". You can rerun this scrip
 
 The number on the far left is the absolute difference between two files. The following string is the two file names (one of of which you specify as an argument when running the script), and finally, the two individual values for the files 1 and 2 are displayed so you can check the difference on the left yourself. The absolute differences on the left should be sorted from smallest to largest. In the example above, the spectral centroid for CelloG.wav is closer to CelloA.wav than CelloC.wav by about 600Hz!
 
-Warning: all the files generated are hidded, so cmd+shift+. if you want to see them. Should work with any sudio file format...
+Warning: all the generated .json and .txt files are hidded, so cmd+shift+. if you want to see them. Should work with any audio file format...
 
 ### Keys
 You can open the hidden .json files and find keys you want to use, or use the following shortened list. You need to enter the entire nested key in order for it to work:
