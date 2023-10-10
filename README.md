@@ -77,4 +77,6 @@ spectral.rolloff.ch2
 
 ## Still want to do
 Depending on what our next steps are, I would like to do the following:
-5. Start coding on the store, both as library based on ffmpeg and its connection to prototypical ui:s
+
+1. Gather a large library of samples between the three of us (upload folder included in repo)
+2. Start coding on the store, both as library based on ffmpeg and its connection to prototypical ui:s
