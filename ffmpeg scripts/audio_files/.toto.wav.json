@@ -1,0 +1,186 @@
+
+{
+    "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/44100",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 24,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 163482,
+            "duration": "3.707075",
+            "bit_rate": "2116800",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "toto.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "3.707075",
+        "size": "986052",
+        "bit_rate": "2127935",
+        "probe_score": 99,
+        "tags": {
+            "title": "15.11.17",
+            "artist": "InspectorJ"
+        }
+    }
+},
+    "loudness": {
+        "max_volume": -2.3,
+        "mean_volume": -31.6,
+        "integrated_lufs": -18.7,
+        "threshold": -45.9,
+        "lra": 13.1
+    },
+    "spectral": {
+        "centroid": {
+            "ch1": 7751.89,
+            "ch2": 7456.97,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "variance": {
+            "ch1": 3.56491e-09,
+            "ch2": 3.26738e-09,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "spread": {
+            "ch1": 5960.28,
+            "ch2": 5826.09,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "skewness": {
+            "ch1": 0.543105,
+            "ch2": 0.595475,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "kurtosis": {
+            "ch1": 2.31658,
+            "ch2": 2.53147,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "entropy": {
+            "ch1": 0.217623,
+            "ch2": 0.216172,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "flatness": {
+            "ch1": 0.539065,
+            "ch2": 0.534101,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "crest": {
+            "ch1": 658.432,
+            "ch2": 891.174,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "flux": {
+            "ch1": 0.00982228,
+            "ch2": 0.00947253,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "slope": {
+            "ch1": -2.94904e-06,
+            "ch2": -2.87902e-06,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "decrease": {
+            "ch1": 3.25777e-05,
+            "ch2": 0.000158894,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "rolloff": {
+            "ch1": 16106.2,
+            "ch2": 15136.6,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+    "frame_count": 5
+    }
+}

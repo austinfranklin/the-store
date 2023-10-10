@@ -1,0 +1,182 @@
+
+{
+    "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/44100",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 6,
+            "channel_layout": "5.1",
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 342193,
+            "duration": "7.759478",
+            "bit_rate": "4233600",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "1.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "7.759478",
+        "size": "4111659",
+        "bit_rate": "4239108",
+        "probe_score": 99
+    }
+},
+    "loudness": {
+        "max_volume": -2.0,
+        "mean_volume": -30.3,
+        "integrated_lufs": -18.7,
+        "threshold": -42.8,
+        "lra": 5.2
+    },
+    "spectral": {
+        "centroid": {
+            "ch1": 1239.22,
+            "ch2": 1739.45,
+            "ch3": 1271.86,
+            "ch4": 1672.76,
+            "ch5": 867.085,
+            "ch6": 1230.39,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "variance": {
+            "ch1": 2.92949e-09,
+            "ch2": 7.60612e-09,
+            "ch3": 3.83163e-09,
+            "ch4": 1.99825e-09,
+            "ch5": 4.6799e-09,
+            "ch6": 5.64571e-09,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "spread": {
+            "ch1": 1206,
+            "ch2": 1707.59,
+            "ch3": 1014.23,
+            "ch4": 1361.46,
+            "ch5": 961.527,
+            "ch6": 1311.75,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "skewness": {
+            "ch1": 1.12663,
+            "ch2": 1.24188,
+            "ch3": 1.02732,
+            "ch4": 0.878232,
+            "ch5": 1.24407,
+            "ch6": 1.05603,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "kurtosis": {
+            "ch1": 2.25577,
+            "ch2": 3.41568,
+            "ch3": 1.93123,
+            "ch4": 1.42591,
+            "ch5": 2.74966,
+            "ch6": 1.82594,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "entropy": {
+            "ch1": 0.193421,
+            "ch2": 0.205477,
+            "ch3": 0.286939,
+            "ch4": 0.304218,
+            "ch5": 0.305513,
+            "ch6": 0.276463,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "flatness": {
+            "ch1": 0.133161,
+            "ch2": 0.212222,
+            "ch3": 0.0873598,
+            "ch4": 0.149124,
+            "ch5": 0.0795245,
+            "ch6": 0.131858,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "crest": {
+            "ch1": 8.03202,
+            "ch2": 6.10815,
+            "ch3": 7.90607,
+            "ch4": 3.17555,
+            "ch5": 17.5523,
+            "ch6": 8.93711,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "flux": {
+            "ch1": 0.00585391,
+            "ch2": 0.010021,
+            "ch3": 0.00772538,
+            "ch4": 0.00553257,
+            "ch5": 0.00790511,
+            "ch6": 0.0071921,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "slope": {
+            "ch1": -1.52506e-05,
+            "ch2": -2.04871e-05,
+            "ch3": -1.91453e-05,
+            "ch4": -1.61193e-05,
+            "ch5": -2.31949e-05,
+            "ch6": -2.14374e-05,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "decrease": {
+            "ch1": 0.000887567,
+            "ch2": -0.00395933,
+            "ch3": 0.000251033,
+            "ch4": 0.000629478,
+            "ch5": 0.00045191,
+            "ch6": -0.00198203,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "rolloff": {
+            "ch1": 2511.06,
+            "ch2": 3603.69,
+            "ch3": 2239.15,
+            "ch4": 3308.65,
+            "ch5": 1626.19,
+            "ch6": 2839.33,
+            "ch7": 0,
+            "ch8": 0
+        },
+    "frame_count": 11
+    }
+}

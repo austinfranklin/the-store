@@ -1,0 +1,186 @@
+
+{
+    "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/44100",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 286925,
+            "duration": "6.506236",
+            "bit_rate": "1411200",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "CelloHarmD.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "6.506236",
+        "size": "1153454",
+        "bit_rate": "1418275",
+        "probe_score": 99,
+        "tags": {
+            "date": "2021-03-08",
+            "creation_time": "19-40-33",
+            "time_reference": "4938274"
+        }
+    }
+},
+    "loudness": {
+        "max_volume": -17.9,
+        "mean_volume": -30.3,
+        "integrated_lufs": -23.9,
+        "threshold": -44.5,
+        "lra": 5.0
+    },
+    "spectral": {
+        "centroid": {
+            "ch1": 3620.17,
+            "ch2": 3617.68,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "variance": {
+            "ch1": 5.1453e-09,
+            "ch2": 5.14529e-09,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "spread": {
+            "ch1": 3962.76,
+            "ch2": 3961.64,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "skewness": {
+            "ch1": 2.07369,
+            "ch2": 2.07445,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "kurtosis": {
+            "ch1": 8.82373,
+            "ch2": 8.8246,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "entropy": {
+            "ch1": 0.129922,
+            "ch2": 0.129926,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "flatness": {
+            "ch1": 0.366298,
+            "ch2": 0.366328,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "crest": {
+            "ch1": 626.325,
+            "ch2": 626.181,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "flux": {
+            "ch1": 0.00980847,
+            "ch2": 0.00980848,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "slope": {
+            "ch1": -1.0639e-05,
+            "ch2": -1.06391e-05,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "decrease": {
+            "ch1": 0.000672298,
+            "ch2": 0.000693057,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "rolloff": {
+            "ch1": 7745.67,
+            "ch2": 7749.64,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+    "frame_count": 9
+    }
+}
