@@ -1,6 +1,8 @@
 # the-store
 Information retrieval system for personal information management of audio files
 
+FFmpeg source code here: https://github.com/FFmpeg/FFmpeg
+
 ## Files Inside
 Description of files:
 1. Tests - various assortments of tests that do small things.
