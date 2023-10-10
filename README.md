@@ -11,12 +11,9 @@ bash search.sh *file.wav* *key* (if file name has spaces, enclose it like "My Fi
 
 The output in the terminal should look something like this:
 
-*333.29 .CelloA.wav.json vs .CelloG.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3653.83 (File2),
-
-366.95 .CelloA.wav.json vs .CelloD.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3620.17 (File2),
-
-838.95 .CelloA.wav.json vs .CelloE.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3148.17 (File2),
-
+*333.29 .CelloA.wav.json vs .CelloG.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3653.83 (File2),  
+366.95 .CelloA.wav.json vs .CelloD.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3620.17 (File2),  
+838.95 .CelloA.wav.json vs .CelloE.wav.json: spectral.centroid.ch1: 3987.12 (File1), 3148.17 (File2),  
 936.8 .CelloC.wav.json vs .CelloA.wav.json: spectral.centroid.ch1: 3050.32 (File1), 3987.12 (File2),*
 
 The number on the far left is the absolute difference between two files. The following string is the two file names (one of of which you specify as an argument when running the script), and finally, the two individual values for the files 1 and 2 are displayed so you can check the difference on the left yourself. The absolute differences on the left should be sorted from smallest to largest. In the example above, the spectral centroid for CelloG.wav is closer to CelloA.wav than CelloC.wav by about 600Hz!
@@ -27,40 +24,40 @@ Warning: all the files generated are hidded, so cmd+shift+. if you want to see t
 You can open the hidden .json files and find keys you want to use, or use the following shortened list. You need to enter the entire nested key in order for it to work:
 
 *
-metadata.format.duration (seconds)
-metadata.format.size (bytes)
-metadata.format.bit_rate
-loudness.max_volume (dB)
-loudness.mean_volume (dB)
-loudness.integrated_lufs (dB)
-loudness.threshold (dB)
-loudness.lra (dB)
-spectral.centroid.ch1 (Hz)
-spectral.centroid.ch2 (Hz)
-spectral.variance.ch1 (Hz)
-spectral.variance.ch2 (Hz)
+metadata.format.duration (seconds)  
+metadata.format.size (bytes)  
+metadata.format.bit_rate  
+loudness.max_volume (dB)  
+loudness.mean_volume (dB)  
+loudness.integrated_lufs (dB)  
+loudness.threshold (dB)  
+loudness.lra (dB)  
+spectral.centroid.ch1 (Hz)  
+spectral.centroid.ch2 (Hz)  
+spectral.variance.ch1 (Hz)  
+spectral.variance.ch2 (Hz)  
 
-(most output frequency in Hz)
-spectral.spread.ch1
-spectral.spread.ch2
-spectral.skewness.ch1
-spectral.skewness.ch2
-spectral.kurtosis.ch1
-spectral.kurtosis.ch2
-spectral.entropy.ch1
-spectral.entropy.ch2
-spectral.flatness.ch1
-spectral.flatness.ch2
-spectral.crest.ch1
-spectral.crest.ch2
-spectral.flux.ch1
-spectral.flux.ch2
-spectral.slope.ch1
-spectral.slope.ch2
-spectral.decrease.ch1
-spectral.decrease.ch2
-spectral.rolloff.ch1
-spectral.rolloff.ch2
+(most output frequency in Hz)  
+spectral.spread.ch1  
+spectral.spread.ch2  
+spectral.skewness.ch1  
+spectral.skewness.ch2  
+spectral.kurtosis.ch1  
+spectral.kurtosis.ch2  
+spectral.entropy.ch1  
+spectral.entropy.ch2  
+spectral.flatness.ch1  
+spectral.flatness.ch2  
+spectral.crest.ch1  
+spectral.crest.ch2  
+spectral.flux.ch1  
+spectral.flux.ch2  
+spectral.slope.ch1  
+spectral.slope.ch2  
+spectral.decrease.ch1  
+spectral.decrease.ch2  
+spectral.rolloff.ch1  
+spectral.rolloff.ch2  
 *
 
 ## Some notes
