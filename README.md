@@ -27,7 +27,9 @@ bash similar_man.sh *file1.json file2.json etc.* -k *key1* -k *key2* -k *etc.*
 You need to delete the .json files created for non-audio files otherwise you'll get an error. The intended data will still show in the terminal but will be hard to navigate. I'm still working on this.
 
 ## To run Searching_the_store
-Easy: run the analysis script inside a folder (right... working on this.
+Easy: run the analysis.sh script inside a folder and then run the search.sh like:
+
+bash search.sh *audio file* *key*
 
 ## Some notes
 1. FFprobe can't do analysis on its own and needs to be coupled with FFmpeg. Because of this, the output for the spectral analysis is formatted as a JSON object after analysis and appended to the JSON object including the metadata formatted by FFprobe. The other, more important reason for why it's formatted like this is because aspectralstats analysis outputs a value for each key every frame. The script (#9) finds the mean value of each key using the default FFmpeg output and then formats it as a JSON object after all frames have been output. It seemed easier than to try to format first, then calculate the mean, then reassemble in JSON.
