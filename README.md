@@ -5,9 +5,9 @@ FFmpeg source code here: https://github.com/FFmpeg/FFmpeg
 
 ## To Run searching_the_store
 1. Run the analysis.sh script inside a folder
-2. Then run search.sh like:
+2. Then run compare.sh like:
 
-bash search.sh *file.wav* *key_name*
+bash compare.sh *file.wav* *key_name*
 
 If file name has spaces, enclose it like "My File.wav". You can rerun this script over and over with new keys to see how they rank. The output in the terminal should look something like this:
 
@@ -79,4 +79,4 @@ spectral.rolloff.ch2
 Depending on what our next steps are, I would like to do the following:
 
 1. Gather a large library of samples between the three of us (upload folder included in repo)
-2. Start coding on the store, both as library based on ffmpeg and its connection to prototypical ui:s
+3. Start coding on the store, both as library based on ffmpeg and its connection to prototypical ui:s
