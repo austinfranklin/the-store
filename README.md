@@ -26,7 +26,7 @@ bash similar_man.sh *file1.json file2.json etc.* -k *key1* -k *key2* -k *etc.*
 
 You need to delete the .json files created for non-audio files otherwise you'll get an error. The intended data will still show in the terminal but will be hard to navigate. I'm still working on this.
 
-## To run Searching_the_store
+## To Run Searching_the_store
 Easy: run the analysis.sh script inside a folder and then run the search.sh like:
 
 bash search.sh *audio file* *key*
