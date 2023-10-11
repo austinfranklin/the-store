@@ -326,7 +326,7 @@ keys=(
   spectral.decrease.ch2
   spectral.rolloff.ch1
   spectral.rolloff.ch2
-  )
+)
 
 # Function to extract JSON values
 get_json_value() {
