@@ -5,9 +5,9 @@ FFmpeg source code here: https://github.com/FFmpeg/FFmpeg
 
 ## To Run searching_the_store
 1. Run the analysis.sh script inside a folder
-2. Then run search.sh like:
+2. Then run sort.sh like:
 
-bash search.sh *file.wav* *key_name*
+bash sort.sh *file.wav* *key_name*
 
 If file name has spaces, enclose it like "My File.wav". You can rerun this script over and over with new keys to see how they rank. The output in the terminal should look something like this:
 
@@ -20,7 +20,7 @@ The number on the far left is the absolute difference between two files. The fol
 
 If you want, you can also run it without the file name argument, like:
 
-bash compare.sh *key_name*
+bash sort.sh *key_name*
 
 This will return all audio files and values for that key from smallest to largest. No need to specify a file name to use for comparison. This output will look something like this:
 
