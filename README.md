@@ -36,7 +36,7 @@ The number on the left is the value, then the file, then the key name.
 Warning: all the generated .json and .txt files are hidded, so press cmd+shift+. if you want to see them. Should work with any audio file format...
 
 ### Keys
-You can open the hidden .json files and find keys you want to use, or use the following shortened list. You need to enter the entire nested key in order for it to work:
+You can open the hidden .json files and find more keys if you want, or you can use the following shortened list. You need to enter the entire nested key in order for it to work:
 
 metadata.format.duration (seconds)  
 metadata.format.size (bytes)  
