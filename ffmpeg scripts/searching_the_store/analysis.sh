@@ -6,9 +6,9 @@ output_file=".ffmpeg_data.txt"
 for file in *.*; do
     # main command - analysis done here
     meta_stats=$(ffprobe -v quiet -print_format json -show_format -show_streams -hide_banner -i "$file")
-    spectral_stats=$(ffmpeg -i "$file" -af aspectralstats=measure=all:win_size=65536,ametadata=print:file=- -f null - > "$output_file")
-    lufs_stats=$(ffmpeg -i "$file" -af ebur128=framelog=verbose -f null - 2>> "$output_file")
-    volume_stats=$(ffmpeg -i "$file" -filter:a volumedetect -f null - 2>> "$output_file")
+    spectral_stats=$(ffmpeg -hide_banner -i "$file" -af aspectralstats=measure=all:win_size=16384,ametadata=print:file=- -f null - > "$output_file")
+    lufs_stats=$(ffmpeg -hide_banner -i "$file" -af ebur128=framelog=verbose -f null - 2>> "$output_file")
+    volume_stats=$(ffmpeg -hide_banner -i "$file" -filter:a volumedetect -f null - 2>> "$output_file")
 
     # parses overall lufs stats
     integrated=$(echo "$lufs_stats" | awk '/I:/ {integrated=$2} END {print integrated}' "$output_file")
@@ -282,8 +282,11 @@ done
 
 rm "$output_file"
 
-output_file=".output_data.txt"
-echo " " > "$output_file"
+output_file_sim=".similar_data.txt"
+echo " " > "$output_file_sim"
+
+output_file_sort=".sorting_data.txt"
+echo " " > "$output_file_sort"
 
 # Check if jq is installed
 if ! [ -x "$(command -v jq)" ]; then
@@ -339,6 +342,7 @@ json_files=(.*.json)
 
 # Calculate similarity for each pair of files and keys
 for ((i = 0; i < ${#json_files[@]}; i++)); do
+
   for ((j = i + 1; j < ${#json_files[@]}; j++)); do
     file1="${json_files[$i]}"
     file2="${json_files[$j]}"
@@ -353,8 +357,14 @@ for ((i = 0; i < ${#json_files[@]}; i++)); do
 
       echo "$file1 vs $file2: $key: $value1 (File1), $value2 (File2), Absolute Difference: $diff_abs"
       similarity=$(echo "$similarity + $diff_abs")
-    done >> "$output_file"
 
-    #echo "$file1 vs $file2: Total Similarity: $similarity"
+    done >> "$output_file_sim"
+  done
+
+  # parse names, keys, and values for sorting
+  for key in "${keys[@]}"; do
+        file="${json_files[$i]}"
+        value=$(get_json_value "$file" "$key")
+        echo "$file: $key: $value" >> "$output_file_sort"
   done
 done
