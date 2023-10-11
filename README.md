@@ -22,7 +22,7 @@ If you want, you can also run it without the file name argument, like:
 
 bash compare.sh *key_name*
 
-This will return all audio files and values for that key from smallest to largest. No need to specify one to use for comparison. You can browse through the keys faster this way. This output will look something like this:
+This will return all audio files and values for that key from smallest to largest. No need to specify a file name to use for comparison. This output will look something like this:
 
 4.545215 .discordant-voices.wav.json  metadata.format.duration  
 7.411905 .deep-bass-rumble-2.wav.json  metadata.format.duration  
