@@ -93,7 +93,4 @@ Depending on what our next steps are, we should do the following:
 
 1. Gather a large library of samples between the three of us (upload folder included in repo)
 2. Start coding on the store, both as library based on ffmpeg and its connection to prototypical ui:s
-<<<<<<< HEAD
-=======
 3. Consider how to optimize analysis, read, and write time of the shell scripts
->>>>>>> 227956ede8a571b554d8365051adf5109bdbe2b1
