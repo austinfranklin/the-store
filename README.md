@@ -39,19 +39,17 @@ Warning: all the generated .json and .txt files are hidded, so press cmd+shift+.
 You can open the hidden .json files and find more keys if you want, or you can use the following shortened list. You need to enter the entire nested key in order for it to work:
 
 metadata.format.duration (seconds)  
-metadata.format.size (bytes)  
-metadata.format.bit_rate  
 loudness.max_volume (dB)  
 loudness.mean_volume (dB)  
 loudness.integrated_lufs (dB)  
 loudness.threshold (dB)  
 loudness.lra (dB)  
+
+(most output frequency in Hz)  
 spectral.centroid.ch1 (Hz)  
 spectral.centroid.ch2 (Hz)  
 spectral.variance.ch1 (Hz)  
 spectral.variance.ch2 (Hz)  
-
-(most output frequency in Hz)  
 spectral.spread.ch1  
 spectral.spread.ch2  
 spectral.skewness.ch1  
