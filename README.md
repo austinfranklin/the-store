@@ -18,7 +18,22 @@ If file name has spaces, enclose it like "My File.wav". You can rerun this scrip
 
 The number on the far left is the absolute difference between two files. The following string is the two file names (one of of which you specify as an argument when running the script), and finally, the two individual values for the files 1 and 2 are displayed so you can check the difference on the left yourself. The absolute differences on the left should be sorted from smallest to largest. In the example above, the spectral centroid for CelloG.wav is closer to CelloA.wav than CelloC.wav by about 600Hz!
 
-Warning: all the generated .json and .txt files are hidded, so cmd+shift+. if you want to see them. Should work with any audio file format...
+If you want, you can also run it without the file name argument, like:
+
+bash compare.sh *key_name*
+
+This will return all audio files and values for that key from smallest to largest. No need to specify one to use for comparison. You can browse through the keys faster this way. This output will look something like this:
+
+4.545215 .discordant-voices.wav.json  metadata.format.duration  
+7.411905 .deep-bass-rumble-2.wav.json  metadata.format.duration  
+15.212562 .reverbbells.wav.json  metadata.format.duration  
+17.096803 .voices.wav.json  metadata.format.duration  
+18.857800 .deep-bass-rumble.wav.json  metadata.format.duration  
+24.752472 .crescendo.wav.json  metadata.format.duration  
+
+The number on the left is the value, then the file, then the key name.
+
+Warning: all the generated .json and .txt files are hidded, so press cmd+shift+. if you want to see them. Should work with any audio file format...
 
 ### Keys
 You can open the hidden .json files and find keys you want to use, or use the following shortened list. You need to enter the entire nested key in order for it to work:
