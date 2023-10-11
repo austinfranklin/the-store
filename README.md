@@ -18,10 +18,25 @@ If file name has spaces, enclose it like "My File.wav". You can rerun this scrip
 
 The number on the far left is the absolute difference between two files. The following string is the two file names (one of of which you specify as an argument when running the script), and finally, the two individual values for the files 1 and 2 are displayed so you can check the difference on the left yourself. The absolute differences on the left should be sorted from smallest to largest. In the example above, the spectral centroid for CelloG.wav is closer to CelloA.wav than CelloC.wav by about 600Hz!
 
-Warning: all the generated .json and .txt files are hidded, so cmd+shift+. if you want to see them. Should work with any audio file format...
+If you want, you can also run it without the file name argument, like:
+
+bash compare.sh *key_name*
+
+This will return all audio files and values for that key from smallest to largest. No need to specify a file name to use for comparison. This output will look something like this:
+
+4.545215 .discordant-voices.wav.json  metadata.format.duration  
+7.411905 .deep-bass-rumble-2.wav.json  metadata.format.duration  
+15.212562 .reverbbells.wav.json  metadata.format.duration  
+17.096803 .voices.wav.json  metadata.format.duration  
+18.857800 .deep-bass-rumble.wav.json  metadata.format.duration  
+24.752472 .crescendo.wav.json  metadata.format.duration  
+
+The number on the left is the value, then the file, then the key name.
+
+Warning: all the generated .json and .txt files are hidded, so press cmd+shift+. if you want to see them. Should work with any audio file format...
 
 ### Keys
-You can open the hidden .json files and find keys you want to use, or use the following shortened list. You need to enter the entire nested key in order for it to work:
+You can open the hidden .json files and find more keys if you want, or you can use the following shortened list. You need to enter the entire nested key in order for it to work:
 
 metadata.format.duration (seconds)  
 metadata.format.size (bytes)  
@@ -60,10 +75,8 @@ spectral.rolloff.ch2
 
 
 ## Some notes
-1. FFprobe can't do analysis on its own and needs to be coupled with FFmpeg. Because of this, the output for the spectral analysis is formatted as a JSON object after analysis and appended to the JSON object including the metadata formatted by FFprobe. The other, more important reason for why it's formatted like this is because aspectralstats analysis outputs a value for each key every frame. The script (#9) finds the mean value of each key using the default FFmpeg output and then formats it as a JSON object after all frames have been output. It seemed easier than to try to format first, then calculate the mean, then reassemble in JSON.
-2. You can change the window size for the analysis using the 'win_size' key found at the top of each script where available and play around with calculation time. The number needs to be a power of two and can range from 32 to 65536.
-3. For the scripts that read through folders, reanalyzing a folder will append all new data to the same .json file. This will return an error when the newly created .json file is read. You can ignore this error for now.
-4. Aspectralstats won't work without the latest version of ffmpeg and its libraries:
+1. You can change the window size for the analysis using the 'win_size' key found at the top of each script where available and play around with calculation time. The number needs to be a power of two and can range from 32 to 65536.
+2. Aspectralstats won't work without the latest version of ffmpeg and its libraries:
 
     FFmpeg 6.0
     libavutil      58. 27.100 / 58. 27.100
@@ -76,7 +89,11 @@ spectral.rolloff.ch2
     libpostproc    57.  2.100 / 57.  2.100
 
 ## Still want to do
-Depending on what our next steps are, I would like to do the following:
+Depending on what our next steps are, we should do the following:
 
 1. Gather a large library of samples between the three of us (upload folder included in repo)
 2. Start coding on the store, both as library based on ffmpeg and its connection to prototypical ui:s
+<<<<<<< HEAD
+=======
+3. Consider how to optimize analysis, read, and write time of the shell scripts
+>>>>>>> 227956ede8a571b554d8365051adf5109bdbe2b1
