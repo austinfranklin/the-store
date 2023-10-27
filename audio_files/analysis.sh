@@ -3,7 +3,12 @@
 # finds metadata AND spectral data AND loudness data - outputs in JSON format - JSON is kind of ugly
 output_file=".ffmpeg_data.txt"
 
-for file in *.*; do
+path=$1
+
+# shopt turn case insensitivity ON
+shopt -s nocaseglob
+shopt -s nullglob
+for file in $path*.{wav,mp3,aiff}; do
     # main command - analysis done here
     meta_stats=$(ffprobe -v quiet -print_format json -show_format -show_streams -hide_banner -i "$file")
     spectral_stats=$(ffmpeg -hide_banner -i "$file" -af aspectralstats=measure=all:win_size=16384,ametadata=print:file=- -f null - > "$output_file")
@@ -278,10 +283,8 @@ for file in *.*; do
     "frame_count": '"$frame_count"'
     }
 }' > ."$filename".json
-
-else
-
 done
+shopt -u nocaseglob
 
 rm "$output_file"
 
