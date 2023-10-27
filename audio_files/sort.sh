@@ -1,5 +1,7 @@
 #!/bin/bash
 
+graph_file=".graph_file.txt"
+
 sim_file=".similar_data.txt"
 sort_file=".sorting_data.txt"
 
@@ -21,10 +23,14 @@ elif [  "$#" -eq 1 ]; then
     measurement="$1"
 
     # Extract and sort the values for the specified measurement
-    grep "$measurement" "$sort_file" | awk -F':' '{print $3, $1, $2}' | sort -n
+    echo " " > "$graph_file"
+    grep "$measurement" "$sort_file" | awk -F':' '{print 0 $3, $1, $2}' | sort -n >> "$graph_file"
+    gnuplot> plot 0 100 0 20000 "$graph_file"
     exit 1
 else
     # Handle the case where the wrong number of arguments is provided
     echo "Usage: $0 <audio_file> <measurement> (for two arguments) or $0 <measurement> (for one argument)"
     exit 1
 fi
+
+# plot {ranges} <function> {title}{style} {,<function> {title}{style}...}

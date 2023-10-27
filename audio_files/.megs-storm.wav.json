@@ -1,0 +1,181 @@
+
+{
+    "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/44100",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 3928064,
+            "duration": "89.071746",
+            "bit_rate": "1411200",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "megs-storm.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "89.071746",
+        "size": "15712368",
+        "bit_rate": "1411210",
+        "probe_score": 99
+    }
+},
+    "loudness": {
+        "max_volume": -8.1,
+        "mean_volume": -22.6,
+        "integrated_lufs": -20.0,
+        "threshold": -40.3,
+        "lra": 7.6
+    },
+    "spectral": {
+        "centroid": {
+            "ch1": 429.35,
+            "ch2": 424.6,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "variance": {
+            "ch1": 1.31638e-07,
+            "ch2": 1.16624e-07,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "spread": {
+            "ch1": 618.79,
+            "ch2": 632.781,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "skewness": {
+            "ch1": 15.5438,
+            "ch2": 15.8108,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "kurtosis": {
+            "ch1": 433.45,
+            "ch2": 436.38,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "entropy": {
+            "ch1": 0.300796,
+            "ch2": 0.271322,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "flatness": {
+            "ch1": 0.0149175,
+            "ch2": 0.0161388,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "crest": {
+            "ch1": 182.16,
+            "ch2": 197.3,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "flux": {
+            "ch1": 0.0200214,
+            "ch2": 0.018675,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "slope": {
+            "ch1": -0.000146594,
+            "ch2": -0.000131079,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "decrease": {
+            "ch1": 0.00895666,
+            "ch2": 0.00852409,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+        "rolloff": {
+            "ch1": 630.71,
+            "ch2": 622.96,
+            "ch3": 0,
+            "ch4": 0,
+            "ch5": 0,
+            "ch6": 0,
+            "ch7": 0,
+            "ch8": 0
+        },
+    "frame_count": 480
+    }
+}

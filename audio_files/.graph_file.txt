@@ -1,0 +1,7 @@
+ 
+0 1239 .angelic.wav.json  spectral.centroid.ch1
+0 1249.13 .crescendo.wav.json  spectral.centroid.ch1
+0 1277.7 .emergency.wav.json  spectral.centroid.ch1
+0 426.135 .eerie.wav.json  spectral.centroid.ch1
+0 470.799 .atmosphere.wav.json  spectral.centroid.ch1
+0 632.667 .drone-wind.wav.json  spectral.centroid.ch1
