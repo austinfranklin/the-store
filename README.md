@@ -89,7 +89,7 @@ spectral.rolloff.ch2
 ## Still want to do
 Depending on what our next steps are, we should do the following:
 
-1. Make script that generates PDFs of all normalized features for a given audio file
-2. Determine how to segment an audio file to retrieve temporal data for features (possibly is 3-5 second chunks)
-3. Determine which features have perceptual correlations. Scrap the rest
-4. Figure out how to plot multiple files and feature within the same graph
+1. Make script that generates PNGs of all normalized features for a given audio file AND all files with respect to one feature.
+2. Determine how to segment an audio file to retrieve temporal data for features (possibly is 3-5 second chunks). How should we compare these chunks?
+3. Determine which features have perceptual correlations. Scrap the rest.
+4. Figure out how to plot multiple files and feature within the same graph.
