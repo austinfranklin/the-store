@@ -3,7 +3,17 @@ Information retrieval system for personal information management of audio files
 
 FFmpeg source code here: https://github.com/FFmpeg/FFmpeg
 
-## To Run searching_the_store
+# To Run graph_plotting
+1. Run the analysis.sh script inside a folder
+2. Then run plot.sh like:
+
+bash plot.sh *type* *argument*
+
+The type is either 'file' or 'feature' and the argument is the name of the audio file or feature from the list of keys below. You may need to move a hidden '.graph.sh' file into the folder you want to analyze and plot if you use one other than the one included in the repo. You can move additional audio files into that folder however.
+
+The plot.sh script will build the .png files in the audio_files directory.
+
+# To Run sort_and_sim
 1. Run the analysis.sh script inside a folder
 2. Then run sort.sh like:
 
@@ -35,7 +45,7 @@ The number on the left is the value, then the file, then the key name.
 
 Warning: all the generated .json and .txt files are hidded, so press cmd+shift+. if you want to see them. Should work with any audio file format...
 
-### Keys
+# Keys
 You can open the hidden .json files and find more keys if you want, or you can use the following shortened list. You need to enter the entire nested key in order for it to work:
 
 metadata.format.duration (seconds)  
@@ -71,8 +81,7 @@ spectral.decrease.ch2
 spectral.rolloff.ch1  
 spectral.rolloff.ch2  
 
-
-## Some notes
+# Some notes
 1. You can change the window size for the analysis using the 'win_size' key found at the top of each script where available and play around with calculation time. The number needs to be a power of two and can range from 32 to 65536.
 2. Aspectralstats won't work without the latest version of ffmpeg and its libraries:
 
@@ -86,14 +95,32 @@ spectral.rolloff.ch2
     libswresample   4. 11.100 /  4. 11.100
     libpostproc    57.  2.100 / 57.  2.100
 
-## To Do
+# To Do
 1. Make script that generates PNGs of all normalized features for a given audio file AND all files with respect to one feature. Done, but still needs:
-       1. to set file or feature name in the key and title of plot.
-       2. rescale values so they appear more distinct.
-       3. make generally cleaner.
+       - [x] to set file or feature name in the key and title of plot.
+       - [x] rescale values so they appear more distinct. *Could be better.*
+       - [x] make generally cleaner.
 3. Determine how to segment an audio file to retrieve temporal data for features (possibly is 3-5 second chunks). How should we compare these chunks?
-4. Determine which features have perceptual correlations. Scrap the rest.
-5. Figure out how to plot multiple files and feature within the same graph.
+4. Determine which features have perceptual correlations.
+       - [x] Centroid
+       - [ ] Variance
+       - [ ] Spread
+       - [ ] Skewness
+       - [ ] Kurtosis
+       - [ ] Entropy
+       - [x] Flatness
+       - [ ] Crest
+       - [ ] flux
+       - [ ] Slope
+       - [ ] Decrease
+       - [ ] Rolloff
+       - [x] metadata.format.duration
+       - [x] loudness.max_volume
+       - [ ] loudness.mean_volume
+       - [x] loudness.integrated_lufs
+       - [ ] loudness.threshold
+       - [ ] loudness.lra
+6. Figure out how to plot multiple files and feature within the same graph.
 
 ## Ideas
 1. For measuring similarity we could use a classification algorithm that returns the probability that two files are related based on all features. The files could then be sorted based on how high the probability is that two files are similar. We could use a one-to-one comparison of chunks of audio files or a dynamic time warping algorithm. Not sure if it even matters since the length of time our ears need to determine similarity is likely long enough to warrant a cruder one-to-one comparison.
