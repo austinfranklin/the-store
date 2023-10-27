@@ -87,11 +87,14 @@ spectral.rolloff.ch2
     libpostproc    57.  2.100 / 57.  2.100
 
 ## To Do
-1. Make script that generates PNGs of all normalized features for a given audio file AND all files with respect to one feature.
-2. Determine how to segment an audio file to retrieve temporal data for features (possibly is 3-5 second chunks). How should we compare these chunks?
-3. Determine which features have perceptual correlations. Scrap the rest.
-4. Figure out how to plot multiple files and feature within the same graph.
+1. Make script that generates PNGs of all normalized features for a given audio file AND all files with respect to one feature. Done, but still needs:
+       1. to set file or feature name in the key and title of plot.
+       2. rescale values so they appear more distinct.
+       3. make generally cleaner.
+3. Determine how to segment an audio file to retrieve temporal data for features (possibly is 3-5 second chunks). How should we compare these chunks?
+4. Determine which features have perceptual correlations. Scrap the rest.
+5. Figure out how to plot multiple files and feature within the same graph.
 
 ## Ideas
-1. For measuring similarity we could use a classification algorithm that returns the probability that two files are related based on all features. The files could then be sorted based on how high the probability is that two files are similar.
-2. For visualizing all data and all files, we could use gnuplot to plot a 3D vector space. We have FFmpeg measuring the spectral content in Hz, loudness in dB, and other spectral metrics in normalized floating point values. It would be really cool visually to map each dimension (x, y, z) to frequency, loudness, and something else to create a perceptual 3D space. Furthermore, if you were able to click on each node in the space and play that file, it would be easy to browse.
+1. For measuring similarity we could use a classification algorithm that returns the probability that two files are related based on all features. The files could then be sorted based on how high the probability is that two files are similar. We could use a one-to-one comparison of chunks of audio files or a dynamic time warping algorithm. Not sure if it even matters since the length of time our ears need to determine similarity is likely long enough to warrant a cruder one-to-one comparison.
+2. For visualizing all data and all files, we could plot a 3D vector space. We have FFmpeg measuring the spectral content in Hz, loudness in dB, and other spectral metrics in normalized floating point values. It would be really cool visually to map each dimension (x, y, z) to frequency, loudness, and something else to create a perceptual 3D space. Furthermore, if you were able to click on each node in the space and play that file, it would be easy to browse.
