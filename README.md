@@ -89,6 +89,7 @@ spectral.rolloff.ch2
 ## Still want to do
 Depending on what our next steps are, we should do the following:
 
-1. Gather a large library of samples between the three of us (upload folder included in repo)
-2. Start coding on the store, both as library based on ffmpeg and its connection to prototypical ui:s
-3. Consider how to optimize analysis, read, and write time of the shell scripts
+1. Make script that generates PDFs of all normalized features for a given audio file
+2. Determine how to segment an audio file to retrieve temporal data for features (possibly is 3-5 second chunks)
+3. Determine which features have perceptual correlations. Scrap the rest
+4. Figure out how to plot multiple files and feature within the same graph
