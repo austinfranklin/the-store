@@ -39,7 +39,7 @@ if [ "$type" == "file" ]; then
         if ($2 == "spectral.slope.ch1" || $2 == "spectral.slope.ch2")
             print $2, $3*-1000;
         if ($2 == "loudness.max_volume" || $2 == "loudness.mean_volume" || $2 == "loudness.integrated_lufs" || $2 == "loudness.threshold")
-            print $2, ($3+96)/96;
+            print $2, $3/-96;
         if ($2 == "loudness.lra")
             print $2, $3/48;
         }' | sort -n >> "$graph_file"
@@ -71,7 +71,7 @@ elif [ "$type" == "feature" ]; then
         if ($2 == "spectral.slope.ch1" || $2 == "spectral.slope.ch2")
             print $1, $3*-1000;
         if ($2 == "loudness.max_volume" || $2 == "loudness.mean_volume" || $2 == "loudness.integrated_lufs" || $2 == "loudness.threshold")
-            print $1, ($3+96)/96;
+            print $1, $3/-96;
         if ($2 == "loudness.lra")
             print $1, $3/48;
         }' | sort -n >> "$graph_file"
