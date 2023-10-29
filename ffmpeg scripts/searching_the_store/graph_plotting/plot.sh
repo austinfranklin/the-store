@@ -23,16 +23,14 @@ if [ "$type" == "file" ]; then
         if ($2 == "spectral.spread.ch1" || $2 == "spectral.spread.ch2")
             print $2, $3/10000;
         if ($2 == "spectral.crest.ch1" || $2 == "spectral.crest.ch2")
-            print $2, $3/1000;
+            print $2, $3/2000;
         if ($2 == "spectral.kurtosis.ch1" || $2 == "spectral.kurtosis.ch2")
-            print $2, $3/500;
+            print $2, $3/1000;
         if ($2 == "spectral.skewness.ch1" || $2 == "spectral.skewness.ch2")
             print $2, $3/50;
         if ($2 == "spectral.entropy.ch1" || $2 == "spectral.entropy.ch2" || $2 == "spectral.flatness.ch1" || $2 == "spectral.flatness.ch2")
             print $2, $3;
-        if ($2 == "spectral.decrease.ch1" || $2 == "spectral.decrease.ch2")
-            print $2, $3*10;
-        if ($2 == "spectral.flux.ch1" || $2 == "spectral.flux.ch2")
+        if ($2 == "spectral.decrease.ch1" || $2 == "spectral.decrease.ch2" || $2 == "spectral.flux.ch1" || $2 == "spectral.flux.ch2")
             print $2, $3*10;
         if ($2 == "spectral.variance.ch1" || $2 == "spectral.variance.ch2")
             print $2, $3*1000000;
@@ -55,16 +53,14 @@ elif [ "$type" == "feature" ]; then
         if ($2 == "spectral.spread.ch1" || $2 == "spectral.spread.ch2")
             print $1, $3/10000;
         if ($2 == "spectral.crest.ch1" || $2 == "spectral.crest.ch2")
-            print $1, $3/1000;
+            print $1, $3/2000;
         if ($2 == "spectral.kurtosis.ch1" || $2 == "spectral.kurtosis.ch2")
-            print $1, $3/500;
+            print $1, $3/1000;
         if ($2 == "spectral.skewness.ch1" || $2 == "spectral.skewness.ch2")
             print $1, $3/50;
         if ($2 == "spectral.entropy.ch1" || $2 == "spectral.entropy.ch2" || $2 == "spectral.flatness.ch1" || $2 == "spectral.flatness.ch2")
             print $1, $3;
-        if ($2 == "spectral.decrease.ch1" || $2 == "spectral.decrease.ch2")
-            print $1, $3*10;
-        if ($2 == "spectral.flux.ch1" || $2 == "spectral.flux.ch2")
+        if ($2 == "spectral.decrease.ch1" || $2 == "spectral.decrease.ch2" || $2 == "spectral.flux.ch1" || $2 == "spectral.flux.ch2")
             print $1, $3*10;
         if ($2 == "spectral.variance.ch1" || $2 == "spectral.variance.ch2")
             print $1, $3*1000000;

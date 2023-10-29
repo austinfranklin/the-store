@@ -288,9 +288,6 @@ shopt -u nocaseglob
 
 rm "$output_file"
 
-output_file_sim=".similar_data.txt"
-echo " " > "$output_file_sim"
-
 output_file_sort=".sorting_data.txt"
 echo " " > "$output_file_sort"
 
