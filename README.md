@@ -3,6 +3,10 @@ Information retrieval system for personal information management of audio files
 
 FFmpeg source code here: https://github.com/FFmpeg/FFmpeg
 
+# To Run temporal_plotting
+1. Run the time-analysis.sh script inside a folder
+2. Enjoy
+
 # To Run graph_plotting
 1. Run the analysis.sh script inside a folder
 2. Then run plot.sh like:
