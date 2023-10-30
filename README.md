@@ -124,7 +124,7 @@ spectral.rolloff.ch2
        - [x] loudness.integrated_lufs
        - [ ] loudness.threshold
        - [ ] loudness.lra
-6. Figure out how to plot multiple files and feature within the same graph.
+6. Figure out how to plot multiple files and feature within the same graph. Done.
 
 ## Ideas
 1. For measuring similarity we could use a classification algorithm that returns the probability that two files are related based on all features. The files could then be sorted based on how high the probability is that two files are similar. We could use a one-to-one comparison of chunks of audio files or a dynamic time warping algorithm. Not sure if it even matters since the length of time our ears need to determine similarity is likely long enough to warrant a cruder one-to-one comparison.
