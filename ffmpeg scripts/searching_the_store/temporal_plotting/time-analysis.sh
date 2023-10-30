@@ -12,7 +12,7 @@ shopt -s nullglob
 for file in $path*.{wav,mp3,aif}; do
     # main command - analysis done here
     meta_stats=$(ffprobe -v quiet -print_format json -show_format -show_streams -hide_banner -i "$file")
-    spectral_stats=$(ffmpeg -hide_banner -i "$file" -af aspectralstats=measure=all:win_size=16384,ametadata=print:file=- -f null - > "$output_file")
+    spectral_stats=$(ffmpeg -hide_banner -i "$file" -af aspectralstats=measure=all:win_size=65536,ametadata=print:file=- -f null - > "$output_file")
 
     # parses frame number from data - needed to adapt to any file length
     #frame_count=$(echo "$spectral_stats" | awk '/frame/ {count++} END {print count}' "$output_file")
@@ -21,8 +21,8 @@ for file in $path*.{wav,mp3,aif}; do
     centroid_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.centroid" { print $2/20000 }' "$output_file")
     centroid_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.centroid" { print $2/20000 }' "$output_file")
 
-    variance_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.variance" { print $2*1000000 }' "$output_file")
-    variance_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.variance" { print $2*1000000 }' "$output_file")
+    variance_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.variance" { print $2*750000 }' "$output_file")
+    variance_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.variance" { print $2*750000 }' "$output_file")
 
     spread_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.spread" { print $2/10000 }' "$output_file")
     spread_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.spread" { print $2/10000 }' "$output_file")
@@ -30,20 +30,20 @@ for file in $path*.{wav,mp3,aif}; do
     skewness_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.skewness" { print $2/50 }' "$output_file")
     skewness_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.skewness" { print $2/50 }' "$output_file")
 
-    kurtosis_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.kurtosis" { print $2/1000 }' "$output_file")
-    kurtosis_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.kurtosis" { print $2/1000 }' "$output_file")
+    kurtosis_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.kurtosis" { print $2/750 }' "$output_file")
+    kurtosis_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.kurtosis" { print $2/750 }' "$output_file")
 
-    entropy_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.entropy" { print $2*0.5 }' "$output_file")
-    entropy_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.entropy" { print $2*0.5 }' "$output_file")
+    entropy_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.entropy" { print $2*0.25 }' "$output_file")
+    entropy_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.entropy" { print $2*0.25 }' "$output_file")
 
     flatness_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.flatness" { print $2 }' "$output_file")
     flatness_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.flatness" { print $2 }' "$output_file")
 
-    crest_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.crest" { print $2/2000 }' "$output_file")
-    crest_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.crest" { print $2/2000 }' "$output_file")
+    crest_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.crest" { print $2/10000 }' "$output_file")
+    crest_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.crest" { print $2/10000 }' "$output_file")
 
-    flux_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.flux" { print $2*10 }' "$output_file")
-    flux_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.flux" { print $2*10 }' "$output_file")
+    flux_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.flux" { print $2*5 }' "$output_file")
+    flux_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.flux" { print $2*5 }' "$output_file")
 
     slope_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.slope" { print $2*-1000 }' "$output_file")
     slope_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.slope" { print $2*-1000 }' "$output_file")
@@ -51,8 +51,8 @@ for file in $path*.{wav,mp3,aif}; do
     decrease_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.decrease" { print $2*10 }' "$output_file")
     decrease_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.decrease" { print $2*10 }' "$output_file")
 
-    rolloff_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.rolloff" { print $2/20000 }' "$output_file")
-    rolloff_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.rolloff" { print $2/20000 }' "$output_file")
+    rolloff_1=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.1.rolloff" { print $2/25000 }' "$output_file")
+    rolloff_2=$(echo "$spectral_stats" | awk -F'=' '$1 == "lavfi.aspectralstats.2.rolloff" { print $2/25000 }' "$output_file")
 
     filename="$file"
 

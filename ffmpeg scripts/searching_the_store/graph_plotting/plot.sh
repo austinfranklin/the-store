@@ -18,22 +18,28 @@ echo " " > "$graph_file"
 if [ "$type" == "file" ]; then
     # Extract and sort the values for the specified measurement
     grep "$argument" "$sort_file" | awk -F': ' '{
-        if ($2 == "spectral.centroid.ch1" || $2 == "spectral.centroid.ch2" || $2 == "spectral.rolloff.ch1" || $2 == "spectral.rolloff.ch2")
+        if ($2 == "spectral.centroid.ch1" || $2 == "spectral.centroid.ch2")
             print $2, $3/20000;
+        if ($2 == "spectral.rolloff.ch1" || $2 == "spectral.rolloff.ch2")
+            print $2, $3/25000;
         if ($2 == "spectral.spread.ch1" || $2 == "spectral.spread.ch2")
             print $2, $3/10000;
         if ($2 == "spectral.crest.ch1" || $2 == "spectral.crest.ch2")
-            print $2, $3/2000;
+            print $2, $3/10000;
         if ($2 == "spectral.kurtosis.ch1" || $2 == "spectral.kurtosis.ch2")
-            print $2, $3/1000;
+            print $2, $3/750;
         if ($2 == "spectral.skewness.ch1" || $2 == "spectral.skewness.ch2")
             print $2, $3/50;
-        if ($2 == "spectral.entropy.ch1" || $2 == "spectral.entropy.ch2" || $2 == "spectral.flatness.ch1" || $2 == "spectral.flatness.ch2")
+        if ($2 == "spectral.entropy.ch1" || $2 == "spectral.entropy.ch2")
+            print $2, $3*0.25;
+        if ($2 == "spectral.flatness.ch1" || $2 == "spectral.flatness.ch2")
             print $2, $3;
-        if ($2 == "spectral.decrease.ch1" || $2 == "spectral.decrease.ch2" || $2 == "spectral.flux.ch1" || $2 == "spectral.flux.ch2")
+        if ($2 == "spectral.flux.ch1" || $2 == "spectral.flux.ch2")
+            print $2, $3*5;
+        if ($2 == "spectral.decrease.ch1" || $2 == "spectral.decrease.ch2")
             print $2, $3*10;
         if ($2 == "spectral.variance.ch1" || $2 == "spectral.variance.ch2")
-            print $2, $3*1000000;
+            print $2, $3*750000;
         if ($2 == "spectral.slope.ch1" || $2 == "spectral.slope.ch2")
             print $2, $3*-1000;
         if ($2 == "loudness.max_volume" || $2 == "loudness.mean_volume" || $2 == "loudness.integrated_lufs" || $2 == "loudness.threshold")
@@ -48,22 +54,28 @@ if [ "$type" == "file" ]; then
 elif [ "$type" == "feature" ]; then
     # Extract and sort the values for the specified measurement
     grep "$argument" "$sort_file" | awk -F': ' '{
-        if ($2 == "spectral.centroid.ch1" || $2 == "spectral.centroid.ch2" || $2 == "spectral.rolloff.ch1" || $2 == "spectral.rolloff.ch2")
+        if ($2 == "spectral.centroid.ch1" || $2 == "spectral.centroid.ch2")
             print $1, $3/20000;
+        if ($2 == "spectral.rolloff.ch1" || $2 == "spectral.rolloff.ch2")
+            print $1, $3/25000;
         if ($2 == "spectral.spread.ch1" || $2 == "spectral.spread.ch2")
             print $1, $3/10000;
         if ($2 == "spectral.crest.ch1" || $2 == "spectral.crest.ch2")
-            print $1, $3/2000;
+            print $1, $3/10000;
         if ($2 == "spectral.kurtosis.ch1" || $2 == "spectral.kurtosis.ch2")
-            print $1, $3/1000;
+            print $1, $3/750;
         if ($2 == "spectral.skewness.ch1" || $2 == "spectral.skewness.ch2")
             print $1, $3/50;
-        if ($2 == "spectral.entropy.ch1" || $2 == "spectral.entropy.ch2" || $2 == "spectral.flatness.ch1" || $2 == "spectral.flatness.ch2")
+        if ($2 == "spectral.entropy.ch1" || $2 == "spectral.entropy.ch2")
+            print $1, $3*0.25;
+        if ($2 == "spectral.flatness.ch1" || $2 == "spectral.flatness.ch2")
             print $1, $3;
-        if ($2 == "spectral.decrease.ch1" || $2 == "spectral.decrease.ch2" || $2 == "spectral.flux.ch1" || $2 == "spectral.flux.ch2")
+        if ($2 == "spectral.flux.ch1" || $2 == "spectral.flux.ch2")
+            print $1, $3*5;
+        if ($2 == "spectral.decrease.ch1" || $2 == "spectral.decrease.ch2")
             print $1, $3*10;
         if ($2 == "spectral.variance.ch1" || $2 == "spectral.variance.ch2")
-            print $1, $3*1000000;
+            print $1, $3*750000;
         if ($2 == "spectral.slope.ch1" || $2 == "spectral.slope.ch2")
             print $1, $3*-1000;
         if ($2 == "loudness.max_volume" || $2 == "loudness.mean_volume" || $2 == "loudness.integrated_lufs" || $2 == "loudness.threshold")
