@@ -105,3 +105,5 @@
 104, spectral::rolloff::ch7;
 105, spectral::rolloff::ch8;
 106, spectral::frame_count;
+107, metadata::format::tags::date;
+108, metadata::format::tags::encoded_by;
