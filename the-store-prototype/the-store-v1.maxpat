@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 479.0, 105.0, 825.0, 779.0 ],
+		"rect" : [ 0.0, 66.0, 825.0, 775.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -249,14 +249,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "dial",
-							"parameter_mmax" : 44.0,
+							"parameter_mmax" : 367.0,
 							"parameter_shortname" : "dial",
 							"parameter_type" : 0
 						}
 
 					}
 ,
-					"size" : 45.0,
+					"size" : 368.0,
 					"varname" : "dial"
 				}
 
@@ -2325,7 +2325,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-594",
-					"items" : "<empty>",
+					"items" : [ "582413__strangehorizon__maddong_engine_2.wav", ",", "582414__strangehorizon__maddong_engine_1.wav", ",", "582869__strangehorizon__enginedrone4.mp3", ",", "582870__strangehorizon__enginedrone3.mp3", ",", "582871__strangehorizon__enginedrone2.mp3", ",", "582872__strangehorizon__enginedrone1.mp3", ",", "582873__strangehorizon__enginedrone7.mp3", ",", "582874__strangehorizon__enginedrone6.mp3", ",", "582875__strangehorizon__enginedrone5.mp3", ",", "587001__strangehorizon__dl_sweep_2.wav", ",", "587002__strangehorizon__dl_sweep_1.wav", ",", "587877__strangehorizon__effluvia.wav", ",", "587878__strangehorizon__cave_rumble.wav", ",", "591118__strangehorizon__signal_drone.wav", ",", "592918__strangehorizon__techno_static.wav", ",", "599890__strangehorizon__bleep_bloop_4.wav", ",", "599891__strangehorizon__bleep_bloop_3.wav", ",", "599892__strangehorizon__bleep_bloop_2.wav", ",", "599893__strangehorizon__bleep_bloop_1.wav", ",", "608350__strangehorizon__pseudo_gliss.wav", ",", "610491__strangehorizon__scifi_tension_2.wav", ",", "610492__strangehorizon__scifi_tension.wav", ",", "614020__strangehorizon__dynamo_crank.wav", ",", "615156__strangehorizon__delay_feedback.wav", ",", "618134__strangehorizon__bitcrushed_waltz.wav", ",", "618614__strangehorizon__pseudo_theremin.wav", ",", "618822__strangehorizon__reaper_crashing_1.wav", ",", "618846__strangehorizon__dulcet_04.wav", ",", "618847__strangehorizon__dulcet_03.wav", ",", "618848__strangehorizon__dulcet_02.wav", ",", "618849__strangehorizon__dulcet_01.wav", ",", "618850__strangehorizon__dulcet_08.wav", ",", "618851__strangehorizon__dulcet_07.wav", ",", "618852__strangehorizon__dulcet_06.wav", ",", "618853__strangehorizon__dulcet_05.wav", ",", "618854__strangehorizon__dulcet_10.wav", ",", "618855__strangehorizon__dulcet_09.wav", ",", "618856__strangehorizon__dulcet_12.wav", ",", "618857__strangehorizon__dulcet_11.wav", ",", "618858__strangehorizon__dulcet_13.wav", ",", "618859__strangehorizon__dulcet_14.wav", ",", "618871__strangehorizon__dulcet_15.wav", ",", "618872__strangehorizon__dulcet_19.wav", ",", "618873__strangehorizon__dulcet_18.wav", ",", "618874__strangehorizon__dulcet_17.wav", ",", "618875__strangehorizon__dulcet_16.wav", ",", "618876__strangehorizon__holyaura_1.wav", ",", "618877__strangehorizon__dulcet_20.wav", ",", "618878__strangehorizon__holyaura_2.wav", ",", "618945__strangehorizon__dulcet_21.wav", ",", "618946__strangehorizon__dulcet_23.wav", ",", "618947__strangehorizon__dulcet_22.wav", ",", "618948__strangehorizon__dulcet_25.wav", ",", "618949__strangehorizon__dulcet_24.wav", ",", "618950__strangehorizon__dulcet_26.wav", ",", "618951__strangehorizon__holyaura_3.wav", ",", "619149__strangehorizon__heavenly_blight_3.wav", ",", "619150__strangehorizon__heavenly_blight_2.wav", ",", "619151__strangehorizon__heavenly_blight_1.wav", ",", "619152__strangehorizon__heavenly_blight_4.wav", ",", "619163__strangehorizon__dulcet_28.wav", ",", "619164__strangehorizon__dulcet_27.wav", ",", "619165__strangehorizon__dulcet_32.wav", ",", "619166__strangehorizon__dulcet_31.wav", ",", "619167__strangehorizon__dulcet_30.wav", ",", "619168__strangehorizon__dulcet_29.wav", ",", "619169__strangehorizon__dulcet_34.wav", ",", "619170__strangehorizon__dulcet_33.wav", ",", "619171__strangehorizon__warm_aura.wav", ",", "619172__strangehorizon__tinnitus_2.wav", ",", "619173__strangehorizon__tinnitus_3.wav", ",", "619174__strangehorizon__tinnitus_1.wav", ",", "619854__strangehorizon__dulcet_42.wav", ",", "619855__strangehorizon__dulcet_43.wav", ",", "619856__strangehorizon__dulcet_35.wav", ",", "619857__strangehorizon__dulcet_39.wav", ",", "619858__strangehorizon__dulcet_38.wav", ",", "619859__strangehorizon__dulcet_37.wav", ",", "619860__strangehorizon__dulcet_36.wav", ",", "619861__strangehorizon__dulcet_41.wav", ",", "619862__strangehorizon__dulcet_40.wav", ",", "623499__strangehorizon__creepy_radio_comms.wav", ",", "624823__strangehorizon__desk_fan_hum_filtered.wav", ",", "626770__strangehorizon__hellmachine1_4.wav", ",", "626771__strangehorizon__hellmachine1_3.wav", ",", "626772__strangehorizon__hellmachine1_2.wav", ",", "626773__strangehorizon__hellmachine1_1.wav", ",", "626774__strangehorizon__hellmachine2_4.wav", ",", "626775__strangehorizon__hellmachine2_3.wav", ",", "626776__strangehorizon__hellmachine2_2.wav", ",", "626777__strangehorizon__hellmachine2_1.wav", ",", "629041__strangehorizon__horsehorn.wav", ",", "629952__strangehorizon__angelic_stab.wav", ",", "629953__strangehorizon__angelic_drone.wav", ",", "632441__strangehorizon__quadrone_4.wav", ",", "632442__strangehorizon__quadrone_3.wav", ",", "632443__strangehorizon__quadrone_2.wav", ",", "632444__strangehorizon__quadrone_1.wav", ",", "632445__strangehorizon__quadrone_6.wav", ",", "632446__strangehorizon__quadrone_5.wav", ",", "632447__strangehorizon__quadrone_8.wav", ",", "632448__strangehorizon__quadrone_7.wav", ",", "634501__strangehorizon__vcv_gong_tetris.wav", ",", "640189__strangehorizon__delay_from_hell.wav", ",", "640933__strangehorizon__cardboard_rustling.wav", ",", "642369__strangehorizon__guitar_delay_lines.wav", ",", "642370__strangehorizon__guitar_delay_lines_4th_gen.wav", ",", "642371__strangehorizon__guitar_delay_lines_3rd_gen.wav", ",", "642372__strangehorizon__guitar_delay_lines_2nd_gen.wav", ",", "642489__strangehorizon__reactor_room.wav", ",", "642490__strangehorizon__reactor_facility.wav", ",", "642491__strangehorizon__reactor_core.wav", ",", "642492__strangehorizon__reactor_control.wav", ",", "642511__strangehorizon__distorted_delay.wav", ",", "642513__strangehorizon__clattering_machine.wav", ",", "644010__strangehorizon__power_station_2_wet.wav", ",", "644011__strangehorizon__power_station_2_dry.wav", ",", "644012__strangehorizon__power_station_1_wet.wav", ",", "644013__strangehorizon__power_station_1_dry.wav", ",", "644014__strangehorizon__power_station_3_ww.wav", ",", "644015__strangehorizon__power_station_3_wd.wav", ",", "644016__strangehorizon__power_station_3_dw.wav", ",", "644017__strangehorizon__power_station_3_dd.wav", ",", "644018__strangehorizon__power_station_sfx_2.wav", ",", "644019__strangehorizon__power_station_sfx_1.wav", ",", "644020__strangehorizon__daw_skipping.wav", ",", "644418__strangehorizon__reaper_crashing_2.wav", ",", "645901__strangehorizon__daw_skipping_130bpm.wav", ",", "645919__strangehorizon__reaper_crashing_3.wav", ",", "648312__strangehorizon__piano_drone.wav", ",", "651222__strangehorizon__reaper_crashing_7.wav", ",", "651223__strangehorizon__reaper_crashing_6.wav", ",", "651224__strangehorizon__reaper_crashing_5.wav", ",", "651225__strangehorizon__reaper_crashing_4.wav", ",", "651226__strangehorizon__reaper_crashing_9.wav", ",", "651227__strangehorizon__reaper_crashing_8.wav", ",", "651312__strangehorizon__g_rollin_voxstem_3_80bpm.mp3", ",", "651313__strangehorizon__g_rollin_voxstem_2_80bpm.mp3", ",", "651314__strangehorizon__g_rollin_voxstem_1_80bpm.mp3", ",", "654399__strangehorizon__patchbay_perp_underwater.mp3", ",", "654958__strangehorizon__reaper_crashing_12.wav", ",", "654959__strangehorizon__reaper_crashing_11.wav", ",", "654960__strangehorizon__reaper_crashing_10.wav", ",", "655017__strangehorizon__reaper_crashing_13.wav", ",", "656810__strangehorizon__reaper_crashing_14.wav", ",", "656826__strangehorizon__reaper_crashing_15.wav", ",", "657007__strangehorizon__wgaca_jangle_3_120bpm.wav", ",", "657008__strangehorizon__wgaca_jangle_2_120bpm.wav", ",", "657009__strangehorizon__wgaca_jangle_1_120bpm.wav", ",", "657245__strangehorizon__reaper_crashing_16.wav", ",", "657246__strangehorizon__piano_drone_2.wav", ",", "657256__strangehorizon__bbq_jangle_3_120bpm.wav", ",", "657257__strangehorizon__bbq_jangle_2_120bpm.wav", ",", "657258__strangehorizon__bbq_jangle_1_120bpm.wav", ",", "657262__strangehorizon__piano_drone_3.wav", ",", "657439__strangehorizon__ootd_jangle_1.wav", ",", "658354__strangehorizon__circad.mp3", ",", "658371__strangehorizon__reaper_crashing_17.wav", ",", "658527__strangehorizon__bmb_delay_chain.wav", ",", "658616__strangehorizon__freaky_whistling_lofi.mp3", ",", "658617__strangehorizon__freaky_whistling.mp3", ",", "658619__strangehorizon__reaper_crashing_18.wav", ",", "658627__strangehorizon__creepasaurus.wav", ",", "658628__strangehorizon__ratshack_reverb_2.wav", ",", "658629__strangehorizon__ratshack_reverb_3.wav", ",", "658862__strangehorizon__reaper_crashing_19.wav", ",", "659270__strangehorizon__reaper_crashing_20.wav", ",", "659271__strangehorizon__in_this_world.wav", ",", "659272__strangehorizon__decanting_wine.wav", ",", "659273__strangehorizon__bruh_riser.wav", ",", "659443__strangehorizon__thump_reverb_loop_2_85bpm.wav", ",", "659444__strangehorizon__thump_reverb.wav", ",", "659445__strangehorizon__reaper_crashing_22.wav", ",", "659446__strangehorizon__reaper_crashing_21.wav", ",", "659447__strangehorizon__thump_reverb_loop_85bpm.wav", ",", "661264__strangehorizon__adaptive_radiation_ping_2.wav", ",", "661265__strangehorizon__adaptive_radiation_ping_1.wav", ",", "661447__strangehorizon__trimaran_drone.wav", ",", "661812__strangehorizon__reaper_crashing_23.wav", ",", "661945__strangehorizon__wonder_tail.wav", ",", "661946__strangehorizon__med55_beat_120bpm.wav", ",", "661958__strangehorizon__med55_loop_5_120bpm.wav", ",", "661959__strangehorizon__med55_loop_4_120bpm.wav", ",", "661960__strangehorizon__med55_loop_3_120bpm.wav", ",", "661961__strangehorizon__med55_loop_2_120bpm.wav", ",", "661980__strangehorizon__med55_loop_6_120bpm.wav", ",", "662361__strangehorizon__zm_synthportrait_2_meeba.wav", ",", "662362__strangehorizon__zm_synthportrait_1_zephy.wav", ",", "662365__strangehorizon__zm_synthportrait_5_spectrogram.wav", ",", "662366__strangehorizon__zm_synthportrait_4_alyssa.wav", ",", "662367__strangehorizon__zm_synthportrait_3_gwennie.wav", ",", "662565__strangehorizon__vocoder_ping_2.wav", ",", "662566__strangehorizon__vocoder_ping_1.wav", ",", "662883__strangehorizon__signal_pop_c5_cloudseed_reverb.wav", ",", "662884__strangehorizon__signal_pop_c4_cloudseed_reverb.wav", ",", "662885__strangehorizon__signal_pop_c3_cloudseed_reverb.wav", ",", "662896__strangehorizon__puddle_forest.wav", ",", "662897__strangehorizon__arcane_lab_drone_2.wav", ",", "662898__strangehorizon__arcane_lab_drone_1.wav", ",", "662913__strangehorizon__reaper_crashing_24.wav", ",", "662963__strangehorizon__reaper_crashing_25.wav", ",", "663329__strangehorizon__abyss_measure_c5.wav", ",", "663330__strangehorizon__abyss_measure_c4.wav", ",", "663331__strangehorizon__abyss_measure_c3.wav", ",", "663332__strangehorizon__abyss_measure_10oct.wav", ",", "663663__strangehorizon__ruination_reverb.mp3", ",", "663780__strangehorizon__plane_of_radiance_ping.wav", ",", "666626__strangehorizon__reaper_crashing_26.wav", ",", "666629__strangehorizon__mad_scientist_bleep_bloops.wav", ",", "666657__strangehorizon__washing_machine_microwave.wav", ",", "667076__strangehorizon__reaper_crashing_27.wav", ",", "667235__strangehorizon__clangity_banger.wav", ",", "667641__strangehorizon__zephy_vocal_drone_c.wav", ",", "667694__strangehorizon__brandi_is_an_alien.mp3", ",", "668441__strangehorizon__teal_ice_fogpad.wav", ",", "668452__strangehorizon__cardboard_tube_engine.wav", ",", "668464__strangehorizon__cardboard_tube_engine_2.wav", ",", "668465__strangehorizon__cardboard_tube_engine_3.wav", ",", "669292__strangehorizon__pr_verbtail.wav", ",", "669529__strangehorizon__random_binaural_pulses.wav", ",", "669559__strangehorizon__control_room_noise.wav", ",", "669633__strangehorizon__fidget_spinner_stuck_to_pill_jar_2.wav", ",", "670282__strangehorizon__shop_fuzz_3.wav", ",", "670283__strangehorizon__shop_fuzz_2.wav", ",", "670284__strangehorizon__shop_fuzz_1.wav", ",", "670285__strangehorizon__rhythmic_bitcrushed_static.wav", ",", "670294__strangehorizon__reaper_crashing_29.wav", ",", "670295__strangehorizon__reaper_crashing_28.wav", ",", "672215__strangehorizon__doom_sustained_cymbals_3.wav", ",", "672216__strangehorizon__doom_sustained_cymbals_2.wav", ",", "672217__strangehorizon__doom_sustained_cymbals_1.wav", ",", "672218__strangehorizon__doom_sustained_cymbals_5.wav", ",", "672219__strangehorizon__doom_sustained_cymbals_4.wav", ",", "672220__strangehorizon__doom_sustained_cymbals_7.wav", ",", "672221__strangehorizon__doom_sustained_cymbals_6.wav", ",", "672222__strangehorizon__doom_sustained_cymbals_8.wav", ",", "672436__strangehorizon__synth_timp_bloops.wav", ",", "672444__strangehorizon__teeth_echo.wav", ",", "673207__strangehorizon__arp_quintet_1.mp3", ",", "673208__strangehorizon__arp_quintet_2.mp3", ",", "673209__strangehorizon__reaper_crashing_30.wav", ",", "673412__strangehorizon__weird_freezer_noise.wav", ",", "673535__strangehorizon__bed_fan.wav", ",", "676549__strangehorizon__fans_desk_1.wav", ",", "676550__strangehorizon__fans_desk_2.wav", ",", "676551__strangehorizon__fans_space_heater.wav", ",", "676552__strangehorizon__fans_tower.wav", ",", "676553__strangehorizon__reaper_crashing_31.wav", ",", "676554__strangehorizon__river_of_light.mp3", ",", "676611__strangehorizon__synth_lab.wav", ",", "676612__strangehorizon__synth_sawblades.wav", ",", "676702__strangehorizon__gwennie_angel_choir_shifted.wav", ",", "676703__strangehorizon__gwennie_angel_choir_shifted_2.wav", ",", "676704__strangehorizon__gwennie_angel_choir_shifted_3.wav", ",", "676705__strangehorizon__gwennie_angel_choir_shifted_4.wav", ",", "676706__strangehorizon__horror_ocean_6_shifted.wav", ",", "676707__strangehorizon__monster_growl_3_shifted.wav", ",", "676708__strangehorizon__monster_growl_3_shifted_2.wav", ",", "676709__strangehorizon__shed_door_creaks_shifted.wav", ",", "676710__strangehorizon__zephy_prehistoric_noises_shifted.wav", ",", "676711__strangehorizon__zephy_prehistoric_noises_shifted_2.wav", ",", "676713__strangehorizon__hollow_crickets.mp3", ",", "676768__strangehorizon__bent_pvc_pipe_harmonic_boosted_1.wav", ",", "676769__strangehorizon__bent_pvc_pipe_harmonic_boosted_2.wav", ",", "676770__strangehorizon__robot_birds_1.wav", ",", "676771__strangehorizon__robot_birds_2.wav", ",", "676772__strangehorizon__robot_birds_3.wav", ",", "676773__strangehorizon__robot_birds_4.wav", ",", "676774__strangehorizon__robot_birds_5.wav", ",", "676775__strangehorizon__robot_birds_6.wav", ",", "676776__strangehorizon__robot_corgi_1.wav", ",", "676777__strangehorizon__robot_crickets_1.wav", ",", "676778__strangehorizon__robot_raven_1.wav", ",", "676779__strangehorizon__robot_squirrel_1.wav", ",", "676780__strangehorizon__strange_signals.wav", ",", "677202__strangehorizon__giltbronze_outdoor_drone_28feb2023.mp3", ",", "678002__strangehorizon__pb17noise.wav", ",", "683174__strangehorizon__reaper_crashing_32.wav", ",", "683252__strangehorizon__noisy_pc_fan.wav", ",", "683336__strangehorizon__reaper_crashing_33.wav", ",", "685221__strangehorizon__processed_rain_1.wav", ",", "685222__strangehorizon__processed_rain_2.wav", ",", "685223__strangehorizon__processed_rain_3.wav", ",", "685224__strangehorizon__processed_rain_4.wav", ",", "685225__strangehorizon__processed_rain_5.wav", ",", "685226__strangehorizon__processed_rain_6.wav", ",", "685227__strangehorizon__processed_rain_7.wav", ",", "685228__strangehorizon__processed_rain_8.wav", ",", "685403__strangehorizon__alien_fart_language.wav", ",", "685404__strangehorizon__chaos_garden_1.wav", ",", "685405__strangehorizon__chaos_garden_2.wav", ",", "685406__strangehorizon__forbidden_flan.wav", ",", "685407__strangehorizon__insulting_the_dolphins.wav", ",", "685408__strangehorizon__phaser_set_to_phun.wav", ",", "685409__strangehorizon__pit_of_snakes.wav", ",", "685410__strangehorizon__seasick_speen.wav", ",", "685622__strangehorizon__magnolia_grandiflora_1.wav", ",", "685623__strangehorizon__magnolia_grandiflora_2.wav", ",", "685624__strangehorizon__magnolia_grandiflora_3.wav", ",", "685625__strangehorizon__magnolia_grandiflora_4.wav", ",", "685626__strangehorizon__magnolia_grandiflora_5.wav", ",", "691936__strangehorizon__imago_buffer_primed.wav", ",", "691937__strangehorizon__lab_rascal.wav", ",", "693884__strangehorizon__weird_rubber_band_drone_1.wav", ",", "693885__strangehorizon__weird_rubber_band_drone_2.wav", ",", "693886__strangehorizon__weird_rubber_band_drone_3.wav", ",", "693887__strangehorizon__weird_rubber_band_drone_4.wav", ",", "693888__strangehorizon__weird_rubber_band_drone_5.wav", ",", "695932__strangehorizon__deep_sea_odyssey.mp3", ",", "697911__strangehorizon__zubmarine_zandwich.mp3", ",", "698213__strangehorizon__multifeedback-no6-pringles-tube-of-doom-ii.mp3", ",", "698230__strangehorizon__multifeedback-no7-suspended-in-a-jug.mp3", ",", "698250__strangehorizon__multifeedback-no8-snug-as-a-bug-in-a-rug.mp3", ",", "698372__strangehorizon__reaper_crashing_34.wav", ",", "698528__strangehorizon__multifeedback-no9-darbukation.mp3", ",", "698883__strangehorizon__synth_ocean_1.mp3", ",", "698884__strangehorizon__synth_ocean_2.mp3", ",", "699621__strangehorizon__synth_ocean_3.mp3", ",", "699622__strangehorizon__synth_ocean_4.mp3", ",", "699623__strangehorizon__synth_ocean_5.mp3", ",", "699624__strangehorizon__synth_ocean_6.mp3", ",", "702474__strangehorizon__quaxly_factory.wav", ",", "702724__strangehorizon__looped_engine_knocking.wav", ",", "703113__strangehorizon__another_weird_sorting_algorithm.wav", ",", "703299__strangehorizon__scuba_crickets.mp3", ",", "703338__strangehorizon__spiralis.wav", ",", "703454__strangehorizon__mashup_drone_1.wav", ",", "703455__strangehorizon__mashup_drone_1_paulstretched7x.wav", ",", "703456__strangehorizon__mashup_drone_1_paulstretched_3.wav", ",", "703555__strangehorizon__water_in_pipes_paulstretched_1024x.wav", ",", "703611__strangehorizon__8bit_generator.wav", ",", "703612__strangehorizon__8bit_generator_2.wav", ",", "703613__strangehorizon__8bit_generator_3.wav", ",", "703614__strangehorizon__8bit_generator_4.wav", ",", "703615__strangehorizon__8bit_generator_5.wav", ",", "703616__strangehorizon__triple_cheesebuffer_1.wav", ",", "703617__strangehorizon__triple_cheesebuffer_2.wav", ",", "703618__strangehorizon__triple_cheesebuffer_3.wav", ",", "703619__strangehorizon__triple_cheesebuffer_4.wav", ",", "703620__strangehorizon__triple_cheesebuffer_5.wav", ",", "703621__strangehorizon__triple_cheesebug.wav", ",", "703757__strangehorizon__reaper_crashing_35.wav", ",", "703774__strangehorizon__37_spells.wav", ",", "703775__strangehorizon__37_spells_paulstretched.mp3", ",", "704130__strangehorizon__flea_circus_mashup_120bpm_eighth_speed.wav", ",", "704132__strangehorizon__flea_circus_mashup_120bpm_thirtysecond_speed.wav", ",", "704429__strangehorizon__florida_fall_crickets_roboticized.mp3", ",", "704430__strangehorizon__alien_spacecraft_console.mp3", ",", "704621__strangehorizon__pumpkin_seed_crackle.wav", ",", "704623__strangehorizon__drawtober_prompts_001_spooky_alternate.wav", ",", "704722__strangehorizon__drawtober_prompts_003_cityscapes.wav", ",", "704732__strangehorizon__shortwave_22685mhz_noise.wav", ",", "705504__strangehorizon__machine_utopia.wav", ",", "705636__strangehorizon__ethereal_percussion_1.wav", ",", "705637__strangehorizon__ethereal_percussion_2.wav", ",", "705638__strangehorizon__ethereal_percussion_3.wav", ",", "705639__strangehorizon__ethereal_percussion_4.wav", ",", "705640__strangehorizon__crawling_horrors.wav", ",", "705641__strangehorizon__elastic_bastard.wav", ",", "705642__strangehorizon__glimmering_treasures.wav", ",", "705643__strangehorizon__janglin_jailers_keyring.wav", ",", "705651__strangehorizon__robot_chatter.wav", ",", "705652__strangehorizon__liquid_machinery.wav", ",", "705653__strangehorizon__machine_invasion.wav", ",", "709130__strangehorizon__river_of_atmosphere_dry.wav", ",", "709131__strangehorizon__river_of_atmosphere_wet.wav", ",", "709244__strangehorizon__reaper_crashing_36.wav", ",", "709332__strangehorizon__shuffling_cards_2octavesup.wav", ",", "709589__strangehorizon__underworld_machines.wav" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -2352,7 +2352,7 @@
 					"presentation_rect" : [ 28.023148122619659, 149.994782328605652, 549.0, 157.0 ],
 					"setminmax" : [ 20.0, 20000.0 ],
 					"setstyle" : 1,
-					"size" : 680,
+					"size" : 17,
 					"slidercolor" : [ 1.0, 0.035294117647059, 0.0, 0.5 ],
 					"thickness" : 5,
 					"varname" : "first[1]"
@@ -2374,7 +2374,7 @@
 					"presentation_rect" : [ 28.023148122619659, 149.994782328605652, 549.0, 157.0 ],
 					"setminmax" : [ 20.0, 20000.0 ],
 					"setstyle" : 1,
-					"size" : 680,
+					"size" : 17,
 					"slidercolor" : [ 0.0, 0.047058823529412, 1.0, 0.5 ],
 					"thickness" : 5,
 					"varname" : "first"
@@ -7320,15 +7320,16 @@
 					"gradient" : 1,
 					"id" : "obj-352",
 					"ignoreclick" : 1,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4039.360021990687528, 3244.282662451267242, 220.0, 17.0 ],
+					"patching_rect" : [ 4039.360021990687528, 3244.282662451267242, 220.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 460.656709694785604, 722.783314049243927, 98.681490937141916, 26.0 ],
-					"text" : "\"Three for solo clarinet.m4a\"",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 460.656709694785604, 722.783314049243927, 98.681490937141916, 35.0 ],
+					"text" : "668464__strangehorizon__cardboard_tube_engine_2.wav",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -7350,14 +7351,16 @@
 					"gradient" : 1,
 					"id" : "obj-353",
 					"ignoreclick" : 1,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3698.401657441438147, 3244.282662451267242, 228.0, 17.0 ],
+					"patching_rect" : [ 3698.401657441438147, 3244.282662451267242, 228.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 327.798845726098079, 722.783314049243927, 95.0, 17.0 ],
-					"text" : "Tactus.wav",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 327.798845726098079, 722.783314049243927, 95.0, 35.0 ],
+					"text" : "672221__strangehorizon__doom_sustained_cymbals_6.wav",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -7379,15 +7382,16 @@
 					"gradient" : 1,
 					"id" : "obj-354",
 					"ignoreclick" : 1,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3351.955336818278738, 3244.282662451267242, 205.0, 17.0 ],
+					"patching_rect" : [ 3351.955336818278738, 3244.282662451267242, 205.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 194.306267452655902, 722.783314049243927, 93.0, 26.0 ],
-					"text" : "\"Flower of the Sun.wav\"",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 194.306267452655902, 722.783314049243927, 93.0, 35.0 ],
+					"text" : "672217__strangehorizon__doom_sustained_cymbals_1.wav",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -7409,14 +7413,16 @@
 					"gradient" : 1,
 					"id" : "obj-355",
 					"ignoreclick" : 1,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3005.230949738801428, 3244.282662451267242, 189.0, 17.0 ],
+					"patching_rect" : [ 3005.230949738801428, 3244.282662451267242, 189.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.515850377842071, 722.783314049243927, 96.49953830242157, 17.0 ],
-					"text" : "\"I. Blue Night.wav\"",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 53.515850377842071, 722.783314049243927, 97.0, 35.0 ],
+					"text" : "618134__strangehorizon__bitcrushed_waltz.wav",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -9584,6 +9590,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-293",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -15919,7 +15926,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-194",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -17190,7 +17196,6 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"buffername" : "unfinder-1",
-					"chanoffset" : 0,
 					"id" : "obj-117",
 					"ignoreclick" : 1,
 					"maxclass" : "waveform~",
@@ -23697,7 +23702,7 @@
 					"patching_rect" : [ 3843.937772981209491, 618.105758242683351, 93.010754585266113, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 608.209996643852264, 140.994782328605652, 187.895935773849487, 22.0 ],
-					"text" : "2023-02-02"
+					"text" : "2022-02-10"
 				}
 
 			}
@@ -23802,7 +23807,7 @@
 					"patching_rect" : [ 3446.809247485680316, 618.105758242683351, 188.028170824050903, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 608.209996643852264, 116.994782328605652, 188.289691925048828, 22.0 ],
-					"text" : "\"Audio IFF\""
+					"text" : "\"WAV / WAVE (Waveform Audio)\""
 				}
 
 			}
@@ -23810,12 +23815,13 @@
 				"box" : 				{
 					"id" : "obj-255",
 					"ignoreclick" : 1,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3377.726309052986835, 560.334753327445924, 107.0, 22.0 ],
-					"text" : "Sing-YWC.aif"
+					"patching_rect" : [ 3377.726309052986835, 560.334753327445924, 107.0, 49.0 ],
+					"text" : "618856__strangehorizon__dulcet_12.wav"
 				}
 
 			}
@@ -24102,7 +24108,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-8",
-					"items" : "<empty>",
+					"items" : [ "582413__strangehorizon__maddong_engine_2.wav", ",", "582414__strangehorizon__maddong_engine_1.wav", ",", "582869__strangehorizon__enginedrone4.mp3", ",", "582870__strangehorizon__enginedrone3.mp3", ",", "582871__strangehorizon__enginedrone2.mp3", ",", "582872__strangehorizon__enginedrone1.mp3", ",", "582873__strangehorizon__enginedrone7.mp3", ",", "582874__strangehorizon__enginedrone6.mp3", ",", "582875__strangehorizon__enginedrone5.mp3", ",", "587001__strangehorizon__dl_sweep_2.wav", ",", "587002__strangehorizon__dl_sweep_1.wav", ",", "587877__strangehorizon__effluvia.wav", ",", "587878__strangehorizon__cave_rumble.wav", ",", "591118__strangehorizon__signal_drone.wav", ",", "592918__strangehorizon__techno_static.wav", ",", "599890__strangehorizon__bleep_bloop_4.wav", ",", "599891__strangehorizon__bleep_bloop_3.wav", ",", "599892__strangehorizon__bleep_bloop_2.wav", ",", "599893__strangehorizon__bleep_bloop_1.wav", ",", "608350__strangehorizon__pseudo_gliss.wav", ",", "610491__strangehorizon__scifi_tension_2.wav", ",", "610492__strangehorizon__scifi_tension.wav", ",", "614020__strangehorizon__dynamo_crank.wav", ",", "615156__strangehorizon__delay_feedback.wav", ",", "618134__strangehorizon__bitcrushed_waltz.wav", ",", "618614__strangehorizon__pseudo_theremin.wav", ",", "618822__strangehorizon__reaper_crashing_1.wav", ",", "618846__strangehorizon__dulcet_04.wav", ",", "618847__strangehorizon__dulcet_03.wav", ",", "618848__strangehorizon__dulcet_02.wav", ",", "618849__strangehorizon__dulcet_01.wav", ",", "618850__strangehorizon__dulcet_08.wav", ",", "618851__strangehorizon__dulcet_07.wav", ",", "618852__strangehorizon__dulcet_06.wav", ",", "618853__strangehorizon__dulcet_05.wav", ",", "618854__strangehorizon__dulcet_10.wav", ",", "618855__strangehorizon__dulcet_09.wav", ",", "618856__strangehorizon__dulcet_12.wav", ",", "618857__strangehorizon__dulcet_11.wav", ",", "618858__strangehorizon__dulcet_13.wav", ",", "618859__strangehorizon__dulcet_14.wav", ",", "618871__strangehorizon__dulcet_15.wav", ",", "618872__strangehorizon__dulcet_19.wav", ",", "618873__strangehorizon__dulcet_18.wav", ",", "618874__strangehorizon__dulcet_17.wav", ",", "618875__strangehorizon__dulcet_16.wav", ",", "618876__strangehorizon__holyaura_1.wav", ",", "618877__strangehorizon__dulcet_20.wav", ",", "618878__strangehorizon__holyaura_2.wav", ",", "618945__strangehorizon__dulcet_21.wav", ",", "618946__strangehorizon__dulcet_23.wav", ",", "618947__strangehorizon__dulcet_22.wav", ",", "618948__strangehorizon__dulcet_25.wav", ",", "618949__strangehorizon__dulcet_24.wav", ",", "618950__strangehorizon__dulcet_26.wav", ",", "618951__strangehorizon__holyaura_3.wav", ",", "619149__strangehorizon__heavenly_blight_3.wav", ",", "619150__strangehorizon__heavenly_blight_2.wav", ",", "619151__strangehorizon__heavenly_blight_1.wav", ",", "619152__strangehorizon__heavenly_blight_4.wav", ",", "619163__strangehorizon__dulcet_28.wav", ",", "619164__strangehorizon__dulcet_27.wav", ",", "619165__strangehorizon__dulcet_32.wav", ",", "619166__strangehorizon__dulcet_31.wav", ",", "619167__strangehorizon__dulcet_30.wav", ",", "619168__strangehorizon__dulcet_29.wav", ",", "619169__strangehorizon__dulcet_34.wav", ",", "619170__strangehorizon__dulcet_33.wav", ",", "619171__strangehorizon__warm_aura.wav", ",", "619172__strangehorizon__tinnitus_2.wav", ",", "619173__strangehorizon__tinnitus_3.wav", ",", "619174__strangehorizon__tinnitus_1.wav", ",", "619854__strangehorizon__dulcet_42.wav", ",", "619855__strangehorizon__dulcet_43.wav", ",", "619856__strangehorizon__dulcet_35.wav", ",", "619857__strangehorizon__dulcet_39.wav", ",", "619858__strangehorizon__dulcet_38.wav", ",", "619859__strangehorizon__dulcet_37.wav", ",", "619860__strangehorizon__dulcet_36.wav", ",", "619861__strangehorizon__dulcet_41.wav", ",", "619862__strangehorizon__dulcet_40.wav", ",", "623499__strangehorizon__creepy_radio_comms.wav", ",", "624823__strangehorizon__desk_fan_hum_filtered.wav", ",", "626770__strangehorizon__hellmachine1_4.wav", ",", "626771__strangehorizon__hellmachine1_3.wav", ",", "626772__strangehorizon__hellmachine1_2.wav", ",", "626773__strangehorizon__hellmachine1_1.wav", ",", "626774__strangehorizon__hellmachine2_4.wav", ",", "626775__strangehorizon__hellmachine2_3.wav", ",", "626776__strangehorizon__hellmachine2_2.wav", ",", "626777__strangehorizon__hellmachine2_1.wav", ",", "629041__strangehorizon__horsehorn.wav", ",", "629952__strangehorizon__angelic_stab.wav", ",", "629953__strangehorizon__angelic_drone.wav", ",", "632441__strangehorizon__quadrone_4.wav", ",", "632442__strangehorizon__quadrone_3.wav", ",", "632443__strangehorizon__quadrone_2.wav", ",", "632444__strangehorizon__quadrone_1.wav", ",", "632445__strangehorizon__quadrone_6.wav", ",", "632446__strangehorizon__quadrone_5.wav", ",", "632447__strangehorizon__quadrone_8.wav", ",", "632448__strangehorizon__quadrone_7.wav", ",", "634501__strangehorizon__vcv_gong_tetris.wav", ",", "640189__strangehorizon__delay_from_hell.wav", ",", "640933__strangehorizon__cardboard_rustling.wav", ",", "642369__strangehorizon__guitar_delay_lines.wav", ",", "642370__strangehorizon__guitar_delay_lines_4th_gen.wav", ",", "642371__strangehorizon__guitar_delay_lines_3rd_gen.wav", ",", "642372__strangehorizon__guitar_delay_lines_2nd_gen.wav", ",", "642489__strangehorizon__reactor_room.wav", ",", "642490__strangehorizon__reactor_facility.wav", ",", "642491__strangehorizon__reactor_core.wav", ",", "642492__strangehorizon__reactor_control.wav", ",", "642511__strangehorizon__distorted_delay.wav", ",", "642513__strangehorizon__clattering_machine.wav", ",", "644010__strangehorizon__power_station_2_wet.wav", ",", "644011__strangehorizon__power_station_2_dry.wav", ",", "644012__strangehorizon__power_station_1_wet.wav", ",", "644013__strangehorizon__power_station_1_dry.wav", ",", "644014__strangehorizon__power_station_3_ww.wav", ",", "644015__strangehorizon__power_station_3_wd.wav", ",", "644016__strangehorizon__power_station_3_dw.wav", ",", "644017__strangehorizon__power_station_3_dd.wav", ",", "644018__strangehorizon__power_station_sfx_2.wav", ",", "644019__strangehorizon__power_station_sfx_1.wav", ",", "644020__strangehorizon__daw_skipping.wav", ",", "644418__strangehorizon__reaper_crashing_2.wav", ",", "645901__strangehorizon__daw_skipping_130bpm.wav", ",", "645919__strangehorizon__reaper_crashing_3.wav", ",", "648312__strangehorizon__piano_drone.wav", ",", "651222__strangehorizon__reaper_crashing_7.wav", ",", "651223__strangehorizon__reaper_crashing_6.wav", ",", "651224__strangehorizon__reaper_crashing_5.wav", ",", "651225__strangehorizon__reaper_crashing_4.wav", ",", "651226__strangehorizon__reaper_crashing_9.wav", ",", "651227__strangehorizon__reaper_crashing_8.wav", ",", "651312__strangehorizon__g_rollin_voxstem_3_80bpm.mp3", ",", "651313__strangehorizon__g_rollin_voxstem_2_80bpm.mp3", ",", "651314__strangehorizon__g_rollin_voxstem_1_80bpm.mp3", ",", "654399__strangehorizon__patchbay_perp_underwater.mp3", ",", "654958__strangehorizon__reaper_crashing_12.wav", ",", "654959__strangehorizon__reaper_crashing_11.wav", ",", "654960__strangehorizon__reaper_crashing_10.wav", ",", "655017__strangehorizon__reaper_crashing_13.wav", ",", "656810__strangehorizon__reaper_crashing_14.wav", ",", "656826__strangehorizon__reaper_crashing_15.wav", ",", "657007__strangehorizon__wgaca_jangle_3_120bpm.wav", ",", "657008__strangehorizon__wgaca_jangle_2_120bpm.wav", ",", "657009__strangehorizon__wgaca_jangle_1_120bpm.wav", ",", "657245__strangehorizon__reaper_crashing_16.wav", ",", "657246__strangehorizon__piano_drone_2.wav", ",", "657256__strangehorizon__bbq_jangle_3_120bpm.wav", ",", "657257__strangehorizon__bbq_jangle_2_120bpm.wav", ",", "657258__strangehorizon__bbq_jangle_1_120bpm.wav", ",", "657262__strangehorizon__piano_drone_3.wav", ",", "657439__strangehorizon__ootd_jangle_1.wav", ",", "658354__strangehorizon__circad.mp3", ",", "658371__strangehorizon__reaper_crashing_17.wav", ",", "658527__strangehorizon__bmb_delay_chain.wav", ",", "658616__strangehorizon__freaky_whistling_lofi.mp3", ",", "658617__strangehorizon__freaky_whistling.mp3", ",", "658619__strangehorizon__reaper_crashing_18.wav", ",", "658627__strangehorizon__creepasaurus.wav", ",", "658628__strangehorizon__ratshack_reverb_2.wav", ",", "658629__strangehorizon__ratshack_reverb_3.wav", ",", "658862__strangehorizon__reaper_crashing_19.wav", ",", "659270__strangehorizon__reaper_crashing_20.wav", ",", "659271__strangehorizon__in_this_world.wav", ",", "659272__strangehorizon__decanting_wine.wav", ",", "659273__strangehorizon__bruh_riser.wav", ",", "659443__strangehorizon__thump_reverb_loop_2_85bpm.wav", ",", "659444__strangehorizon__thump_reverb.wav", ",", "659445__strangehorizon__reaper_crashing_22.wav", ",", "659446__strangehorizon__reaper_crashing_21.wav", ",", "659447__strangehorizon__thump_reverb_loop_85bpm.wav", ",", "661264__strangehorizon__adaptive_radiation_ping_2.wav", ",", "661265__strangehorizon__adaptive_radiation_ping_1.wav", ",", "661447__strangehorizon__trimaran_drone.wav", ",", "661812__strangehorizon__reaper_crashing_23.wav", ",", "661945__strangehorizon__wonder_tail.wav", ",", "661946__strangehorizon__med55_beat_120bpm.wav", ",", "661958__strangehorizon__med55_loop_5_120bpm.wav", ",", "661959__strangehorizon__med55_loop_4_120bpm.wav", ",", "661960__strangehorizon__med55_loop_3_120bpm.wav", ",", "661961__strangehorizon__med55_loop_2_120bpm.wav", ",", "661980__strangehorizon__med55_loop_6_120bpm.wav", ",", "662361__strangehorizon__zm_synthportrait_2_meeba.wav", ",", "662362__strangehorizon__zm_synthportrait_1_zephy.wav", ",", "662365__strangehorizon__zm_synthportrait_5_spectrogram.wav", ",", "662366__strangehorizon__zm_synthportrait_4_alyssa.wav", ",", "662367__strangehorizon__zm_synthportrait_3_gwennie.wav", ",", "662565__strangehorizon__vocoder_ping_2.wav", ",", "662566__strangehorizon__vocoder_ping_1.wav", ",", "662883__strangehorizon__signal_pop_c5_cloudseed_reverb.wav", ",", "662884__strangehorizon__signal_pop_c4_cloudseed_reverb.wav", ",", "662885__strangehorizon__signal_pop_c3_cloudseed_reverb.wav", ",", "662896__strangehorizon__puddle_forest.wav", ",", "662897__strangehorizon__arcane_lab_drone_2.wav", ",", "662898__strangehorizon__arcane_lab_drone_1.wav", ",", "662913__strangehorizon__reaper_crashing_24.wav", ",", "662963__strangehorizon__reaper_crashing_25.wav", ",", "663329__strangehorizon__abyss_measure_c5.wav", ",", "663330__strangehorizon__abyss_measure_c4.wav", ",", "663331__strangehorizon__abyss_measure_c3.wav", ",", "663332__strangehorizon__abyss_measure_10oct.wav", ",", "663663__strangehorizon__ruination_reverb.mp3", ",", "663780__strangehorizon__plane_of_radiance_ping.wav", ",", "666626__strangehorizon__reaper_crashing_26.wav", ",", "666629__strangehorizon__mad_scientist_bleep_bloops.wav", ",", "666657__strangehorizon__washing_machine_microwave.wav", ",", "667076__strangehorizon__reaper_crashing_27.wav", ",", "667235__strangehorizon__clangity_banger.wav", ",", "667641__strangehorizon__zephy_vocal_drone_c.wav", ",", "667694__strangehorizon__brandi_is_an_alien.mp3", ",", "668441__strangehorizon__teal_ice_fogpad.wav", ",", "668452__strangehorizon__cardboard_tube_engine.wav", ",", "668464__strangehorizon__cardboard_tube_engine_2.wav", ",", "668465__strangehorizon__cardboard_tube_engine_3.wav", ",", "669292__strangehorizon__pr_verbtail.wav", ",", "669529__strangehorizon__random_binaural_pulses.wav", ",", "669559__strangehorizon__control_room_noise.wav", ",", "669633__strangehorizon__fidget_spinner_stuck_to_pill_jar_2.wav", ",", "670282__strangehorizon__shop_fuzz_3.wav", ",", "670283__strangehorizon__shop_fuzz_2.wav", ",", "670284__strangehorizon__shop_fuzz_1.wav", ",", "670285__strangehorizon__rhythmic_bitcrushed_static.wav", ",", "670294__strangehorizon__reaper_crashing_29.wav", ",", "670295__strangehorizon__reaper_crashing_28.wav", ",", "672215__strangehorizon__doom_sustained_cymbals_3.wav", ",", "672216__strangehorizon__doom_sustained_cymbals_2.wav", ",", "672217__strangehorizon__doom_sustained_cymbals_1.wav", ",", "672218__strangehorizon__doom_sustained_cymbals_5.wav", ",", "672219__strangehorizon__doom_sustained_cymbals_4.wav", ",", "672220__strangehorizon__doom_sustained_cymbals_7.wav", ",", "672221__strangehorizon__doom_sustained_cymbals_6.wav", ",", "672222__strangehorizon__doom_sustained_cymbals_8.wav", ",", "672436__strangehorizon__synth_timp_bloops.wav", ",", "672444__strangehorizon__teeth_echo.wav", ",", "673207__strangehorizon__arp_quintet_1.mp3", ",", "673208__strangehorizon__arp_quintet_2.mp3", ",", "673209__strangehorizon__reaper_crashing_30.wav", ",", "673412__strangehorizon__weird_freezer_noise.wav", ",", "673535__strangehorizon__bed_fan.wav", ",", "676549__strangehorizon__fans_desk_1.wav", ",", "676550__strangehorizon__fans_desk_2.wav", ",", "676551__strangehorizon__fans_space_heater.wav", ",", "676552__strangehorizon__fans_tower.wav", ",", "676553__strangehorizon__reaper_crashing_31.wav", ",", "676554__strangehorizon__river_of_light.mp3", ",", "676611__strangehorizon__synth_lab.wav", ",", "676612__strangehorizon__synth_sawblades.wav", ",", "676702__strangehorizon__gwennie_angel_choir_shifted.wav", ",", "676703__strangehorizon__gwennie_angel_choir_shifted_2.wav", ",", "676704__strangehorizon__gwennie_angel_choir_shifted_3.wav", ",", "676705__strangehorizon__gwennie_angel_choir_shifted_4.wav", ",", "676706__strangehorizon__horror_ocean_6_shifted.wav", ",", "676707__strangehorizon__monster_growl_3_shifted.wav", ",", "676708__strangehorizon__monster_growl_3_shifted_2.wav", ",", "676709__strangehorizon__shed_door_creaks_shifted.wav", ",", "676710__strangehorizon__zephy_prehistoric_noises_shifted.wav", ",", "676711__strangehorizon__zephy_prehistoric_noises_shifted_2.wav", ",", "676713__strangehorizon__hollow_crickets.mp3", ",", "676768__strangehorizon__bent_pvc_pipe_harmonic_boosted_1.wav", ",", "676769__strangehorizon__bent_pvc_pipe_harmonic_boosted_2.wav", ",", "676770__strangehorizon__robot_birds_1.wav", ",", "676771__strangehorizon__robot_birds_2.wav", ",", "676772__strangehorizon__robot_birds_3.wav", ",", "676773__strangehorizon__robot_birds_4.wav", ",", "676774__strangehorizon__robot_birds_5.wav", ",", "676775__strangehorizon__robot_birds_6.wav", ",", "676776__strangehorizon__robot_corgi_1.wav", ",", "676777__strangehorizon__robot_crickets_1.wav", ",", "676778__strangehorizon__robot_raven_1.wav", ",", "676779__strangehorizon__robot_squirrel_1.wav", ",", "676780__strangehorizon__strange_signals.wav", ",", "677202__strangehorizon__giltbronze_outdoor_drone_28feb2023.mp3", ",", "678002__strangehorizon__pb17noise.wav", ",", "683174__strangehorizon__reaper_crashing_32.wav", ",", "683252__strangehorizon__noisy_pc_fan.wav", ",", "683336__strangehorizon__reaper_crashing_33.wav", ",", "685221__strangehorizon__processed_rain_1.wav", ",", "685222__strangehorizon__processed_rain_2.wav", ",", "685223__strangehorizon__processed_rain_3.wav", ",", "685224__strangehorizon__processed_rain_4.wav", ",", "685225__strangehorizon__processed_rain_5.wav", ",", "685226__strangehorizon__processed_rain_6.wav", ",", "685227__strangehorizon__processed_rain_7.wav", ",", "685228__strangehorizon__processed_rain_8.wav", ",", "685403__strangehorizon__alien_fart_language.wav", ",", "685404__strangehorizon__chaos_garden_1.wav", ",", "685405__strangehorizon__chaos_garden_2.wav", ",", "685406__strangehorizon__forbidden_flan.wav", ",", "685407__strangehorizon__insulting_the_dolphins.wav", ",", "685408__strangehorizon__phaser_set_to_phun.wav", ",", "685409__strangehorizon__pit_of_snakes.wav", ",", "685410__strangehorizon__seasick_speen.wav", ",", "685622__strangehorizon__magnolia_grandiflora_1.wav", ",", "685623__strangehorizon__magnolia_grandiflora_2.wav", ",", "685624__strangehorizon__magnolia_grandiflora_3.wav", ",", "685625__strangehorizon__magnolia_grandiflora_4.wav", ",", "685626__strangehorizon__magnolia_grandiflora_5.wav", ",", "691936__strangehorizon__imago_buffer_primed.wav", ",", "691937__strangehorizon__lab_rascal.wav", ",", "693884__strangehorizon__weird_rubber_band_drone_1.wav", ",", "693885__strangehorizon__weird_rubber_band_drone_2.wav", ",", "693886__strangehorizon__weird_rubber_band_drone_3.wav", ",", "693887__strangehorizon__weird_rubber_band_drone_4.wav", ",", "693888__strangehorizon__weird_rubber_band_drone_5.wav", ",", "695932__strangehorizon__deep_sea_odyssey.mp3", ",", "697911__strangehorizon__zubmarine_zandwich.mp3", ",", "698213__strangehorizon__multifeedback-no6-pringles-tube-of-doom-ii.mp3", ",", "698230__strangehorizon__multifeedback-no7-suspended-in-a-jug.mp3", ",", "698250__strangehorizon__multifeedback-no8-snug-as-a-bug-in-a-rug.mp3", ",", "698372__strangehorizon__reaper_crashing_34.wav", ",", "698528__strangehorizon__multifeedback-no9-darbukation.mp3", ",", "698883__strangehorizon__synth_ocean_1.mp3", ",", "698884__strangehorizon__synth_ocean_2.mp3", ",", "699621__strangehorizon__synth_ocean_3.mp3", ",", "699622__strangehorizon__synth_ocean_4.mp3", ",", "699623__strangehorizon__synth_ocean_5.mp3", ",", "699624__strangehorizon__synth_ocean_6.mp3", ",", "702474__strangehorizon__quaxly_factory.wav", ",", "702724__strangehorizon__looped_engine_knocking.wav", ",", "703113__strangehorizon__another_weird_sorting_algorithm.wav", ",", "703299__strangehorizon__scuba_crickets.mp3", ",", "703338__strangehorizon__spiralis.wav", ",", "703454__strangehorizon__mashup_drone_1.wav", ",", "703455__strangehorizon__mashup_drone_1_paulstretched7x.wav", ",", "703456__strangehorizon__mashup_drone_1_paulstretched_3.wav", ",", "703555__strangehorizon__water_in_pipes_paulstretched_1024x.wav", ",", "703611__strangehorizon__8bit_generator.wav", ",", "703612__strangehorizon__8bit_generator_2.wav", ",", "703613__strangehorizon__8bit_generator_3.wav", ",", "703614__strangehorizon__8bit_generator_4.wav", ",", "703615__strangehorizon__8bit_generator_5.wav", ",", "703616__strangehorizon__triple_cheesebuffer_1.wav", ",", "703617__strangehorizon__triple_cheesebuffer_2.wav", ",", "703618__strangehorizon__triple_cheesebuffer_3.wav", ",", "703619__strangehorizon__triple_cheesebuffer_4.wav", ",", "703620__strangehorizon__triple_cheesebuffer_5.wav", ",", "703621__strangehorizon__triple_cheesebug.wav", ",", "703757__strangehorizon__reaper_crashing_35.wav", ",", "703774__strangehorizon__37_spells.wav", ",", "703775__strangehorizon__37_spells_paulstretched.mp3", ",", "704130__strangehorizon__flea_circus_mashup_120bpm_eighth_speed.wav", ",", "704132__strangehorizon__flea_circus_mashup_120bpm_thirtysecond_speed.wav", ",", "704429__strangehorizon__florida_fall_crickets_roboticized.mp3", ",", "704430__strangehorizon__alien_spacecraft_console.mp3", ",", "704621__strangehorizon__pumpkin_seed_crackle.wav", ",", "704623__strangehorizon__drawtober_prompts_001_spooky_alternate.wav", ",", "704722__strangehorizon__drawtober_prompts_003_cityscapes.wav", ",", "704732__strangehorizon__shortwave_22685mhz_noise.wav", ",", "705504__strangehorizon__machine_utopia.wav", ",", "705636__strangehorizon__ethereal_percussion_1.wav", ",", "705637__strangehorizon__ethereal_percussion_2.wav", ",", "705638__strangehorizon__ethereal_percussion_3.wav", ",", "705639__strangehorizon__ethereal_percussion_4.wav", ",", "705640__strangehorizon__crawling_horrors.wav", ",", "705641__strangehorizon__elastic_bastard.wav", ",", "705642__strangehorizon__glimmering_treasures.wav", ",", "705643__strangehorizon__janglin_jailers_keyring.wav", ",", "705651__strangehorizon__robot_chatter.wav", ",", "705652__strangehorizon__liquid_machinery.wav", ",", "705653__strangehorizon__machine_invasion.wav", ",", "709130__strangehorizon__river_of_atmosphere_dry.wav", ",", "709131__strangehorizon__river_of_atmosphere_wet.wav", ",", "709244__strangehorizon__reaper_crashing_36.wav", ",", "709332__strangehorizon__shuffling_cards_2octavesup.wav", ",", "709589__strangehorizon__underworld_machines.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -30993,137 +30999,179 @@
 ,
 		"parameter_map" : 		{
 			"midi" : 			{
-				"live.dial" : 				{
-					"srcname" : "23.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 11.0,
-					"flags" : 2
-				}
-,
-				"live.dial[20]" : 				{
-					"srcname" : "22.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 127.0,
-					"flags" : 2
-				}
-,
-				"live.gain~[5]" : 				{
-					"srcname" : "0.ctrl.0.chan.midi",
+				"live.gain~" : 				{
+					"srcname" : "7.ctrl.0.chan.midi",
 					"min" : -70.0,
 					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"live.gain~[2]" : 				{
-					"srcname" : "1.ctrl.0.chan.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"live.gain~[3]" : 				{
-					"srcname" : "2.ctrl.0.chan.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"live.gain~[4]" : 				{
-					"srcname" : "3.ctrl.0.chan.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"live.toggle[1]" : 				{
-					"srcname" : "32.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"live.toggle[2]" : 				{
-					"srcname" : "33.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"live.toggle[3]" : 				{
-					"srcname" : "34.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"live.toggle[4]" : 				{
-					"srcname" : "35.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"live.button[1]" : 				{
-					"srcname" : "41.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"live.button[2]" : 				{
-					"srcname" : "45.ctrl.0.chan.midi",
-					"min" : 0.0,
-					"max" : 1.0,
 					"flags" : 2
 				}
 ,
 				"live.dial[22]" : 				{
-					"srcname" : "20.ctrl.0.chan.midi",
+					"srcname" : "32.ctrl.0.chan.midi",
 					"min" : 0.0,
 					"max" : 127.0,
 					"flags" : 2
 				}
 ,
 				"live.dial[21]" : 				{
-					"srcname" : "21.ctrl.0.chan.midi",
+					"srcname" : "33.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"live.dial" : 				{
+					"srcname" : "34.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 11.0,
+					"flags" : 2
+				}
+,
+				"live.dial[20]" : 				{
+					"srcname" : "35.ctrl.0.chan.midi",
 					"min" : 0.0,
 					"max" : 127.0,
 					"flags" : 2
 				}
 ,
 				"Pitch" : 				{
-					"srcname" : "16.ctrl.0.chan.midi",
+					"srcname" : "36.ctrl.4.chan.midi",
 					"min" : -24.0,
 					"max" : 24.0,
 					"flags" : 2
 				}
 ,
 				"live.dial[1]" : 				{
-					"srcname" : "17.ctrl.0.chan.midi",
+					"srcname" : "37.ctrl.4.chan.midi",
 					"min" : -24.0,
 					"max" : 24.0,
 					"flags" : 2
 				}
 ,
 				"live.dial[2]" : 				{
-					"srcname" : "18.ctrl.0.chan.midi",
+					"srcname" : "38.ctrl.4.chan.midi",
 					"min" : -24.0,
 					"max" : 24.0,
 					"flags" : 2
 				}
 ,
 				"live.dial[3]" : 				{
-					"srcname" : "19.ctrl.0.chan.midi",
+					"srcname" : "39.ctrl.4.chan.midi",
 					"min" : -24.0,
 					"max" : 24.0,
 					"flags" : 2
 				}
 ,
-				"live.gain~" : 				{
-					"srcname" : "7.ctrl.0.chan.midi",
+				"live.dial[8]" : 				{
+					"srcname" : "40.ctrl.4.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"live.dial[7]" : 				{
+					"srcname" : "41.ctrl.4.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"live.dial[6]" : 				{
+					"srcname" : "42.ctrl.4.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"live.dial[4]" : 				{
+					"srcname" : "43.ctrl.4.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"live.gain~[5]" : 				{
+					"srcname" : "44.ctrl.4.chan.midi",
 					"min" : -70.0,
 					"max" : 6.0,
 					"flags" : 2
+				}
+,
+				"live.gain~[2]" : 				{
+					"srcname" : "45.ctrl.4.chan.midi",
+					"min" : -70.0,
+					"max" : 6.0,
+					"flags" : 2
+				}
+,
+				"live.gain~[3]" : 				{
+					"srcname" : "46.ctrl.4.chan.midi",
+					"min" : -70.0,
+					"max" : 6.0,
+					"flags" : 2
+				}
+,
+				"live.gain~[4]" : 				{
+					"srcname" : "47.ctrl.4.chan.midi",
+					"min" : -70.0,
+					"max" : 6.0,
+					"flags" : 2
+				}
+,
+				"live.toggle[1]" : 				{
+					"srcname" : "36.note.4.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
+				}
+,
+				"live.toggle[2]" : 				{
+					"srcname" : "37.note.4.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
+				}
+,
+				"live.toggle[3]" : 				{
+					"srcname" : "38.note.4.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
+				}
+,
+				"live.toggle[4]" : 				{
+					"srcname" : "39.note.4.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
+				}
+,
+				"live.toggle" : 				{
+					"srcname" : "32.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
+				}
+,
+				"live.button[1]" : 				{
+					"srcname" : "33.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
+				}
+,
+				"live.button[2]" : 				{
+					"srcname" : "34.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
+				}
+,
+				"live.button[3]" : 				{
+					"srcname" : "35.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
 				}
 
 			}
