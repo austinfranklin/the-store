@@ -1,0 +1,19 @@
+TO INSTALL AND USE THE DEVICE:
+
+Drop the entire folder called "Coalescence" (NOT the folder called "Coalescence v.x.x.x" but the one within it) into the folder called ".../ableton/user library/presets/instruments/max instrument". This is found in the "Places" section in Live's browser or in your finder/file browser. If you are going through finder (mac) the Ableton folder is typically in your "Music" folder. If you are going through your file browser (windows) it is typically in the "My Music" folder. 
+
+So if you followed the above instructions correctly for the presets to load, the full path to the device file (the .amxd file) shoulde be:
+.../user library/presets/instuments/max instrument/Coalescence/Coalescence.amxd
+
+
+
+
+NOTE: 
+The device will not recall presets nor will you be able to share presets on other systems unless this is installed correctly in the User Library!!!
+
+
+
+
+CURRENT ISSUES WITH SAMPLE LOADING:
+(1): Protected samples from Ableton Packs cannot be loaded. This is because I cannot use the Live.Drop object to decode protected samples because of the multisample nature of the device.
+(2): Samples dropped into Coalescence that were recorded in a never before saved Live set will not be recalled. This is because the path of the Live Set changes after it is saved for the first time and there is no legitimate way of getting the Path of the current Live set to work with paths relatively (a huge flaw in MaxForLive). This will also cause issues with changing Live Set names. In the meantime, always save your Live set for the first time before dropping in samples that were recorded in that Live set. If you accidently do that, just drop and swap the samples out after you've saved the set for the first time!

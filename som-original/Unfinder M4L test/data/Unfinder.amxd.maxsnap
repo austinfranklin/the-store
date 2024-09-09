@@ -1,0 +1,47 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Unfinder.amxd",
+	"origin" : "Unfinder.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Unfinder.amxd",
+		"origname" : "~/Desktop/Unfinder.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"button" : 0.0,
+				"button[1]" : 0.0,
+				"button[2]" : 0.0,
+				"button[3]" : 0.0,
+				"button[4]" : 0.0,
+				"live.dial" : 2.0,
+				"live.dial[1]" : 244.0,
+				"live.dial[2]" : 0.0,
+				"live.gain~" : 0.0,
+				"live.gain~[1]" : 0.0,
+				"live.gain~[2]" : 0.0,
+				"live.gain~[3]" : 0.0,
+				"toggle" : 1.0,
+				"toggle[1]" : 0.0,
+				"umenu" : 0.0,
+				"blob" : 				{
+					"dict[1]" : [ 						{
+
+						}
+ ],
+					"number" : [ 50 ],
+					"number[2]" : [ 0.05 ],
+					"number[3]" : [ 14 ],
+					"number[4]" : [ 20 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
