@@ -29,7 +29,7 @@ shopt -s nocaseglob
 shopt -s nullglob
 
 # Loop through all directories and files. Change this to pick new directory
-for dir in "$HOME/Desktop"; do
+for dir in "$HOME"; do
     # Loop through each file in each subdirectory or directly on Desktop
     find "$dir" -type f | while read -r file; do
         extension="${file##*.}"  # Extract the extension
@@ -72,28 +72,28 @@ for dir in "$HOME/Desktop"; do
                 skewness_mean=$(awk -F"=" '/1.skewness/ {skewness_1 += $2} END {print skewness_1/'"$frame_count"'}' "$output_file")
 
                 # Parses flatness mean value
-                flatness_mean=$(echo "$spectral_stats" | awk -F"=" '/1.flatness/ {flatness_1 += $2} END {print flatness_1/'"$frame_count"'}' "$output_file")
+                flatness_mean=$(awk -F"=" '/1.flatness/ {flatness_1 += $2} END {print flatness_1/'"$frame_count"'}' "$output_file")
 
                 # Parses kurtosis mean value
-                kurtosis_mean=$(echo "$spectral_stats" | awk -F"=" '/1.kurtosis/ {kurtosis_1 += $2} END {print kurtosis_1/'"$frame_count"'}' "$output_file")
+                kurtosis_mean=$(awk -F"=" '/1.kurtosis/ {kurtosis_1 += $2} END {print kurtosis_1/'"$frame_count"'}' "$output_file")
 
                 # Parses entropy mean value
-                entropy_mean=$(echo "$spectral_stats" | awk -F"=" '/1.entropy/ {entropy_1 += $2} END {print entropy_1/'"$frame_count"'}' "$output_file")
+                entropy_mean=$(awk -F"=" '/1.entropy/ {entropy_1 += $2} END {print entropy_1/'"$frame_count"'}' "$output_file")
 
                 # Parses crest mean value
-                crest_mean=$(echo "$spectral_stats" | awk -F"=" '/1.crest/ {crest_1 += $2} END {print crest_1/'"$frame_count"'}' "$output_file")
+                crest_mean=$(awk -F"=" '/1.crest/ {crest_1 += $2} END {print crest_1/'"$frame_count"'}' "$output_file")
 
                 # Parses flux mean value
-                flux_mean=$(echo "$spectral_stats" | awk -F"=" '/1.flux/ {flux_1 += $2} END {print flux_1/'"$frame_count"'}' "$output_file")
+                flux_mean=$(awk -F"=" '/1.flux/ {flux_1 += $2} END {print flux_1/'"$frame_count"'}' "$output_file")
 
                 # Parses slope mean value
-                slope_mean=$(echo "$spectral_stats" | awk -F"=" '/1.slope/ {slope_1 += $2} END {print (slope_1/'"$frame_count"')*-1000}' "$output_file")
+                slope_mean=$(awk -F"=" '/1.slope/ {slope_1 += $2} END {print (slope_1/'"$frame_count"')*-1000}' "$output_file")
 
                 # Parses rolloff mean value
-                rolloff_mean=$(echo "$spectral_stats" | awk -F"=" '/1.rolloff/ {rolloff_1 += $2} END {print (rolloff_1/'"$frame_count"')/20000}' "$output_file")
+                rolloff_mean=$(awk -F"=" '/1.rolloff/ {rolloff_1 += $2} END {print (rolloff_1/'"$frame_count"')/20000}' "$output_file")
 
                 # Check if analysis was successful, if not ignore file
-                if [ -z "$centroid_mean" ] || [ -z "$spread_mean" ] || [ -z "$slope_mean" ] || [ -z "$mean_volume" ]; then
+                if [ -z "$spread_mean" ] || [ -z "$mean_volume" ]; then
                     echo "Data not extracted correctly, ignoring file: $file"
                 else
                     # Create the JSON output and write it to the output folder
