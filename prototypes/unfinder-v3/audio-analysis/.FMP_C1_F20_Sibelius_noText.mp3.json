@@ -1,0 +1,67 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "22050",
+            "channels": 1,
+            "channel_layout": "mono",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 610475712,
+            "duration": "43.259333",
+            "bit_rate": "48000",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Code/Patches/Max/Externals/airPnP-master/MIR/FMP-Notebook/data/C1/FMP_C1_F20_Sibelius_noText.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.000000",
+        "duration": "43.259333",
+        "size": "265723",
+        "bit_rate": "49140",
+        "probe_score": 51,
+        "tags": {
+            "genre": "Blues",
+            "id3v2_priv.XMP": "<?xpacket begin=\"\\xef\\xbb\\xbf\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>\\x0a<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        \">\\x0a <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\\x0a  <rdf:Description rdf:about=\"\"\\x0a    xmlns:xmpDM=\"http://ns.adobe.com/xmp/1.0/DynamicMedia/\"\\x0a    xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\"\\x0a    xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\"\\x0a    xmlns:stEvt=\"http://ns.adobe.com/xap/1.0/sType/ResourceEvent#\"\\x0a    xmlns:stRef=\"http://ns.adobe.com/xap/1.0/sType/ResourceRef#\"\\x0a    xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\\x0a   xmp:MetadataDate=\"2019-08-08T14:24:17+02:00\"\\x0a   xmp:ModifyDate=\"2019-08-08T14:24:17+02:00\"\\x0a   xmpMM:InstanceID=\"xmp.iid:9F5FB757D7B9E911A1DEE24E59FBA0FD\"\\x0a   xmpMM:DocumentID=\"xmp.did:9F5FB757D7B9E911A1DEE24E59FBA0FD\"\\x0a   xmpMM:OriginalDocumentID=\"xmp.did:9E5FB757D7B9E911A1DEE24E59FBA0FD\"\\x0a   dc:format=\"audio/mpeg\">\\x0a   <xmpDM:Tracks>\\x0a    <rdf:Bag>\\x0a     <rdf:li\\x0a      xmpDM:trackName=\"CuePoint Markers\"\\x0a      xmpDM:trackType=\"Cue\"\\x0a      xmpDM:frameRate=\"f22050\"/>\\x0a     <rdf:li\\x0a      xmpDM:trackName=\"Subclip Markers\"\\x0a      xmpDM:trackType=\"InOut\"\\x0a      xmpDM:frameRate=\"f22050\"/>\\x0a    </rdf:Bag>\\x0a   </xmpDM:Tracks>\\x0a   <xmpMM:History>\\x0a    <rdf:Seq>\\x0a     <rdf:li\\x0a      stEvt:action=\"saved\"\\x0a      stEvt:instanceID=\"xmp.iid:9E5FB757D7B9E911A1DEE24E59FBA0FD\"\\x0a      stEvt:when=\"2019-08-08T14:24:17+02:00\"\\x0a      stEvt:softwareAgent=\"Adobe Audition CS6 (Windows)\"\\x0a      stEvt:changed=\"/metadata\"/>\\x0a     <rdf:li\\x0a      stEvt:action=\"saved\"\\x0a      stEvt:instanceID=\"xmp.iid:9F5FB757D7B9E911A1DEE24E59FBA0FD\"\\x0a      stEvt:when=\"2019-08-08T14:24:17+02:00\"\\x0a      stEvt:softwareAgent=\"Adobe Audition CS6 (Windows)\"\\x0a      stEvt:changed=\"/\"/>\\x0a    </rdf:Seq>\\x0a   </xmpMM:History>\\x0a   <xmpMM:DerivedFrom\\x0a    stRef:instanceID=\"xmp.iid:9E5FB757D7B9E911A1DEE24E59FBA0FD\"\\x0a    stRef:documentID=\"xmp.did:9E5FB757D7B9E911A1DEE24E59FBA0FD\"\\x0a    stRef:originalDocumentID=\"xmp.did:9E5FB757D7B9E911A1DEE24E59FBA0FD\"/>\\x0a  </rdf:Description>\\x0a </rdf:RDF>\\x0a</x:xmpmeta>\\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                           \\x0a<?xpacket end=\"w\"?>\\x00"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Code/Patches/Max/Externals/airPnP-master/MIR/FMP-Notebook/data/C1/FMP_C1_F20_Sibelius_noText.mp3",
+                        "analysis": [ 0.142343, 3.46671, 0.190533, 23.7764, 0.29554, 1075.64, 0.0412337, 0.0633119, 0.121111, 0.197917 ]
+                    }

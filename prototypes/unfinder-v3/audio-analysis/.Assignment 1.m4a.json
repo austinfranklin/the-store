@@ -1,0 +1,79 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 2112,
+            "start_time": "0.047891",
+            "duration_ts": 1502208,
+            "duration": "34.063673",
+            "bit_rate": "47433",
+            "nb_frames": "1467",
+            "extradata_size": 2,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "creation_time": "2021-01-03T00:34:33.000000Z",
+                "language": "eng",
+                "vendor_id": "[0][0][0][0]"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Code/ChucK/Assignment 1.m4a",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.047891",
+        "duration": "34.063673",
+        "size": "210160",
+        "bit_rate": "49356",
+        "probe_score": 100,
+        "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "0",
+            "compatible_brands": "M4A mp42isom",
+            "creation_time": "2021-01-03T00:34:33.000000Z",
+            "iTunSMPB": " 00000000 00000840 000002B8 000000000016E108 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Code/ChucK/Assignment 1.m4a",
+                        "analysis": [ 0.294421, 3.11192, 0.0869962, 13.5213, 0.589942, 430.314, 0.0674961, 0.139555, 0.11951, 0.157292 ]
+                    }

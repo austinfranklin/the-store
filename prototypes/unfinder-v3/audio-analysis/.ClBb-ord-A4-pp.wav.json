@@ -1,0 +1,59 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 277879,
+            "duration": "6.301111",
+            "bit_rate": "705600",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Max 8/Packages/orchidea/db/TinySOL/Winds/ClBb/ordinario/ClBb-ord-A4-pp.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "6.301111",
+        "size": "555802",
+        "bit_rate": "705655",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Max 8/Packages/orchidea/db/TinySOL/Winds/ClBb/ordinario/ClBb-ord-A4-pp.wav",
+                        "analysis": [ 0.232529, 6.01378, 0.0741278, 43.8171, 0.0992047, 6348.38, 0.024218, 0.0434961, 0.0426666, 0.101042 ]
+                    }

@@ -1,0 +1,68 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 2233636,
+            "duration": "50.649342",
+            "bit_rate": "2116800",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/FL_VOXPH_VOICEMAIL_FULL_DRY.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "50.649342",
+        "size": "13420874",
+        "bit_rate": "2119810",
+        "probe_score": 99,
+        "tags": {
+            "encoded_by": "Logic Pro X",
+            "date": "2021-05-05",
+            "creation_time": "13:44:00",
+            "time_reference": "158760000",
+            "umid": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004C007D23",
+            "coding_history": ""
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/FL_VOXPH_VOICEMAIL_FULL_DRY.wav",
+                        "analysis": [ 0.367455, 2.13858, 0.266091, 13.6251, 1.13795, 248.382, 0.0464903, 0.164703, 0.378893, 0.188542 ]
+                    }

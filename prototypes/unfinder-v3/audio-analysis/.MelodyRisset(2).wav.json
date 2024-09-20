@@ -1,0 +1,64 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_f32le",
+            "codec_long_name": "PCM 32-bit floating point little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[3][0][0][0]",
+            "codec_tag": "0x0003",
+            "sample_fmt": "flt",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 32,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 816286,
+            "duration": "18.509887",
+            "bit_rate": "2822400",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Studio One/Songs/2021-03-27 Austin Franklin/Bounces/MelodyRisset(2).wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "18.509887",
+        "size": "6545696",
+        "bit_rate": "2829059",
+        "probe_score": 99,
+        "tags": {
+            "date": "2021-03-27",
+            "creation_time": "11-23-33",
+            "time_reference": "0"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Studio One/Songs/2021-03-27 Austin Franklin/Bounces/MelodyRisset(2).wav",
+                        "analysis": [ 0.278174, 3.18051, 0.172039, 18.1686, 0.090772, 296.873, 0.00608084, 0.0137776, 0.194355, 0.348958 ]
+                    }

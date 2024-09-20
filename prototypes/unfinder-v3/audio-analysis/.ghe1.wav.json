@@ -1,0 +1,62 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 105435,
+            "duration": "2.390816",
+            "bit_rate": "705600",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Code/Patches/Max/MUS 4745/0909-patches/ghe1.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "2.390816",
+        "size": "211026",
+        "bit_rate": "706122",
+        "probe_score": 99,
+        "tags": {
+            "encoder": "File created by GoldWave.  GoldWave copyright (C) Chris Craig;Sonic Foundry Sound Forge 5.0"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Code/Patches/Max/MUS 4745/0909-patches/ghe1.wav",
+                        "analysis": [ 0.40404, 3.57763, 0.175579, 17.938, 0.209619, 3179.57, 0.0502776, 0.0533569, 0.10831, 0.179167 ]
+                    }

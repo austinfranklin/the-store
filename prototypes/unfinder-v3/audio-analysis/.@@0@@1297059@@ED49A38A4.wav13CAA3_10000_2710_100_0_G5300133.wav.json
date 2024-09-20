@@ -1,0 +1,59 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_f32le",
+            "codec_long_name": "PCM 32-bit floating point little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[3][0][0][0]",
+            "codec_tag": "0x0003",
+            "sample_fmt": "flt",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 32,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 1297059,
+            "duration": "29.411769",
+            "bit_rate": "2822400",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Studio One/Songs/Ambient/Cache/Audio/@@0@@1297059@@ED49A38A4.wav13CAA3_10000_2710_100_0_G5300133.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "29.411769",
+        "size": "10376564",
+        "bit_rate": "2822424",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Studio One/Songs/Ambient/Cache/Audio/@@0@@1297059@@ED49A38A4.wav13CAA3_10000_2710_100_0_G5300133.wav",
+                        "analysis": [ 0.20213, 5.27227, 0.136562, 39.8981, 0.337332, 624.888, 0.0338461, 0.082989, 0.0942448, 0.188542 ]
+                    }

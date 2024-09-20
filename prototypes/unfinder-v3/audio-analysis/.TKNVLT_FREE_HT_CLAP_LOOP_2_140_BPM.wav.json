@@ -1,0 +1,118 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 604800,
+            "duration": "13.714286",
+            "bit_rate": "1411200",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        },
+        {
+            "index": 1,
+            "codec_name": "png",
+            "codec_long_name": "PNG (Portable Network Graphics) image",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 200,
+            "height": 200,
+            "coded_width": 200,
+            "coded_height": 200,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 0,
+            "pix_fmt": "pal8",
+            "level": -99,
+            "color_range": "pc",
+            "color_space": "gbr",
+            "refs": 1,
+            "r_frame_rate": "90000/1",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/90000",
+            "duration_ts": 1234286,
+            "duration": "13.714289",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 1,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "comment": "Cover (front)"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/TKNVLT_FREE_HT_CLAP_LOOP_2_140_BPM.wav",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "13.714286",
+        "size": "2421880",
+        "bit_rate": "1412763",
+        "probe_score": 99,
+        "tags": {
+            "track": "1",
+            "album": "TKNVLT - Free Hardtechno Pack 1",
+            "album_artist": "Teknovault",
+            "composer": "Teknovault",
+            "genre": "Hard Techno",
+            "title": "TKNVLT - Free Hardtechno Pack 1",
+            "artist": "Teknovault",
+            "comment": "www.teknovault.com",
+            "date": "2023"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/TKNVLT_FREE_HT_CLAP_LOOP_2_140_BPM.wav",
+                        "analysis": [ 0.193952, 1.5409, 0.110585, 7.78398, 0.827733, 44.499, 0.0189434, 0.145683, 0.223116, 0.228125 ]
+                    }

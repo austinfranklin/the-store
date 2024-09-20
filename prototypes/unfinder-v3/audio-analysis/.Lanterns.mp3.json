@@ -1,0 +1,68 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 10971662814,
+            "duration": "777.470438",
+            "bit_rate": "128000",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Submissions/Austin_Franklin_Lawson-May/Lanterns.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.000000",
+        "duration": "777.470438",
+        "size": "12440625",
+        "bit_rate": "128011",
+        "probe_score": 51,
+        "tags": {
+            "comment": "Created with Sibelius.",
+            "track": "1",
+            "date": "2020"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Submissions/Austin_Franklin_Lawson-May/Lanterns.mp3",
+                        "analysis": [ 0.217526, 2.09961, 0.144536, 10.4343, 0.163577, 275.078, 0.00462294, 0.0254211, 0.205477, 0.351042 ]
+                    }

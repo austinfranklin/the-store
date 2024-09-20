@@ -1,0 +1,65 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 1,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 5662717,
+            "duration": "117.973271",
+            "bit_rate": "1152000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "Desktop/Classical-Album/Bloom/misc./Bloom Recording/Media/Ribbon(14).wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "117.973271",
+        "size": "16988885",
+        "bit_rate": "1152049",
+        "probe_score": 99,
+        "tags": {
+            "date": "2021-08-18",
+            "creation_time": "23-13-07",
+            "time_reference": "139069438"
+        }
+    }
+},
+                        "path": "Desktop/Classical-Album/Bloom/misc./Bloom Recording/Media/Ribbon(14).wav",
+                        "analysis": [ 0.317305, 3.53458, 0.288987, 19.5255, 0.0422101, 764.207, 0.0027525, 0.00701794, 0.170352, 0.373958 ]
+                    }

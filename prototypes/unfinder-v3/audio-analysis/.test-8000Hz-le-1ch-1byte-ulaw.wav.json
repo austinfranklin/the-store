@@ -1,0 +1,59 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_mulaw",
+            "codec_long_name": "PCM mu-law / G.711 mu-law",
+            "codec_type": "audio",
+            "codec_tag_string": "[7][0][0][0]",
+            "codec_tag": "0x0007",
+            "sample_fmt": "s16",
+            "sample_rate": "8000",
+            "channels": 1,
+            "bits_per_sample": 8,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/8000",
+            "duration_ts": 9,
+            "duration": "0.001125",
+            "bit_rate": "64000",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/opt/anaconda3/lib/python3.8/site-packages/scipy/io/tests/data/test-8000Hz-le-1ch-1byte-ulaw.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "0.001125",
+        "size": "70",
+        "bit_rate": "497777",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/opt/anaconda3/lib/python3.8/site-packages/scipy/io/tests/data/test-8000Hz-le-1ch-1byte-ulaw.wav",
+                        "analysis": [ 0.0785846, 1.48484, 0.512649, 5.09738, 0.629612, 2.90546, 0.00698017, 0.0478277, 0.0862795, 0.046875 ]
+                    }

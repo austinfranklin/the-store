@@ -1,0 +1,88 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 2112,
+            "start_time": "0.047891",
+            "duration_ts": 24070144,
+            "duration": "545.808254",
+            "bit_rate": "261451",
+            "nb_frames": "23506",
+            "extradata_size": 2,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "creation_time": "2019-02-11T17:04:26.000000Z",
+                "language": "und",
+                "vendor_id": "[0][0][0][0]"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Flash Drive/Complete Works/Recordings/05 The Seventh Wave for string orchestra 1.m4a",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.047891",
+        "duration": "545.808254",
+        "size": "17940201",
+        "bit_rate": "262952",
+        "probe_score": 100,
+        "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "0",
+            "compatible_brands": "M4A mp42isom",
+            "creation_time": "2019-02-11T17:04:26.000000Z",
+            "title": "The Seventh Wave for string orchestra",
+            "track": "5/7",
+            "compilation": "0",
+            "gapless_playback": "0",
+            "encoder": "iTunes 12.5.4.42",
+            "iTunSMPB": " 00000000 00000840 0000025C 00000000016F3D64 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000",
+            "Encoding Params": "vers",
+            "iTunNORM": " 0000009B 00000097 00002EEE 00000C87 0005A2B8 00063591 00004ACE 00004C95 0007F717 000635C0",
+            "iTunes_CDDB_1": "5F0CE607+247856+7+150+17923+46239+72245+91452+132383+191021",
+            "iTunes_CDDB_TrackNumber": "5"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Flash Drive/Complete Works/Recordings/05 The Seventh Wave for string orchestra 1.m4a",
+                        "analysis": [ 0.274878, 3.23009, 0.135275, 17.3472, 0.29416, 338.124, 0.0131974, 0.0505392, 0.194116, 0.279167 ]
+                    }

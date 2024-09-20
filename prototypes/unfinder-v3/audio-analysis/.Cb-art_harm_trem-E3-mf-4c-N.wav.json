@@ -1,0 +1,61 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "44100",
+            "channels": 1,
+            "channel_layout": "mono",
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 264947,
+            "duration": "6.007868",
+            "bit_rate": "1058400",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Max 8/Packages/orchidea/db/_OrchideaSOL2020_release/OrchideaSOL2020/Strings/Contrabass/artificial_harmonic_tremolo/Cb-art_harm_trem-E3-mf-4c-N.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "6.007868",
+        "size": "794922",
+        "bit_rate": "1058507",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Max 8/Packages/orchidea/db/_OrchideaSOL2020_release/OrchideaSOL2020/Strings/Contrabass/artificial_harmonic_tremolo/Cb-art_harm_trem-E3-mf-4c-N.wav",
+                        "analysis": [ 0.319162, 4.18677, 0.371428, 24.8794, 0.0445184, 227.258, 0.00205128, 0.00775692, 0.157545, 0.434375 ]
+                    }

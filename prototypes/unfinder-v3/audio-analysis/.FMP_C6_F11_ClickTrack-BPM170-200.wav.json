@@ -1,0 +1,59 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "22050",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/22050",
+            "duration_ts": 467246,
+            "duration": "21.190295",
+            "bit_rate": "352800",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Code/Patches/Max/Externals/airPnP-master/MIR/FMP-Notebook/data/C6/FMP_C6_F11_ClickTrack-BPM170-200.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "21.190295",
+        "size": "942544",
+        "bit_rate": "355839",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Code/Patches/Max/Externals/airPnP-master/MIR/FMP-Notebook/data/C6/FMP_C6_F11_ClickTrack-BPM170-200.wav",
+                        "analysis": [ 0.118284, 4.40159, 0.101843, 26.7462, 0.722124, 45.9892, 0.0091677, 0.127203, 0.0723126, 0.245833 ]
+                    }

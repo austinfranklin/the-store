@@ -1,0 +1,118 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 2094945363,
+            "duration": "148.451344",
+            "bit_rate": "256000",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        },
+        {
+            "index": 1,
+            "codec_name": "mjpeg",
+            "codec_long_name": "Motion JPEG",
+            "profile": "Baseline",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 500,
+            "height": 500,
+            "coded_width": 500,
+            "coded_height": 500,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 0,
+            "pix_fmt": "yuvj420p",
+            "level": -99,
+            "color_range": "pc",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "refs": 1,
+            "r_frame_rate": "90000/1",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/90000",
+            "duration_ts": 13360621,
+            "duration": "148.451344",
+            "bits_per_raw_sample": "8",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 1,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "comment": "Cover (front)"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Library/Application Support/Wondershare Filmora9/ResourceCategory/DefaultPackage/6_Living_Pulse_Go_Goes/Data/Living Pulse - Go Goes.mp3",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.000000",
+        "duration": "148.451344",
+        "size": "4786450",
+        "bit_rate": "257940",
+        "probe_score": 51,
+        "tags": {
+            "genre": "Blues",
+            "id3v2_priv.XMP": "<?xpacket begin=\"\\xef\\xbb\\xbf\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>\\x0a<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        \">\\x0a <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\\x0a  <rdf:Description rdf:about=\"\"\\x0a    xmlns:bext=\"http://ns.adobe.com/bwf/bext/1.0/\"\\x0a    xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\"\\x0a    xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\"\\x0a    xmlns:stEvt=\"http://ns.adobe.com/xap/1.0/sType/ResourceEvent#\"\\x0a    xmlns:stRef=\"http://ns.adobe.com/xap/1.0/sType/ResourceRef#\"\\x0a    xmlns:xmpDM=\"http://ns.adobe.com/xmp/1.0/DynamicMedia/\"\\x0a    xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\\x0a   bext:originator=\"Pro Tools\"\\x0a   bext:originatorReference=\"8TH2EinF5ThaaaGk\"\\x0a   bext:originationDate=\"2015-11-2\"\\x0a   bext:originationTime=\"10:55:23\"\\x0a   bext:timeReference=\"131700681\"\\x0a   bext:version=\"0\"\\x0a   xmp:MetadataDate=\"2017-03-31T18:02:54+08:00\"\\x0a   xmp:ModifyDate=\"2017-03-31T18:02:54+08:00\"\\x0a   xmpMM:InstanceID=\"xmp.iid:394FAA35F915E711A8A5C4341061EEDE\"\\x0a   xmpMM:DocumentID=\"xmp.did:394FAA35F915E711A8A5C4341061EEDE\"\\x0a   xmpMM:OriginalDocumentID=\"xmp.did:AF3939DAF815E711A8A5C4341061EEDE\"\\x0a   dc:format=\"audio/mpeg\">\\x0a   <xmpMM:History>\\x0a    <rdf:Seq>\\x0a     <rdf:li\\x0a      stEvt:action=\"saved\"\\x0a      stEvt:instanceID=\"xmp.iid:AF3939DAF815E711A8A5C4341061EEDE\"\\x0a      stEvt:when=\"2017-03-31T18:02:39+08:00\"\\x0a      stEvt:softwareAgent=\"Adobe Audition CS6 (Windows)\"\\x0a      stEvt:changed=\"/metadata\"/>\\x0a     <rdf:li\\x0a      stEvt:action=\"saved\"\\x0a      stEvt:instanceID=\"xmp.iid:B03939DAF815E711A8A5C4341061EEDE\"\\x0a      stEvt:when=\"2017-03-31T18:02:54+08:00\"\\x0a      stEvt:softwareAgent=\"Adobe Audition CS6 (Windows)\"\\x0a      stEvt:changed=\"/metadata\"/>\\x0a     <rdf:li\\x0a      stEvt:action=\"saved\"\\x0a      stEvt:instanceID=\"xmp.iid:394FAA35F915E711A8A5C4341061EEDE\"\\x0a      stEvt:when=\"2017-03-31T18:02:54+08:00\"\\x0a      stEvt:softwareAgent=\"Adobe Audition CS6 (Windows)\"\\x0a      stEvt:changed=\"/\"/>\\x0a    </rdf:Seq>\\x0a   </xmpMM:History>\\x0a   <xmpMM:DerivedFrom\\x0a    stRef:instanceID=\"xmp.iid:B03939DAF815E711A8A5C4341061EEDE\"\\x0a    stRef:documentID=\"xmp.did:AF3939DAF815E711A8A5C4341061EEDE\"\\x0a    stRef:originalDocumentID=\"xmp.did:AF3939DAF815E711A8A5C4341061EEDE\"/>\\x0a   <xmpDM:Tracks>\\x0a    <rdf:Bag>\\x0a     <rdf:li>\\x0a      <rdf:Description\\x0a       xmpDM:trackName=\"CuePoint Markers\"\\x0a       xmpDM:trackType=\"Cue\"\\x0a       xmpDM:frameRate=\"f44100\">\\x0a      <xmpDM:markers>\\x0a       <rdf:Seq>\\x0a        <rdf:li\\x0a         xmpDM:startTime=\"0\"\\x0a         xmpDM:duration=\"6551937\"\\x0a         xmpDM:name=\"Go Goes - Master F_01\"/>\\x0a       </rdf:Seq>\\x0a      </xmpDM:markers>\\x0a      </rdf:Description>\\x0a     </rdf:li>\\x0a     <rdf:li\\x0a      xmpDM:trackName=\"Subclip Markers\"\\x0a      xmpDM:trackType=\"InOut\"\\x0a      xmpDM:frameRate=\"f44100\"/>\\x0a    </rdf:Bag>\\x0a   </xmpDM:Tracks>\\x0a  </rdf:Description>\\x0a </rdf:RDF>\\x0a</x:xmpmeta>\\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                                                                                                    \\x0a                           \\x0a<?xpacket end=\"w\"?>\\x00"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Library/Application Support/Wondershare Filmora9/ResourceCategory/DefaultPackage/6_Living_Pulse_Go_Goes/Data/Living Pulse - Go Goes.mp3",
+                        "analysis": [ 0.250156, 2.48186, 0.0829445, 10.8819, 2.1417, 138.899, 0.0756529, 0.489572, 0.197425, 0.113542 ]
+                    }

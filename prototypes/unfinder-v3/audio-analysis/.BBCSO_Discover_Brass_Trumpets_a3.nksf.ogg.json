@@ -1,0 +1,64 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "vorbis",
+            "codec_long_name": "Vorbis",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 266752,
+            "duration": "5.557333",
+            "bit_rate": "80000",
+            "extradata_size": 3578,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Spitfire/Spitfire Audio - BBC Symphony Orchestra/NKS/.previews/BBCSO_Discover_Brass_Trumpets_a3.nksf.ogg",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "ogg",
+        "format_long_name": "Ogg",
+        "start_time": "0.000000",
+        "duration": "5.557333",
+        "size": "51780",
+        "bit_rate": "74539",
+        "probe_score": 100
+    }
+},
+                        "path": "/Users/austinfranklin/Spitfire/Spitfire Audio - BBC Symphony Orchestra/NKS/.previews/BBCSO_Discover_Brass_Trumpets_a3.nksf.ogg",
+                        "analysis": [ 0.154523, 4.58513, 0.132569, 36.2918, 0.110881, 900.404, 0.0165041, 0.0254465, 0.130384, 0.242708 ]
+                    }

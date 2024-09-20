@@ -1,0 +1,60 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "44100",
+            "channels": 1,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 375619,
+            "duration": "8.517438",
+            "bit_rate": "1058400",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Max 8/Packages/orchidea/db/_OrchideaSOL2020_release/OrchideaSOL2020/Strings/Viola+sordina/tremolo/Va+S-trem-C4-mf-3c-T25u.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "8.517438",
+        "size": "1126902",
+        "bit_rate": "1058442",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Max 8/Packages/orchidea/db/_OrchideaSOL2020_release/OrchideaSOL2020/Strings/Viola+sordina/tremolo/Va+S-trem-C4-mf-3c-T25u.wav",
+                        "analysis": [ 0.325678, 3.59401, 0.246095, 17.8491, 0.0534572, 393.762, 0.00242052, 0.0083913, 0.175932, 0.425 ]
+                    }

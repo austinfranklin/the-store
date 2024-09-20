@@ -1,0 +1,66 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 2151424,
+            "duration": "48.785125",
+            "bit_rate": "2116800",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Flash Drive/Bloom/Samples for Piece/Delay w:Reverseness Compound x3.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "48.785125",
+        "size": "12909280",
+        "bit_rate": "2116920",
+        "probe_score": 99,
+        "tags": {
+            "encoded_by": "REAPER",
+            "date": "2019-02-12",
+            "creation_time": "10-40-11",
+            "time_reference": "66154050"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Flash Drive/Bloom/Samples for Piece/Delay w:Reverseness Compound x3.wav",
+                        "analysis": [ 0.152121, 2.81656, 0.084294, 17.7494, 0.49069, 192.008, 0.0172223, 0.0967052, 0.13623, 0.235417 ]
+                    }

@@ -1,0 +1,72 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 324870,
+            "start_time": "0.023021",
+            "duration_ts": 6607464192,
+            "duration": "468.216000",
+            "bit_rate": "320000",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "encoder": "LAME3.100"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Austin Franklin/Unknown Album/She's So Heavy.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.023021",
+        "duration": "468.216000",
+        "size": "18729702",
+        "bit_rate": "320018",
+        "probe_score": 51,
+        "tags": {
+            "artist": "Austin Franklin",
+            "encoder": "Studio One 6.0.0.89694",
+            "TBPM": "140",
+            "date": "2023"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Austin Franklin/Unknown Album/She's So Heavy.mp3",
+                        "analysis": [ 0.329934, 2.87429, 0.105905, 13.6037, 0.900083, 275.594, 0.0355161, 0.16879, 0.229918, 0.201042 ]
+                    }

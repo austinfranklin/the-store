@@ -1,0 +1,59 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_f32le",
+            "codec_long_name": "PCM 32-bit floating point little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[3][0][0][0]",
+            "codec_tag": "0x0003",
+            "sample_fmt": "flt",
+            "sample_rate": "44100",
+            "channels": 1,
+            "bits_per_sample": 32,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 264600,
+            "duration": "6.000000",
+            "bit_rate": "1411200",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/media/HIRT_help_media/rec_white.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "6.000000",
+        "size": "1058444",
+        "bit_rate": "1411258",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Max 8/Packages/HISSTools Impulse Response Toolbox (HIRT)/media/HIRT_help_media/rec_white.wav",
+                        "analysis": [ 0.212583, 4.54218, 0.0805167, 28.7732, 0.75673, 53.6668, 0.0249967, 0.166437, 0.0812364, 0.21875 ]
+                    }

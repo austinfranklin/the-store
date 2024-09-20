@@ -1,0 +1,65 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 18574019,
+            "duration": "421.179569",
+            "bit_rate": "2116800",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Classical-Album/Lanterns/Blue Night Rough.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "421.179569",
+        "size": "111444848",
+        "bit_rate": "2116813",
+        "probe_score": 99,
+        "tags": {
+            "date": "2022-11-12",
+            "creation_time": "20-04-49",
+            "time_reference": "91474865"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Classical-Album/Lanterns/Blue Night Rough.wav",
+                        "analysis": [ 0.506252, 2.07011, 0.274464, 8.44012, 0.395465, 321.031, 0.0190616, 0.0648214, 0.437938, 0.225 ]
+                    }

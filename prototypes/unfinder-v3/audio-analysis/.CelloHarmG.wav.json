@@ -1,0 +1,64 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 326410,
+            "duration": "7.401587",
+            "bit_rate": "1411200",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Austin Music/Bloom/misc./Eduard Samples/CelloHarmG.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "7.401587",
+        "size": "1306374",
+        "bit_rate": "1411993",
+        "probe_score": 99,
+        "tags": {
+            "date": "2021-03-08",
+            "creation_time": "19-40-20",
+            "time_reference": "4630290"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Austin Music/Bloom/misc./Eduard Samples/CelloHarmG.wav",
+                        "analysis": [ 0.425458, 1.82417, 0.387853, 7.21638, 0.0762747, 711.046, 0.00394726, 0.0114135, 0.422125, 0.333333 ]
+                    }

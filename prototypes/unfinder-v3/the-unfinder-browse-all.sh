@@ -28,8 +28,10 @@ output_file=$(mktemp)
 shopt -s nocaseglob
 shopt -s nullglob
 
-# Loop through all directories and files. Change this to pick new directory
-for dir in "$HOME"; do
+# Loop through all directories and files
+# on my 500 GB Macbook! Woah!
+for dir in "$HOME/Desktop/sample-vids"; do
+
     # Loop through each file in each subdirectory or directly on Desktop
     find "$dir" -type f | while read -r file; do
         extension="${file##*.}"  # Extract the extension
@@ -39,7 +41,7 @@ for dir in "$HOME"; do
         echo "Processing: $file"  # Log the file being processed
 
         # Check if the file has a valid audio extension
-        if [[ "$extension" =~ ^(wav|mp3|aiff|aif|m4a|flac|ogg)$ ]]; then
+        if [[ "$extension" =~ ^(wav|mp3|aiff|aif|m4a|flac|ogg|mov|mp4|flv|mkv)$ ]]; then
             echo "Valid audio file: $file"
 
             # Check if the file has already been analyzed

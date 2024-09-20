@@ -1,0 +1,59 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 133839,
+            "duration": "3.034898",
+            "bit_rate": "705600",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Max 8/Packages/orchidea/db/TinySOL/Brass/BTb/ordinario/BTb-ord-F2-pp.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "3.034898",
+        "size": "267722",
+        "bit_rate": "705715",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Max 8/Packages/orchidea/db/TinySOL/Brass/BTb/ordinario/BTb-ord-F2-pp.wav",
+                        "analysis": [ 0.102936, 14.0119, 0.0213638, 225.627, 0.173911, 1324.24, 0.0217842, 0.0524502, 0.0222659, 0.184375 ]
+                    }

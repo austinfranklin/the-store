@@ -1,0 +1,59 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_f32le",
+            "codec_long_name": "PCM 32-bit floating point little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[3][0][0][0]",
+            "codec_tag": "0x0003",
+            "sample_fmt": "flt",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 32,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 3723614,
+            "duration": "84.435692",
+            "bit_rate": "2822400",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Austin Music/SNAFU/Cache/Audio/@@0@@3723614@@ED49A38ARisset fast then slow(2).wav39DED8_10000_23741BD_100_0.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "84.435692",
+        "size": "29789004",
+        "bit_rate": "2822408",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Austin Music/SNAFU/Cache/Audio/@@0@@3723614@@ED49A38ARisset fast then slow(2).wav39DED8_10000_23741BD_100_0.wav",
+                        "analysis": [ 0.271701, 3.90073, 0.193297, 28.5354, 0.260241, 986.793, 0.00907019, 0.0350269, 0.193457, 0.302083 ]
+                    }

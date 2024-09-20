@@ -1,0 +1,63 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16be",
+            "codec_long_name": "PCM signed 16-bit big-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "s16",
+            "sample_rate": "48000",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 34790912,
+            "duration": "724.810667",
+            "bit_rate": "1536000",
+            "nb_frames": "34790912",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Austin Music/Reconstruct/extra files/Take7.aif",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "aiff",
+        "format_long_name": "Audio IFF",
+        "start_time": "0.000000",
+        "duration": "724.810667",
+        "size": "139163702",
+        "bit_rate": "1536000",
+        "probe_score": 100
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Austin Music/Reconstruct/extra files/Take7.aif",
+                        "analysis": [ 0.638773, 0.719999, 0.58709, 2.91178, 0.21495, 161.594, 0.00345948, 0.00729479, 0.799657, 0.398958 ]
+                    }

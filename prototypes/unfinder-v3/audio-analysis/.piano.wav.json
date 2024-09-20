@@ -1,0 +1,68 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 1905120,
+            "duration": "43.200000",
+            "bit_rate": "2116800",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Postdoc/prototypes/Flute-to-Text-to-Speech/piano.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "43.200000",
+        "size": "11431448",
+        "bit_rate": "2116934",
+        "probe_score": 99,
+        "tags": {
+            "encoded_by": "Logic Pro X",
+            "date": "2018-05-06",
+            "creation_time": "12:58:22",
+            "time_reference": "158760000",
+            "umid": "0x00000000D24BFA59C58500BD601F0352FF7F0000C0B46D86F97F000020A10700000000003642950E01000000D24BFA59C58500BDA0170352FF7F0000E50E1E8A",
+            "coding_history": ""
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Postdoc/prototypes/Flute-to-Text-to-Speech/piano.wav",
+                        "analysis": [ 0.0945481, 10.992, 0.0257248, 209.417, 0.274208, 900.712, 0.0321039, 0.0683532, 0.0535253, 0.205208 ]
+                    }

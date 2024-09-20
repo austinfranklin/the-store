@@ -1,0 +1,64 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_f32le",
+            "codec_long_name": "PCM 32-bit floating point little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[3][0][0][0]",
+            "codec_tag": "0x0003",
+            "sample_fmt": "flt",
+            "sample_rate": "48000",
+            "channels": 1,
+            "bits_per_sample": 32,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 56396,
+            "duration": "1.174917",
+            "bit_rate": "1536000",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Studio One/Songs/Wiki Logo/Bounces/Typerwriter Reset.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "1.174917",
+        "size": "226318",
+        "bit_rate": "1540997",
+        "probe_score": 99,
+        "tags": {
+            "date": "2022-10-02",
+            "creation_time": "20-21-30",
+            "time_reference": "84860"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Studio One/Songs/Wiki Logo/Bounces/Typerwriter Reset.wav",
+                        "analysis": [ 0.574996, 0.254714, 0.722889, 2.40743, 0.485781, 9.27296, 0.00351471, 0.010409, 0.83507, 0.376042 ]
+                    }

@@ -1,0 +1,62 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_f32le",
+            "codec_long_name": "PCM 32-bit floating point little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[3][0][0][0]",
+            "codec_tag": "0x0003",
+            "sample_fmt": "flt",
+            "sample_rate": "44100",
+            "channels": 1,
+            "bits_per_sample": 32,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 7599,
+            "duration": "0.172313",
+            "bit_rate": "1411200",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Misc./Summer Stuff/SPLICE/_javascript/4_Thursday/0_splice.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "0.172313",
+        "size": "30506",
+        "bit_rate": "1416306",
+        "probe_score": 99,
+        "tags": {
+            "title": "A#3stacc"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Misc./Summer Stuff/SPLICE/_javascript/4_Thursday/0_splice.wav",
+                        "analysis": [ 0.308015, 1.83866, 0.177696, 6.83148, 1.02058, 44.0525, 0.025504, 0.146591, 0.324074, 0.230208 ]
+                    }

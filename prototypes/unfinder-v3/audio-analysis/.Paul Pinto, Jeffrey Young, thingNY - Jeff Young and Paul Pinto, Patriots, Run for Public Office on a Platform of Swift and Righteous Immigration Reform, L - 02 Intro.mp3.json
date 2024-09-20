@@ -1,0 +1,136 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 353600,
+            "start_time": "0.025057",
+            "duration_ts": 2282250240,
+            "duration": "161.724082",
+            "bit_rate": "261716",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "encoder": "LAME3.99r"
+            },
+            "side_data_list": [
+                {
+                    "side_data_type": "Replay Gain"
+                }
+            ]
+        },
+        {
+            "index": 1,
+            "codec_name": "mjpeg",
+            "codec_long_name": "Motion JPEG",
+            "profile": "Baseline",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 700,
+            "height": 700,
+            "coded_width": 700,
+            "coded_height": 700,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "1:1",
+            "pix_fmt": "yuvj444p",
+            "level": -99,
+            "color_range": "pc",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "refs": 1,
+            "r_frame_rate": "90000/1",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/90000",
+            "start_pts": 2255,
+            "start_time": "0.025056",
+            "duration_ts": 14555167,
+            "duration": "161.724078",
+            "bits_per_raw_sample": "8",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 1,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "title": "cover",
+                "comment": "Cover (front)"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Flash Drive/Complete Works/Reviews/Paul Pinto- Jeffrey Young- thingNY - Jeff Young and Paul Pinto- Patriots- Run for Public Office on a Platform of Swift and Righteous Immigration Reform- Lots of Jobs- and a Hea/Paul Pinto, Jeffrey Young, thingNY - Jeff Young and Paul Pinto, Patriots, Run for Public Office on a Platform of Swift and Righteous Immigration Reform, L - 02 Intro.mp3",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.025056",
+        "duration": "161.724082",
+        "size": "5370603",
+        "bit_rate": "265667",
+        "probe_score": 51,
+        "tags": {
+            "title": "Intro",
+            "artist": "Paul Pinto, Jeffrey Young, thingNY",
+            "track": "2",
+            "album": "Jeff Young and Paul Pinto, Patriots, Run for Public Office on a Platform of Swift and Righteous Immigration Reform, Lots of Jobs, and a Healthy Environment: an Opera by Paul Pinto and Jeffrey Young",
+            "album_artist": "Paul Pinto, Jeffrey Young, thingNY",
+            "comment": "Visit http://thingny.bandcamp.com",
+            "date": "2018"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Flash Drive/Complete Works/Reviews/Paul Pinto- Jeffrey Young- thingNY - Jeff Young and Paul Pinto- Patriots- Run for Public Office on a Platform of Swift and Righteous Immigration Reform- Lots of Jobs- and a Hea/Paul Pinto, Jeffrey Young, thingNY - Jeff Young and Paul Pinto, Patriots, Run for Public Office on a Platform of Swift and Righteous Immigration Reform, L - 02 Intro.mp3",
+                        "analysis": [ 0.315805, 2.36345, 0.152761, 9.90842, 1.56307, 321.531, 0.0608182, 0.292465, 0.250291, 0.147917 ]
+                    }

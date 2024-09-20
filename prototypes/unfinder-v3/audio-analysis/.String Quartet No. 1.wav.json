@@ -1,0 +1,65 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 39261029,
+            "duration": "890.272766",
+            "bit_rate": "2116800",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/String Quartet No. 1.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "890.272766",
+        "size": "235566908",
+        "bit_rate": "2116806",
+        "probe_score": 99,
+        "tags": {
+            "date": "2022-11-12",
+            "creation_time": "20-08-18",
+            "time_reference": "93464530"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/String Quartet No. 1.wav",
+                        "analysis": [ 0.342139, 2.40384, 0.166386, 10.9399, 0.523113, 313.212, 0.0241759, 0.0993223, 0.287419, 0.20625 ]
+                    }

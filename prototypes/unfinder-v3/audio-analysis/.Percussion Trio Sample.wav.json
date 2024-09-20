@@ -1,0 +1,64 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "duration_ts": 12387301,
+            "duration": "280.891179",
+            "bit_rate": "1411200",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Austin Music/The Theory of Motion/misc./Percussion Trio Sample.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "280.891179",
+        "size": "49549938",
+        "bit_rate": "1411220",
+        "probe_score": 99,
+        "tags": {
+            "date": "2022-04-29",
+            "creation_time": "12-03-01",
+            "time_reference": "12020400"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Austin Music/The Theory of Motion/misc./Percussion Trio Sample.wav",
+                        "analysis": [ 0.256534, 4.47379, 0.124332, 49.4448, 0.307642, 713.496, 0.025681, 0.0681107, 0.205732, 0.204167 ]
+                    }

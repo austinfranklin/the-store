@@ -1,0 +1,88 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 2112,
+            "start_time": "0.047891",
+            "duration_ts": 9157632,
+            "duration": "207.656054",
+            "bit_rate": "291198",
+            "nb_frames": "8943",
+            "extradata_size": 2,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "creation_time": "2022-04-28T10:35:42.000000Z",
+                "language": "und",
+                "vendor_id": "[0][0][0][0]"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/School/Classes/Spring 2022/MUS 7921/Theory Final Paper/Switched on Bach/Sinfonia to Cantata #29.m4a",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.047891",
+        "duration": "207.656054",
+        "size": "7603705",
+        "bit_rate": "292934",
+        "probe_score": 100,
+        "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "0",
+            "compatible_brands": "M4A mp42isom",
+            "creation_time": "2022-04-28T10:35:42.000000Z",
+            "title": "Track 01",
+            "track": "1/13",
+            "compilation": "0",
+            "gapless_playback": "0",
+            "encoder": "iTunes 12.9.5.5",
+            "iTunSMPB": " 00000000 00000840 00000168 00000000008BB258 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000",
+            "Encoding Params": "vers",
+            "iTunNORM": " 00000533 00000600 00002BDD 00003E1C 0002EE4B 000301E2 00007BA5 00007D3E 0002D3CF 000300CC",
+            "iTunes_CDDB_1": "9F0B770D+220498+13+150+15720+27249+30525+37404+41377+54752+87175+99604+115965+145246+158169+181782",
+            "iTunes_CDDB_TrackNumber": "1"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/School/Classes/Spring 2022/MUS 7921/Theory Final Paper/Switched on Bach/Sinfonia to Cantata #29.m4a",
+                        "analysis": [ 0.297251, 2.93649, 0.143099, 15.8593, 0.935488, 213.085, 0.0371437, 0.173742, 0.236094, 0.190625 ]
+                    }

@@ -1,0 +1,65 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "adpcm_ms",
+            "codec_long_name": "ADPCM Microsoft",
+            "codec_type": "audio",
+            "codec_tag_string": "[2][0][0][0]",
+            "codec_tag": "0x0002",
+            "sample_fmt": "s16",
+            "sample_rate": "11025",
+            "channels": 1,
+            "bits_per_sample": 4,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/11025",
+            "duration_ts": 36490,
+            "duration": "3.309751",
+            "bit_rate": "45152",
+            "extradata_size": 32,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/opt/anaconda3/lib/python3.8/site-packages/pygame/examples/data/secosmic_lo.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "3.309751",
+        "size": "18700",
+        "bit_rate": "45199",
+        "probe_score": 99,
+        "tags": {
+            "date": "2000-05-10",
+            "IENG": "Deepz0ne",
+            "encoder": "Sound Forge 4.5"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/opt/anaconda3/lib/python3.8/site-packages/pygame/examples/data/secosmic_lo.wav",
+                        "analysis": [ 0.120035, 2.44509, 0.408726, 18.8257, 1.94823, 148.381, 0.0845349, 0.20981, 0.135451, 0.138542 ]
+                    }

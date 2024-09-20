@@ -1,0 +1,66 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "48000",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 32322177,
+            "duration": "673.378687",
+            "bit_rate": "1536000",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Music Sketches/Improv string quartet/en algún lugar (somewhere).wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "673.378688",
+        "size": "129288918",
+        "bit_rate": "1536002",
+        "probe_score": 99,
+        "tags": {
+            "artist": "Aarón González",
+            "comment": "https://www.youtube.com/watch?v=umyJqQ9uPH4",
+            "date": "20221219",
+            "title": "en algún lugar (somewhere)",
+            "encoder": "Lavf58.29.100"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Music Sketches/Improv string quartet/en algún lugar (somewhere).wav",
+                        "analysis": [ 0.303771, 2.91481, 0.187592, 13.7998, 0.0775305, 452.276, 0.00392432, 0.0126573, 0.196124, 0.323958 ]
+                    }

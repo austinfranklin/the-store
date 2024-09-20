@@ -1,0 +1,86 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 1,
+            "channel_layout": "mono",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 2112,
+            "start_time": "0.047891",
+            "duration_ts": 9748480,
+            "duration": "221.053968",
+            "bit_rate": "103633",
+            "nb_frames": "9520",
+            "extradata_size": 2,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "creation_time": "2015-07-03T16:51:11.000000Z",
+                "language": "und",
+                "vendor_id": "[0][0][0][0]"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Flash Drive/Austin Franklin/Trance.m4a",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.047891",
+        "duration": "221.053968",
+        "size": "3371478",
+        "bit_rate": "122014",
+        "probe_score": 100,
+        "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "0",
+            "compatible_brands": "M4A mp42isom",
+            "creation_time": "2015-07-03T16:51:11.000000Z",
+            "title": "Trance",
+            "artist": "Austin Franklin",
+            "compilation": "0",
+            "gapless_playback": "0",
+            "encoder": "iTunes 12.1.2.27",
+            "iTunSMPB": " 00000000 00000840 0000010C 000000000094B6B4 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000",
+            "Encoding Params": "vers",
+            "iTunNORM": " 00000005 00000000 00000006 00000000 0001C3F9 00000000 000003F6 00000000 0001C3F9 00000000"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Flash Drive/Austin Franklin/Trance.m4a",
+                        "analysis": [ 0.149205, 4.66251, 0.344002, 33.6162, 0.0104644, 744.341, 0.000903409, 0.00166574, 0.0822513, 0.526042 ]
+                    }

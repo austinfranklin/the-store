@@ -1,16 +1,41 @@
 inlets = 1;
-outlets = 1;
+outlets = 2;
 
 var grid; // SOM grid
 var inputData = []; // Input feature vectors
-var rows = 100; // Number of rows in SOM grid
-var cols = 100; // Number of cols in SOM grid
-var inputDim = 4; // Dimension of the input
+var rows = 50; // Number of rows in SOM grid
+var cols = 50; // Number of cols in SOM grid
+var inputDim = 10; // Dimension of the input
 var learningRate = 0.1;
 var neighborhoodRadius = 5;
 var iterations = 1500;
-var dictObj; // Dictionary
-var dictName = "sampAnalysis"; // Name of your dict object in Max
+var analysisDict = new Dict("sampAnalysis"); // Default dict name
+var coordsDict = new Dict("sampCoords"); // Default dict for coordinates
+var coordsDictLayer1 = new Dict("sampCoords-1"); // Default dict name for coordinates for layer 1
+var analysisDictLayer1 = new Dict("sampAnalysis-1"); // Default dict name for analysis for layer 1
+var pathsDict = new Dict("sourcePaths"); // Default dict name for paths for all samples
+var pathsCoordsDict = new Dict("pathCoords"); // Default dict name for paths for all samples
+var coordIndexDict = new Dict("sampCoordsCell"); // A dictionary that will store the reverse lookup
+
+// Main function to run everything with a single bang
+function runSOM(numRows, numCols, numIterations, neighborhood) {
+    initSOM(inputDim, numRows, numCols);
+    loadInputDataFromDict(analysisDict);
+    trainSOM(numIterations, learningRate, neighborhood);
+    plotSamplesOnMap(analysisDict, coordsDict);
+    buildCoordIndexDict();
+    post("SOM process complete.\n");
+}
+
+// Main function to run everything with a single bang
+function runSOMLayer(numRows, numCols, numIterations, neighborhood) {
+    initSOM(inputDim, numRows, numCols);
+    loadInputDataFromDict(analysisDictLayer1);
+    trainSOM(numIterations, learningRate, neighborhood);
+    plotSamplesOnMap(analysisDictLayer1, coordsDictLayer1);
+    buildCoordIndexDict();
+    post("SOM process complete.\n");
+}
 
 // Initialize the SOM grid with random weights
 function initSOM(inputDimension, numRows, numCols) {
@@ -35,15 +60,15 @@ function initSOM(inputDimension, numRows, numCols) {
     post("SOM Initialized with dimensions: " + numRows + " x " + numCols + " and input size: " + inputDim + "\n");
 }
 
-function loadInputDataFromDict(dictName) {
-    dictObj = new Dict(dictName);
-    var keys = dictObj.getkeys();
+// Load input data from the dictionary
+function loadInputDataFromDict(analysisDict) {
+    var keys = analysisDict.getkeys();
 
     if (keys != null) {
         inputData = [];  // Clear previous data
         for (var i = 0; i < keys.length; i++) {
             var key = keys[i];
-            var featureVector = dictObj.get(key);
+            var featureVector = analysisDict.get(key);
 
             if (Array.isArray(featureVector)) {
                 inputData.push(featureVector);
@@ -58,13 +83,11 @@ function loadInputDataFromDict(dictName) {
     }
 }
 
-function trainSOM(numIterations, lr, neighborhood, dictName) {
+// Train the SOM
+function trainSOM(numIterations, lr, neighborhood) {
     learningRate = lr;
     neighborhoodRadius = neighborhood;
     iterations = numIterations;
-
-    // Load data from the sampleAnalysis dictionary
-    loadInputDataFromDict(dictName); // This will populate inputData array
 
     if (inputData.length === 0) {
         post("Error: No input data available for training. Please check the dictionary.\n");
@@ -72,7 +95,7 @@ function trainSOM(numIterations, lr, neighborhood, dictName) {
     }
 
     for (var i = 0; i < iterations; i++) {
-        // Pick a random input vector from the dictionary data
+        // Pick a random input vector
         var randomInput = inputData[Math.floor(Math.random() * inputData.length)];
 
         // Find the Best Matching Unit (BMU)
@@ -81,7 +104,7 @@ function trainSOM(numIterations, lr, neighborhood, dictName) {
         // Update the BMU and its neighbors
         updateWeights(bmu, randomInput);
 
-        // Optionally, decrease the learning rate and neighborhood size over time
+        // Decay learning rate and neighborhood radius
         learningRate *= 0.99;
         neighborhoodRadius *= 0.99;
     }
@@ -108,7 +131,7 @@ function findBMU(inputVector) {
     return bmu;
 }
 
-// Update the weights of the BMU and its neighboring neurons
+// Update the weights of the BMU and its neighbors
 function updateWeights(bmu, inputVector) {
     for (var r = 0; r < rows; r++) {
         for (var c = 0; c < cols; c++) {
@@ -118,7 +141,6 @@ function updateWeights(bmu, inputVector) {
             // Update the neuron if it is within the neighborhood radius
             if (distanceToBMU <= neighborhoodRadius) {
                 for (var d = 0; d < inputDim; d++) {
-                    // Update weight based on the input and learning rate
                     neuron.weights[d] += learningRate * (inputVector[d] - neuron.weights[d]);
                 }
             }
@@ -135,61 +157,20 @@ function euclideanDistance(vec1, vec2) {
     return Math.sqrt(sum);
 }
 
-// Get all keys from a Max dict
-function getAllKeysFromDict(dictName) {
-    dictObj = new Dict(dictName);
-    var keys = dictObj.getkeys();
-
-    // Ensure keys are returned as an array
-    if (typeof keys === "string") {
-        keys = [keys];
-    }
-
-    return keys || [];
-}
-
-// Get feature vector from dict and parse it to floats
-function getFeatureVectorFromDict(dictName, key) {
-    var dictObj = new Dict(dictName);
-    var featureVector = dictObj.get(key); // Retrieve the feature vector by key
-
-    if (!featureVector) {
-        post("Error: No data found for key " + key + "\n");
-        return null;
-    }
-
-    // Convert string to array if needed
-    if (typeof featureVector === "string") {
-        featureVector = featureVector.split(" ");
-    }
-
-    // Convert each string value in the array to a float
-    for (var i = 0; i < featureVector.length; i++) {
-        featureVector[i] = parseFloat(featureVector[i]);
-        if (isNaN(featureVector[i])) {
-            post("Warning: Unable to convert " + featureVector[i] + " to float.\n");
-        }
-    }
-
-    return featureVector; // Now an array of floats
-}
-
 // Plot sample positions on the SOM map and store them in sampCoords dict
-function plotSamplesOnMap(dictName, sampCoordsDictName) {
-    var keys = getAllKeysFromDict(dictName);
-    var sampCoordsDict = new Dict(sampCoordsDictName);  // Create/Access the sampCoords dict
+function plotSamplesOnMap(analysisDict, coordsDict) {
+    var keys = analysisDict.getkeys();
 
     if (!keys || keys.length === 0) {
         post("Error: No data in the dictionary.\n");
         return;
     }
 
-    // Array to hold the BMU positions for plotting
     var bmuPositions = [];
 
     for (var i = 0; i < keys.length; i++) {
         var key = keys[i];
-        var featureVector = getFeatureVectorFromDict(dictName, key);
+        var featureVector = getFeatureVectorFromDict(analysisDict, key);
 
         if (featureVector) {
             var bmu = findBMU(featureVector);
@@ -197,44 +178,57 @@ function plotSamplesOnMap(dictName, sampCoordsDictName) {
 
             if (!isNaN(keyAsInt)) {
                 bmuPositions.push({ key: keyAsInt, row: bmu.row, col: bmu.col });
-
-                // Store the cell coordinates in the sampCoords dict
-                sampCoordsDict.set(key, [bmu.row, bmu.col]);
+                coordsDict.set(key, [bmu.row, bmu.col]);
             } else {
                 post("Warning: Key '" + key + "' could not be converted to an integer.\n");
             }
         }
     }
 
-    // Optionally output or visualize
     for (var j = 0; j < bmuPositions.length; j++) {
         var pos = bmuPositions[j];
-        outlet(0, [pos.row, pos.col]); // Output the BMU position and sample key
+        outlet(0, [pos.row, pos.col], 1);
     }
 
-    post("Sample coordinates stored in sampCoords dictionary.\n");
+    post("Sample coordinates stored in dictionary.\n");
 }
 
-// Not needed anymore... saved for security
-// function getPositionInMap(dictName, key) {
-//     // Get the feature vector for the given key
-//     var featureVector = getFeatureVectorFromDict(dictName, key);
+// Utility to get all keys from a dict
+function getAllKeysFromDict(analysisDict) {
+    var keys = analysisDict.getkeys();
+    if (typeof keys === "string") {
+        keys = [keys];
+    }
+    return keys || [];
+}
 
-//     if (featureVector) {
-//         // Find the Best Matching Unit (BMU) on the SOM grid
-//         var bmu = findBMU(featureVector);
+// Utility to get feature vector and convert to floats
+function getFeatureVectorFromDict(analysisDict, key) {
+    var featureVector = analysisDict.get(key);
 
-//         // Output the BMU position (row, col)
-//         outlet(0, [bmu.row, bmu.col]);  // Output the row and column to Max
-//     }
-// }
+    if (!featureVector) {
+        post("Error: No data found for key " + key + "\n");
+        return null;
+    }
+
+    if (typeof featureVector === "string") {
+        featureVector = featureVector.split(" ");
+    }
+
+    for (var i = 0; i < featureVector.length; i++) {
+        featureVector[i] = parseFloat(featureVector[i]);
+        if (isNaN(featureVector[i])) {
+            post("Warning: Unable to convert " + featureVector[i] + " to float.\n");
+        }
+    }
+
+    return featureVector;
+}
 
 function getCellAndMatchingIndices(sampleIndex) {
-    // Initialize the dictionary object
-    var dictObj = new Dict("sampCoords");
 
     // Get the cell coordinates for the given sample index
-    var cellCoords = dictObj.get(sampleIndex);
+    var cellCoords = coordsDict.get(sampleIndex);
 
     if (!cellCoords) {
         post("Error: No coordinates found for sample index " + sampleIndex + "\n");
@@ -247,15 +241,15 @@ function getCellAndMatchingIndices(sampleIndex) {
     // Find all sample indices with the same coordinates
     var matchingIndices = [];
 
-    // Iterate over all keys in the dictionary
-    var keys = dictObj.getkeys();
+    // Iterate over all keys in the sampCoords dictionary
+    var keys = coordsDict.getkeys();
     for (var i = 0; i < keys.length; i++) {
-        var key = keys[i];
-        var coords = dictObj.get(key);
+        var key = parseInt(keys[i], 10);  // Make sure the key is an integer
+        var coords = coordsDict.get(key);
 
         // Check if the coordinates match
-        if (coords[0] === row && coords[1] === col) {
-            matchingIndices.push(parseInt(key, 10)); // Collect the indices
+        if (coords && coords[0] === row && coords[1] === col) {
+            matchingIndices.push(key); // Collect the indices
         }
     }
 
@@ -265,6 +259,117 @@ function getCellAndMatchingIndices(sampleIndex) {
         output = output.concat(matchingIndices);
     }
 
-    // Output the row, column, and list of matching indices
-    outlet(0, output);  // Send the output to the Max outlet
+    // Store the selected sample indices and their corresponding data in sampNodeCoords and sampNodeAnalysis
+    for (var j = 0; j < matchingIndices.length; j++) {
+        var matchIndex = matchingIndices[j];
+        var matchCoords = coordsDict.get(matchIndex);
+
+        // Ensure matchCoords is valid
+        if (matchCoords) {
+            // Store the coordinates of the matching index in sampNodeCoords
+            coordsDictLayer1.set(matchIndex, matchCoords);
+        } else {
+            post("Warning: No coordinates found for index " + matchIndex + "\n");
+        }
+
+        // Retrieve and store the feature vector of the matching index in sampNodeAnalysis
+        var featureVector = analysisDict.get(matchIndex);
+
+        // Ensure featureVector is valid
+        if (featureVector) {
+            analysisDictLayer1.set(matchIndex, featureVector);
+        } else {
+            post("Warning: No feature vector found for index " + matchIndex + "\n");
+        }
+    }
+
+    post("Building a SOM of files at " + cellCoords);
+}
+
+// Preprocess the original coordinates dictionary and build the reverse lookup
+function buildCoordIndexDict() {
+    var keys = coordsDict.getkeys();
+    if (!keys || keys.length === 0) {
+        post("Error: No keys found in sampCoords dictionary.\n");
+        return;
+    }
+
+    for (var i = 0; i < keys.length; i++) {
+        var key = keys[i];
+        var coords = coordsDict.get(key);
+
+        if (coords) {
+            var coordKey = coords[0] + "-" + coords[1]; // Create a unique key for the coordinates
+            coordIndexDict.set(coordKey, key); // Store the key in the reverse lookup dict
+        }
+    }
+
+    post("Coordinate index dictionary built.\n");
+}
+
+function getKeyFromCoords(targetX, targetY) {
+    var coordKey = targetX + "-" + targetY; // Generate the key for the coordinates
+    var result = coordIndexDict.get(coordKey);
+
+    if (result) {
+        outlet(1, result);
+    } else {
+        //post("Error: No matching key found for coordinates (" + targetX + ", " + targetY + ").\n");
+        outlet(1, -1);
+    }
+}
+
+// Get indices with same path and store indices and coords in 'pathCoords' dict
+function getIndicesByPath(targetPath) {
+    var keys = pathsDict.getkeys();  // Get all keys (indices)
+
+    if (!keys) {
+        post("Error: The dictionary is empty or does not exist.\n");
+        return;
+    }
+
+    var matchingIndices = [];  // Array to store matching indices
+
+    // Iterate through each key (index)
+    for (var i = 0; i < keys.length; i++) {
+        var key = keys[i];
+        var fullPathArray = pathsDict.get(key);  // Get the file path array for this key
+
+        // Ensure the fullPathArray is valid and non-empty
+        if (Array.isArray(fullPathArray) && fullPathArray.length > 0) {
+            var fullPath = fullPathArray[0];  // Access the first element (the actual path)
+
+            // Check if the fullPath contains the target path at the beginning
+            if (fullPath.indexOf(targetPath) === 0) {
+                matchingIndices.push(key);  // If the path starts with the target, store the index
+            }
+        } else {
+            post("Warning: Invalid or empty path array at index " + key + "\n");
+        }
+    }
+
+    // Output the matching indices and their coordinates, and store them in pathCoordsDict
+    if (matchingIndices.length > 0) {
+        post("Found matching indices: " + matchingIndices.join(", ") + "\n");
+
+        // Iterate over the matching indices to store their coordinates
+        for (var j = 0; j < matchingIndices.length; j++) {
+            var index = matchingIndices[j];
+            var coords = coordsDict.get(index);  // Get the coordinates for this index
+
+            if (coords) {
+                //post("Index " + index + " has coordinates: " + coords + "\n");
+                outlet(0, coords, 2);
+                // Store the index and its coordinates in pathCoordsDict
+                pathsCoordsDict.set(index, coords);
+            } else {
+                post("Warning: No coordinates found for index " + index + "\n");
+            }
+        }
+
+        return matchingIndices;
+    } else {
+        post("No matching indices found for path: " + targetPath + "\n");
+        return [];
+    }
 }

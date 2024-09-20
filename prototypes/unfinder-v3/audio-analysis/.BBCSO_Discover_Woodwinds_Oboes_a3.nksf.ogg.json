@@ -1,0 +1,64 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "vorbis",
+            "codec_long_name": "Vorbis",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 264704,
+            "duration": "5.514667",
+            "bit_rate": "80000",
+            "extradata_size": 3578,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Spitfire/Spitfire Audio - BBC Symphony Orchestra/NKS/.previews/BBCSO_Discover_Woodwinds_Oboes_a3.nksf.ogg",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "ogg",
+        "format_long_name": "Ogg",
+        "start_time": "0.000000",
+        "duration": "5.514667",
+        "size": "50955",
+        "bit_rate": "73919",
+        "probe_score": 100
+    }
+},
+                        "path": "/Users/austinfranklin/Spitfire/Spitfire Audio - BBC Symphony Orchestra/NKS/.previews/BBCSO_Discover_Woodwinds_Oboes_a3.nksf.ogg",
+                        "analysis": [ 0.162998, 4.41888, 0.143017, 31.695, 0.0822885, 1109.41, 0.0124891, 0.0185666, 0.130164, 0.244792 ]
+                    }

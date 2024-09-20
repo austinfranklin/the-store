@@ -1,0 +1,66 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "96000",
+            "channels": 2,
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/96000",
+            "duration_ts": 1211904,
+            "duration": "12.624000",
+            "bit_rate": "4608000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Flash Drive/Bari & Fixed Media/07-Record-190220_1013.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "12.624000",
+        "size": "7272160",
+        "bit_rate": "4608466",
+        "probe_score": 99,
+        "tags": {
+            "encoded_by": "REAPER",
+            "date": "2019-02-20",
+            "creation_time": "10-13-11",
+            "time_reference": "228898183"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Flash Drive/Bari & Fixed Media/07-Record-190220_1013.wav",
+                        "analysis": [ 0.478257, 2.81202, 0.0306019, 25.4522, 1.20058, 3502.53, 0.0336919, 0.261775, 0.421382, 0.107292 ]
+                    }

@@ -1,0 +1,59 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "22050",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/22050",
+            "duration_ts": 129164,
+            "duration": "5.857778",
+            "bit_rate": "352800",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/School/Teaching/Max-at-LSU/fall_2022/assignments/hw-patches/HW3_First_signals/gbell-6-1-pp.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "5.857778",
+        "size": "258372",
+        "bit_rate": "352860",
+        "probe_score": 99
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/School/Teaching/Max-at-LSU/fall_2022/assignments/hw-patches/HW3_First_signals/gbell-6-1-pp.wav",
+                        "analysis": [ 0.352446, 0.280104, 0.607373, 4.07214, 0.0282541, 1259.64, 0.00440692, 0.00396797, 0.413471, 0.3875 ]
+                    }

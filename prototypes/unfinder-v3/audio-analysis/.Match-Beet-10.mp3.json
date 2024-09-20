@@ -1,0 +1,71 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "22050",
+            "channels": 1,
+            "channel_layout": "mono",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 707200,
+            "start_time": "0.050113",
+            "duration_ts": 258416640,
+            "duration": "18.311837",
+            "bit_rate": "45766",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "encoder": "LAME3.99r"
+            },
+            "side_data_list": [
+                {
+                    "side_data_type": "Replay Gain"
+                }
+            ]
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Code/Patches/Max/Externals/airPnP-master/MIR/FMP-Notebook/data/C7/FMP_C7_F-ISMIR05_Beethoven-20/Match-Beet-10.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.050113",
+        "duration": "18.311837",
+        "size": "104757",
+        "bit_rate": "45765",
+        "probe_score": 51
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Code/Patches/Max/Externals/airPnP-master/MIR/FMP-Notebook/data/C7/FMP_C7_F-ISMIR05_Beethoven-20/Match-Beet-10.mp3",
+                        "analysis": [ 0.173387, 2.07937, 0.152911, 8.11014, 0.635533, 126.896, 0.0177119, 0.0939447, 0.153752, 0.252083 ]
+                    }

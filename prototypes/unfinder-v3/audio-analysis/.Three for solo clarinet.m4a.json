@@ -1,0 +1,88 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 2112,
+            "start_time": "0.047891",
+            "duration_ts": 13798400,
+            "duration": "312.888889",
+            "bit_rate": "262272",
+            "nb_frames": "13475",
+            "extradata_size": 2,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "creation_time": "2019-10-19T18:59:00.000000Z",
+                "language": "und",
+                "vendor_id": "[0][0][0][0]"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Desktop/Recordings/Three for solo clarinet.m4a",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.047891",
+        "duration": "312.888889",
+        "size": "10319198",
+        "bit_rate": "263843",
+        "probe_score": 100,
+        "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "0",
+            "compatible_brands": "M4A mp42isom",
+            "creation_time": "2019-10-19T18:59:00.000000Z",
+            "title": "Three for solo clarinet",
+            "track": "3/5",
+            "compilation": "0",
+            "gapless_playback": "0",
+            "encoder": "iTunes 12.9.5.5",
+            "iTunSMPB": " 00000000 00000840 0000002C 0000000000D28394 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000",
+            "Encoding Params": "vers",
+            "iTunNORM": " 000001A5 00000190 00003F0A 0000493B 0000E21F 0000E3EF 00004CD5 000054A3 00045AD4 000117E8",
+            "iTunes_CDDB_1": "33091D05+175142+5+150+47300+68318+91781+118499",
+            "iTunes_CDDB_TrackNumber": "3"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Desktop/Recordings/Three for solo clarinet.m4a",
+                        "analysis": [ 0.34124, 3.1038, 0.213084, 15.3911, 0.201716, 876.912, 0.0157293, 0.0348882, 0.238826, 0.273958 ]
+                    }

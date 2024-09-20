@@ -1,0 +1,93 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 2112,
+            "start_time": "0.047891",
+            "duration_ts": 12164096,
+            "duration": "275.829841",
+            "bit_rate": "264654",
+            "nb_frames": "11879",
+            "extradata_size": 2,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            },
+            "tags": {
+                "creation_time": "2022-12-05T14:54:40.000000Z",
+                "language": "und",
+                "vendor_id": "[0][0][0][0]"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Nutria/Meeting In Progress/04 Making Time.m4a",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.047891",
+        "duration": "275.829841",
+        "size": "9190476",
+        "bit_rate": "266554",
+        "probe_score": 100,
+        "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "0",
+            "compatible_brands": "M4A mp42isom",
+            "creation_time": "2022-12-05T14:54:40.000000Z",
+            "title": "Making Time",
+            "artist": "Nutria",
+            "album": "Meeting In Progress",
+            "genre": "Jazz",
+            "track": "4/8",
+            "disc": "1/1",
+            "date": "2020",
+            "compilation": "0",
+            "gapless_playback": "0",
+            "encoder": "Music 1.2.3.56",
+            "iTunSMPB": " 00000000 00000840 000003C8 0000000000B98FF8 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000",
+            "Encoding Params": "vers",
+            "iTunNORM": " 00000203 0000020B 00003AE9 00003B04 0002EDEE 0002EDEE 00007E8B 00007EBA 0002CD47 0002F945",
+            "iTunes_CDDB_1": "750CE508+247771+8+150+38781+67866+87578+108260+146679+185881+219672",
+            "iTunes_CDDB_TrackNumber": "4"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Music/iTunes/iTunes Media/Music/Nutria/Meeting In Progress/04 Making Time.m4a",
+                        "analysis": [ 0.404732, 2.76055, 0.217037, 12.4194, 0.716007, 655.231, 0.069724, 0.143884, 0.2673, 0.15 ]
+                    }

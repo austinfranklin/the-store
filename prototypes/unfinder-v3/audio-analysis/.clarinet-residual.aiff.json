@@ -1,0 +1,66 @@
+
+                    {
+                        "metadata": {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "pcm_s16be",
+            "codec_long_name": "PCM signed 16-bit big-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "s16",
+            "sample_rate": "44100",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 402350,
+            "duration": "9.123583",
+            "bit_rate": "705600",
+            "nb_frames": "402350",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/austinfranklin/Documents/Max 8/Packages/MuBu For Max/media/clarinet-residual.aiff",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "format_name": "aiff",
+        "format_long_name": "Audio IFF",
+        "start_time": "0.000000",
+        "duration": "9.123583",
+        "size": "805696",
+        "bit_rate": "706473",
+        "probe_score": 100,
+        "tags": {
+            "comment": "Command:\"/Applications/AudioSculpt 3.1.8/Kernels/supervp\" -xp_pipe -t -Z -S/Users/lambert/src/imtr-projects/SIMo/evaluation/clarinet-residual.aiff -Afft -Np2 -M0.0464399009943008s -oversamp 8 -Whanning -P0 -td_ampfac 0 -FCombineMul -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band1\" -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band2\" -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band3\" -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band4\" -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band5\" -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band6\" -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band7\" -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band8\" -Fbande-noex \"/Applications/AudioSculpt 3.1.8/Temp/band9\" /Users/lambert/src/imtr-projects/SIMo/evaluation/clarinet-residual-filt.aiff ; Created by: SuperVP 2.99.87 (compiled by cornu for AudioSculpt on Mar  5 2013 13:27:59 ) (Float prec)"
+        }
+    }
+},
+                        "path": "/Users/austinfranklin/Documents/Max 8/Packages/MuBu For Max/media/clarinet-residual.aiff",
+                        "analysis": [ 0.711025, 0.43008, 0.528513, 1.87541, 0.115381, 41.1068, 0.0020068, 0.00499783, 0.895275, 0.46875 ]
+                    }
