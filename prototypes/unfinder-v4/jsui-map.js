@@ -1,4 +1,8 @@
-{
+autowatch = 1;
+
+sketch.default2d();
+
+var coordsDict = {
 	"0" : [ 17, 31 ],
 	"1" : [ 24, 43 ],
 	"2" : [ 21, 0 ],
@@ -37223,4 +37227,47 @@
 	"37221" : [ 18, 37 ],
 	"37222" : [ 32, 31 ],
 	"37223" : [ 49, 1 ]
+}
+
+function draw() {
+    var scaleFactor = 0.04;  // Scale factor
+    
+    // Loop over the dictionary and plot the points using the sketch object
+    for (var key in coordsDict) {
+        if (coordsDict.hasOwnProperty(key)) {
+            var x = coordsDict[key][0] * scaleFactor - 1;  // Apply scaling to x
+            var y = coordsDict[key][1] * scaleFactor - 1;  // Apply scaling to y
+        
+            // Set the color or other drawing options if needed
+            sketch.glcolor(1, 0, 0, 1); // red color
+            sketch.moveto(x, y);
+            sketch.circle(1 * 0.015); // Scale the circle size as well
+        }
+    }
+}
+
+function onclick(x, y, button, shift, capslock, option, ctrl) {
+    // Assuming you have a scaling factor to adjust coordinates to the correct scale
+    var scaleFactor = 0.4;  // Adjust this based on your plotting scale
+
+    // Loop through the coordinates dictionary
+    for (var key in coordsDict) {
+        if (coordsDict.hasOwnProperty(key)) {
+            var pointX = coordsDict[key][0] * scaleFactor;  // Adjust with scale factor
+            var pointY = coordsDict[key][1] * scaleFactor;  // Adjust with scale factor
+            
+            // Calculate the distance between the clicked point and the stored point
+            var distance = Math.sqrt(Math.pow(x - pointX, 2) + Math.pow(y - pointY, 2));
+            
+            // Set a threshold to determine if the click is "close enough" to the point
+            var threshold = 10; // This might need adjusting based on your grid size and scaling
+
+            // Set the color of the clicked point to blue
+            sketch.glcolor(0, 0, 1, 1);  // Blue color
+            sketch.moveto(pointX, pointY);
+            sketch.circle(1 * 0.015); // Draw the point with a radius of 3
+
+			outlet(0, pointX, pointY); // send out clicked cell
+        }
+    }
 }

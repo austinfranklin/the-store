@@ -33,7 +33,6 @@ function runSOMLayer(numRows, numCols, numIterations, neighborhood) {
     loadInputDataFromDict(analysisDictLayer1);
     trainSOM(numIterations, learningRate, neighborhood);
     plotSamplesOnMap(analysisDictLayer1, coordsDictLayer1);
-    buildCoordIndexDict();
     post("SOM process complete.\n");
 }
 
@@ -290,31 +289,55 @@ function getCellAndMatchingIndices(sampleIndex) {
 function buildCoordIndexDict() {
     var keys = coordsDict.getkeys();
     if (!keys || keys.length === 0) {
-        post("Error: No keys found in sampCoords dictionary.\n");
+        post("Error: No keys found in coordsDict.\n");
         return;
     }
 
+    post("Found " + keys.length + " keys in coordsDict.\n");
+
     for (var i = 0; i < keys.length; i++) {
         var key = keys[i];
+        post("Processing key: " + key + "\n");
+
         var coords = coordsDict.get(key);
+        post("Coordinates for key " + key + ": " + coords + "\n");
 
         if (coords) {
             var coordKey = coords[0] + "-" + coords[1]; // Create a unique key for the coordinates
-            coordIndexDict.set(coordKey, key); // Store the key in the reverse lookup dict
+            post("Generated coordKey: " + coordKey + " for key: " + key + "\n");
+
+            // Retrieve any existing keys for this coordKey
+            var existingKeys = coordIndexDict.get(coordKey);
+
+            // Ensure existingKeys is an array before using push()
+            if (existingKeys && Array.isArray(existingKeys)) {
+                post("Found existing entry for coordKey " + coordKey + ": " + existingKeys + "\n");
+                existingKeys.push(key); // Append key to the existing array
+                coordIndexDict.set(coordKey, existingKeys);
+            } else {
+                post("No existing array for coordKey " + coordKey + ", creating new entry.\n");
+                coordIndexDict.set(coordKey, [key]); // Create a new array with the key
+            }
+        } else {
+            post("Warning: No coordinates found for key " + key + "\n");
         }
     }
 
-    post("Coordinate index dictionary built.\n");
+    post("Coordinate index dictionary built successfully.\n");
 }
 
 function getKeyFromCoords(targetX, targetY) {
     var coordKey = targetX + "-" + targetY; // Generate the key for the coordinates
     var result = coordIndexDict.get(coordKey);
 
-    if (result) {
+    if (result && Array.isArray(result)) {
+        // Output the entire array of keys if it exists
         outlet(1, result);
+    } else if (result) {
+        // Handle case where the result is a single key (not an array)
+        outlet(1, [result]); // Send it as an array for consistency
     } else {
-        //post("Error: No matching key found for coordinates (" + targetX + ", " + targetY + ").\n");
+        // No matching key found for the given coordinates
         outlet(1, -1);
     }
 }
